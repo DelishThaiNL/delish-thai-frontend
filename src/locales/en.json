@@ -1,0 +1,64 @@
+{
+  "menu": {
+    "item1": "Welcome",
+    "item2": "What we offer",
+    "item3": "News & Events",
+    "item4": "Cook with us",
+    "item5": "Who we are"
+  },
+  "home": {
+    "hero": {
+      "sliderItem1": {
+        "title": "Welcome to Delish Thai",
+        "description": "BRINGING THAILAND TO YOUR HOME"
+      },
+      "sliderItem2": {
+        "title": "Coming soon!",
+        "subtitle": "(this summer)",
+        "description1": "In the heart of Veenendaal:",
+        "description2": "BERNARD VAN KREELPOORT 5"
+      }
+    },
+    "offers": {
+      "title1": "Get a first taste of Thailand! Sign up today and enjoy an exclusive discount during our opening week.",
+      "title2": "Delish Thai Meal Kits Coming Soon - your shortcut to real Thai flavors at home."
+    },
+    "offerings": {
+      "title": "Take a look at what we’ve prepared for you",
+      "item1": {
+        "title": "Thai  Street Food Corner"
+      },
+      "item2": {
+        "title": "Mini Market"
+      },
+      "item3": {
+        "title": "Meal Kits"
+      }
+    },
+    "about": {
+      "title": "Who We are",
+      "description": {
+        "chunk1": "Delish Thai is a small, independent Thai minimarket and takeaway in the heart of Veenendaal, founded by Sawi and Gerard — partners in both life and work. Driven by a shared dream to start something of our own, we set out to create a place that’s personal, warm, and just a little different.",
+        "chunk2": "Together, we share a love for Thai food and a desire to offer something real: comforting, everyday flavors made with care. From essential Thai ingredients like rice, curry paste, and coconut milk to ready-to-cook meal kits and home-style takeaway, everything we offer is rooted in authenticity and crafted with intention.",
+        "chunk3": "Sawitree grew up in Thailand and learned to cook from her family, guided by tradition and instinct. With a background in chemical engineering, she loves experimenting and fine-tuning recipes to bring out the best in every dish. Gerard discovered his appreciation for Thai cuisine during our travels, drawn to its bold flavors and the warmth of Thai hospitality. That same welcoming spirit shapes how we run our shop.",
+        "chunk4": "At Delish Thai, we’re not chasing trends or striving for perfection. We simply believe in good food, kind people, and creating a space that feels like home. We’re proud to be part of Veenendaal, and we hope our shop becomes a place where you feel welcome, inspired — and always leave with something delicious."
+      }
+    },
+    "events": {
+      "title": "Events",
+      "item1": {
+        "day": "Sat",
+        "title": "Grand Opening of Delish Thai!",
+        "buttonText": "Join Event"
+      }
+    },
+    "news": {
+      "title": "News",
+      "item1": {
+        "title": "We’ve Secured Our Location in the Heart of Veenendaal – Delish Thai Is One Step Closer!",
+        "buttonText": "Read more"
+      }
+    },
+    "buttonViewAll": "View all"
+  }
+}

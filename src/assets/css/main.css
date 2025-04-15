@@ -1,0 +1,70 @@
+@import url('./fonts.css');
+@import 'tailwindcss';
+
+@theme {
+  --font-archivo: 'Archivo', sans-serif;
+  --color-green-primary: #5c6c29;
+  --color-cream: #ece6db;
+  --color-bege: #d2c1a7;
+  --color-light-bege: #fbf8f2;
+  --color-gray-caption: #5d5d5d;
+  --color-gray-secondary: #4f4f4f;
+  --color-gray-thin: #f6f6f6;
+  --color-white-cream: rgb(252 250 245 / 60%);
+  --background-image-banner1: url('../images/banner1-desktop.png');
+  --background-image-banner1-mobile: url('../images/banner1-mobile.png');
+  --background-image-banner2: url('../images/banner2-desktop.png');
+  --shadow-custom-sm:
+    15px 12px 5px 0px rgb(18 18 17 / 0%), 10px 8px 5px 0px rgb(18 18 17 / 1%),
+    5px 4px 4px 0px rgb(18 18 17 / 3%), 2px 2px 3px 0px rgb(18 18 17 / 5%),
+    1px 0px 2px 0px rgb(18 18 17 / 6%);
+  --shadow-custom-md:
+    24px 80px 23px 0px rgb(82 82 82 / 0%), 15px 51px 21px 0px rgb(82 82 82 / 1%),
+    9px 29px 18px 0px rgb(82 82 82 / 5%);
+  --shadow-custom-xl:
+    66px 85px 30px 0px rgb(0 0 0 / 0%), 42px 54px 28px 0px rgb(0 0 0 / 1%),
+    24px 31px 23px 0px rgb(0 0 0 / 5%), 11px 14px 17px 0px rgb(0 0 0 / 9%),
+    3px 3px 9px 0px rgb(0 0 0 / 10%);
+}
+
+@layer utilities {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-archivo);
+    background-color: var(--color-cream);
+    color: black;
+    overflow-x: hidden;
+  }
+
+  section {
+    position: relative;
+    scroll-margin-top: 80px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1232px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-pagination-bullet {
+    opacity: 1 !important;
+    background-color: #e7e7e7 !important;
+    width: 6px !important;
+    height: 6px !important;
+    transition: 0.15s all cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 !important;
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
