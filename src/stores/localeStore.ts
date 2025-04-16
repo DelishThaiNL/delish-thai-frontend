@@ -7,7 +7,7 @@ export const useLocaleStore = defineStore(
   'localeStore',
   () => {
     const { locale } = useI18n()
-    const currentLocale = ref<Locale>('en')
+    const currentLocale = ref<Locale>('nl')
 
     const changeLocale = (str: Locale) => {
       if (str !== currentLocale.value) {

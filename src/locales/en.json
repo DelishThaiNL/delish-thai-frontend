@@ -3,8 +3,7 @@
     "item1": "Welcome",
     "item2": "What we offer",
     "item3": "News & Events",
-    "item4": "Cook with us",
-    "item5": "Who we are"
+    "item4": "Who we are"
   },
   "home": {
     "hero": {
@@ -20,18 +19,18 @@
       }
     },
     "offers": {
-      "title1": "Get a first taste of Thailand! Sign up today and enjoy an exclusive discount during our opening week.",
+      "title1": "Come back soon — we’ll be sharing a special opening deal just for you!",
       "title2": "Delish Thai Meal Kits Coming Soon - your shortcut to real Thai flavors at home."
     },
     "offerings": {
       "title": "Take a look at what we’ve prepared for you",
-      "item1": {
+      "streetFoodCorner": {
         "title": "Thai  Street Food Corner"
       },
-      "item2": {
+      "miniMarket": {
         "title": "Mini Market"
       },
-      "item3": {
+      "mealKit": {
         "title": "Meal Kits"
       }
     },
@@ -60,5 +59,48 @@
       }
     },
     "buttonViewAll": "View all"
+  },
+  "whatWeOffer": {
+    "streetFoodCorner": {
+      "info": {
+        "title": "Thai Street Food Corner",
+        "description": {
+          "chunk1": "At Delish Thai, our street food corner is all about warmth, comfort, and the joy of sharing real Thai flavors. Whether you're looking for a quick bite or a cozy place to pause your day, you're always welcome here. Our dishes are freshly prepared with care — just like back home in Thailand — and served in a friendly setting that feels relaxed and down to earth.",
+          "chunk2": "Here’s what you’ll find on our menu:",
+          "chunk3": "• Classic Thai street food favorites – Pad Thai, Khao Pad (fried rice), and Curries, made the traditional way with love and balance.",
+          "chunk4": "• Tasty snacks – Crispy spring rolls, grilled satay with creamy peanut sauce, and other small bites packed with flavor.",
+          "chunk5": "• Refreshing Thai drinks – Like Thai iced tea, lemongrass infusions, and tropical fruit juices to cool you down and lift you up.",
+          "chunk6": "A cozy seating corner — A small but welcoming space to enjoy your meal at your own pace. We've created this little corner of Thailand with heart, and whether you're trying Thai food for the first time or it's already part of who you are, we hope you feel at home here — and that every visit leaves you with a smile and something delicious to remember."
+        }
+      }
+    },
+    "minimarket": {
+      "info": {
+        "title": "Mini Market",
+        "description": {
+          "chunk1": "Our mini market specializes in authentic Thai ingredients and delicacies, carefully selected to ensure high quality and the true taste of Thailand. Whether you're cooking at home or simply craving familiar flavors, you'll find a curated selection that brings the heart of Thai cuisine closer to home.",
+          "chunk2": "You’ll find essentials like fresh Thai basil, kaffir lime leaves, galangal, lemongrass, and chili peppers — the soul of many beloved Thai dishes, offered fresh and full of flavor.",
+          "chunk3": "We also carry a wide range of authentic sauces and curry pastes — including red, green, and massaman curry — plus fish sauce, oyster sauce, tamarind paste, and other core ingredients.",
+          "chunk4": "To go along with your groceries, we offer a selection of drinks and teas straight from Thailand — perfect for refreshing moments or pairing with your meal. You'll also find a few non-food items, like traditional herbal inhalers and the ever-popular elephant pants — ideal as a thoughtful gift or a personal touch of Thai comfort and culture in your daily life.",
+          "chunk5": "In addition to imported goods, we offer a rotating selection of seasonal fruits and vegetables from local Dutch growers. These fresh ingredients can be easily combined with Thai staples to create flavorful fusion dishes or practical everyday meals with a Thai twist."
+        }
+      }
+    },
+    "mealKit": {
+      "info": {
+        "title": "Meal Kit",
+        "description": {
+          "chunk1": "Love cooking at home but want the real Thai experience without the hassle? Delish Thai offers freshly prepared meal kits that make Thai cooking easy, affordable, and better for the planet.",
+          "chunk2": "Whether you're cooking for yourself, your family, or hosting friends, our kits take the guesswork out of preparing an authentic Thai meal — so you can focus on the joy of cooking and sharing good food.",
+          "chunk3": "Each kit includes everything you need to enjoy a delicious, authentic Thai dish — without the stress or waste:",
+          "chunk4": "• Pre-measured ingredients – No waste, no guesswork. Just the right amount for a perfectly balanced meal, every time.",
+          "chunk5": "• Simple, step-by-step recipes – Easy to follow, whether you're a beginner or a seasoned cook. Our instructions are clear, and most meals can be prepared in under 30 minutes.",
+          "chunk6": "All ingredients are carefully selected, and whenever possible, we use fresh herbs and sustainably sourced products. It’s our way of helping you enjoy Thai cuisine in a way that’s tasty, mindful, and fun — right from your own kitchen."
+        }
+      }
+    }
   }
 }
+
+
+

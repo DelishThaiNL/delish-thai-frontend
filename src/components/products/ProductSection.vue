@@ -2,9 +2,9 @@
 import AppTitle from '@/components/util/AppTitle.vue'
 import AppButton from '@/components/util/AppButton.vue'
 import CardLink from '@/components/util/CardLink.vue'
-import offering1 from '@/assets/images/offering1.png'
-import offering2 from '@/assets/images/offering2.png'
-import offering3 from '@/assets/images/offering3.png'
+import streetFoodCorner from '@/assets/images/streetFoodCorner.png'
+import miniMarket from '@/assets/images/miniMarket.png'
+import mealKit from '@/assets/images/mealKit.png'
 import CardAbout from '@/components/util/CardAbout.vue'
 import sawiGerardPhoto from '@/assets/images/sawi-gerard.png'
 import OfferBanner from '@/components/util/OfferBanner.vue'
@@ -17,17 +17,17 @@ import AppInput from '@/components/util/AppInput.vue'
 const tabs = [
   {
     title: 'Recipe name',
-    imgSrc: offering3,
+    imgSrc: streetFoodCorner,
     content: 'Content for Tab 1',
   },
   {
     title: 'Lorem ipsum',
-    imgSrc: offering3,
+    imgSrc: miniMarket,
     content: 'Content for Tab 2',
   },
   {
     title: 'Component demo',
-    imgSrc: offering3,
+    imgSrc: mealKit,
     content: 'Content for Tab 3',
   },
 ]
@@ -73,18 +73,18 @@ const tabs = [
             <div class="w-full grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-7 xl:gap-10">
               <CardLink
                 :routeName="'products'"
-                :imgSrc="offering1"
+                :imgSrc="streetFoodCorner"
                 :text="$t('home.offerings.item1.title')"
               />
               <CardLink
                 :routeName="'products'"
-                :imgSrc="offering2"
+                :imgSrc="miniMarket"
                 :text="$t('home.offerings.item2.title')"
                 :isReversed="true"
               />
               <CardLink
                 :routeName="'products'"
-                :imgSrc="offering3"
+                :imgSrc="mealKit"
                 :text="$t('home.offerings.item3.title')"
               />
             </div>
@@ -104,7 +104,7 @@ const tabs = [
             </div>
 
             <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-8">
-              <CardAbout :imgSrc="offering1" :title="'Gerard'">
+              <CardAbout :imgSrc="sawiGerardPhoto" :title="'Gerard'">
                 <template #text>
                   <span
                     >Gerard discovered his love for Thai food during our visits to Thailand,
@@ -115,7 +115,7 @@ const tabs = [
                 </template>
               </CardAbout>
 
-              <CardAbout :imgSrc="offering2" :title="'Sawitree'">
+              <CardAbout :imgSrc="sawiGerardPhoto" :title="'Sawitree'">
                 <template #text>
                   <span
                     >Sawitree, originally from Thailand, lovingly prepares dishes using family

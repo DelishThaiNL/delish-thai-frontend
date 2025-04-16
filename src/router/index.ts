@@ -13,6 +13,21 @@ const router = createRouter({
       name: 'products',
       component: () => import('../views/ProductsView.vue'),
     },
+    {
+      path: '/offerings',
+      name: 'offerings',
+      component: () => import('../views/OfferingsView.vue'),
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: () => import('../views/AboutView.vue'),
+    },
+    {
+      path: '/news',
+      name: 'news',
+      component: () => import('../views/NewsView.vue'),
+    },
   ],
   scrollBehavior() {
     return { top: 0, behavior: 'instant' }

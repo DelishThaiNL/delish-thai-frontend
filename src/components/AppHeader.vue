@@ -27,13 +27,13 @@ const handleScroll = () => {
   isScrolled.value = window.scrollY > 0
 }
 
-const handleMenuItemClick = (href: string) => {
-  const element = document.getElementById(href)
-  if (element) {
-    element.scrollIntoView({ behavior: 'smooth' })
-  }
-  isMenuOpen.value = false
-}
+// const handleMenuItemClick = (href: string) => {
+//   const element = document.getElementById(href)
+//   if (element) {
+//     element.scrollIntoView({ behavior: 'smooth' })
+//   }
+//   isMenuOpen.value = false
+// }
 
 onMounted(() => {
   const mediaQuery = window.matchMedia('(max-width: 1023.98px)')
@@ -116,17 +116,16 @@ onUnmounted(() => {
         :class="isMenuOpen ? 'flex flex-col' : 'hidden lg:flex'"
       >
         <li class="flex" v-for="(item, index) in menuItems" :key="index">
-          <button
+          <!-- <button
             v-if="$route.name === 'home'"
             class="px-[6px] py-3 lg:py-[6px] leading-none font-medium border-b transition border-transparent hover:border-black cursor-pointer"
             @click="handleMenuItemClick(item.href)"
           >
             {{ item.text() }}
-          </button>
+          </button> -->
 
           <RouterLink
-            v-else
-            :to="{ name: 'home' }"
+            :to="{ name: item.href }"
             class="px-[6px] py-3 lg:py-[6px] leading-none font-medium border-b transition border-transparent hover:border-black cursor-pointer"
             @click="isMenuOpen = false"
           >

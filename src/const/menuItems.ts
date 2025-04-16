@@ -2,7 +2,7 @@ import i18n from '@/locales/i18n'
 
 export const menuItems = [
   {
-    href: 'hero',
+    href: 'home',
     text: () => i18n.global.t('menu.item1'),
   },
   {
@@ -14,11 +14,7 @@ export const menuItems = [
     text: () => i18n.global.t('menu.item3'),
   },
   {
-    href: 'news',
-    text: () => i18n.global.t('menu.item4'),
-  },
-  {
     href: 'about',
-    text: () => i18n.global.t('menu.item5'),
+    text: () => i18n.global.t('menu.item4'),
   },
 ]
