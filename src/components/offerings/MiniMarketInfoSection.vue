@@ -8,17 +8,17 @@ import minimarket from '@/assets/images/minimarket.png'
     <div class="container">
       <div class="flex flex-col items-center">
         <div class="w-full">
-          <CardAbout :imgSrc="minimarket" :title="$t('whatWeOffer.minimarket.info.title')">
+          <CardAbout :imgSrc="minimarket" :title="$t('offerings.minimarket.info.title')">
             <template #text>
-              <span>{{ $t('whatWeOffer.minimarket.info.description.chunk1') }}</span
+              <span>{{ $t('offerings.minimarket.info.description.chunk1') }}</span
               ><br /><br />
-              <span>{{ $t('whatWeOffer.minimarket.info.description.chunk2') }}</span
+              <span>{{ $t('offerings.minimarket.info.description.chunk2') }}</span
               ><br /><br />
-              <span>{{ $t('whatWeOffer.minimarket.info.description.chunk3') }}</span
+              <span>{{ $t('offerings.minimarket.info.description.chunk3') }}</span
               ><br /><br />
-              <span>{{ $t('whatWeOffer.minimarket.info.description.chunk4') }}</span
+              <span>{{ $t('offerings.minimarket.info.description.chunk4') }}</span
               ><br /><br />
-              <span>{{ $t('whatWeOffer.minimarket.info.description.chunk5') }}</span>
+              <span>{{ $t('offerings.minimarket.info.description.chunk5') }}</span>
             </template>
           </CardAbout>
         </div>

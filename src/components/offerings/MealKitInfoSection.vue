@@ -8,19 +8,19 @@ import mealKit from '@/assets/images/mealKit.png'
     <div class="container">
       <div class="flex flex-col items-center">
         <div class="w-full">
-          <CardAbout :imgSrc="mealKit" :title="$t('whatWeOffer.mealKit.info.title')">
+          <CardAbout :imgSrc="mealKit" :title="$t('offerings.mealKit.info.title')">
             <template #text>
-              <span>{{ $t('whatWeOffer.mealKit.info.description.chunk1') }}</span
+              <span>{{ $t('offerings.mealKit.info.description.chunk1') }}</span
               ><br /><br />
-              <span>{{ $t('whatWeOffer.mealKit.info.description.chunk2') }}</span
+              <span>{{ $t('offerings.mealKit.info.description.chunk2') }}</span
               ><br /><br />
-              <span>{{ $t('whatWeOffer.mealKit.info.description.chunk3') }}</span
+              <span>{{ $t('offerings.mealKit.info.description.chunk3') }}</span
               ><br /><br />
-              <span>{{ $t('whatWeOffer.mealKit.info.description.chunk4') }}</span
+              <span>{{ $t('offerings.mealKit.info.description.chunk4') }}</span
               ><br /><br />
-              <span>{{ $t('whatWeOffer.mealKit.info.description.chunk5') }}</span
+              <span>{{ $t('offerings.mealKit.info.description.chunk5') }}</span
               ><br /><br />
-              <span>{{ $t('whatWeOffer.mealKit.info.description.chunk6') }}</span>
+              <span>{{ $t('offerings.mealKit.info.description.chunk6') }}</span>
             </template>
           </CardAbout>
         </div>

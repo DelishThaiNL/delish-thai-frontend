@@ -60,41 +60,42 @@
     },
     "buttonViewAll": "Bekijk alles"
   },
-  "whatWeOffer": {
+  "offerings": {
     "streetFoodCorner": {
       "info": {
         "title": "Thaise Streetfood Hoek",
         "description": {
-          "chunk1": "Bij Delish Thai draait onze streetfoodhoek om warmte, gezelligheid en het delen van échte Thaise smaken. Of je nu op zoek bent naar een snelle hap of een knusse plek om even tot rust te komen – je bent hier altijd welkom. Onze gerechten worden met zorg en liefde vers bereid, net als thuis in Thailand, en geserveerd in een vriendelijke en ontspannen sfeer.",
-          "chunk2": "Dit vind je op ons menu:",
+          "chunk1": "Bij Delish Thai draait onze streetfoodhoek om warmte, gezelligheid en het plezier van het delen van échte Thaise smaken. Of je nu zin hebt in een snelle hap of een knus plekje zoekt om even tot rust te komen – je bent hier altijd welkom. Onze gerechten worden met zorg vers bereid, net als thuis in Thailand, en geserveerd in een ontspannen en vriendelijke sfeer.",
+          "chunk2": "Dit staat er op het menu:",
           "chunk3": "• Klassieke Thaise streetfood favorieten – Pad Thai, Khao Pad (gebakken rijst) en curry’s, op traditionele wijze bereid met liefde en balans.",
-          "chunk4": "• Heerlijke snacks – Krokante loempia’s, gegrilde saté met romige pindasaus en andere kleine hapjes vol smaak.",
+          "chunk4": "• Heerlijke snacks – Knapperige loempia’s, gegrilde saté met romige pindasaus en andere smaakvolle kleine hapjes.",
           "chunk5": "• Verfrissende Thaise drankjes – Zoals Thaise ijsthee, citroengras-infusies en tropische vruchtensappen om je op te frissen en op te vrolijken.",
-          "chunk6": "Een gezellig zitplekje — Een kleine maar warme plek waar je op je gemak van je maaltijd kunt genieten. We hebben dit hoekje van Thailand met liefde gecreëerd, en of je nu voor het eerst Thaise gerechten probeert of ze al in je hart hebt gesloten, we hopen dat je je hier thuis voelt – en dat elk bezoek je een glimlach en iets lekkers meegeeft om te onthouden."
+          "chunk6": "Een knus zitgedeelte — Een klein maar warm plekje waar je in alle rust van je maaltijd kunt genieten. We hebben dit hoekje van Thailand met liefde gecreëerd, en of je nu voor het eerst Thaise gerechten probeert of het al een deel van je leven is, we hopen dat je je hier thuis voelt – en dat elk bezoek je een glimlach én iets lekkers meegeeft om te onthouden."
         }
       }
     },
-    "minimarket": {
-      "info": {
-        "title": "Mini Market",
-        "description": {
-          "chunk1": "Our mini market specializes in authentic Thai ingredients and delicacies, carefully selected to ensure high quality and genuine Thai flavor. We’re also expanding our range with key Asian pantry staples that complement Thai cooking or bring their own twist.",
-          "chunk2": "You’ll find everything needed for everyday Thai dishes — from fresh Thai basil, galangal, lemongrass, and chili peppers. We stock a variety of sauces and curry pastes like red, green, and massaman curry, along with fish sauce, oyster sauce, and tamarind paste.",
-          "chunk3": "To round it out, we offer Thai drinks, teas, and a few non-food items such as herbal inhalers and the iconic elephant pants — a fun gift or a cozy piece of Thai culture.",
-          "chunk4": "We also embrace local harvests by offering seasonal Dutch fruits and vegetables. These encourage creativity in the kitchen and make it easier to combine local freshness with Thai flavors. Whether it’s a spicy curry with Dutch pumpkin or a quick stir-fry with local greens — we love helping our customers discover their own fusion style."
-        }
+  "minimarket": {
+    "info": {
+      "title": "Mini Markt",
+      "description": {
+        "chunk1": "Onze mini markt is gespecialiseerd in authentieke Thaise ingrediënten en lekkernijen, zorgvuldig geselecteerd om de beste kwaliteit en échte Thaise smaken te garanderen.",
+        "chunk2": "Je vindt bij ons essentiële ingrediënten zoals verse Thaise basilicum, kaffir limoenblad, galanga, citroengras en chilipepers – de basis van veel geliefde Thaise gerechten, vers en vol smaak.",
+        "chunk3": "Daarnaast bieden we een ruim assortiment aan authentieke sauzen en currypasta’s – waaronder rode, groene en massaman curry – evenals vissaus, oestersaus, tamarindepasta en andere essentiële smaakmakers.",
+        "chunk4": "Ook vind je bij ons Thaise drankjes en theesoorten – perfect voor een verfrissend moment of bij je maaltijd. En een paar non-food items zoals traditionele kruideninhalers en de populaire elephant pants – ideaal als cadeau of een vleugje Thaise gezelligheid voor thuis.",
+        "chunk5": "Naast geïmporteerde producten bieden we ook een wisselend aanbod van seizoensgebonden groenten en fruit van Nederlandse bodem. Deze verse ingrediënten zijn perfect te combineren met Thaise producten en nodigen uit tot creatieve fusiongerechten of toegankelijke dagelijkse maaltijden met een Thaise twist."
       }
-    },
+    }
+  },
     "mealKit": {
       "info": {
-        "title": "Meal Kit",
+        "title": "Maaltijdkit",
         "description": {
-          "chunk1": "Love cooking at home but want the real Thai experience without the hassle? Delish Thai offers freshly prepared meal kits that make Thai cooking easy, affordable, and better for the planet.",
-          "chunk2": "Each kit includes everything you need to enjoy a delicious, authentic Thai dish — without the stress or waste:",
-          "chunk3": "Pre-measured ingredients – No waste, no guesswork. Just the right amount for a perfectly balanced meal.",
-          "chunk4": "Simple, step-by-step recipes – Easy to follow, whether you're a beginner or a seasoned cook.",
-          "chunk5": "Authentic Thai flavors – Made with high-quality ingredients sourced directly from Thailand.",
-          "chunk6": "Eco-friendly packaging – Designed to keep ingredients fresh while minimizing plastic waste."
+          "chunk1": "Houd je van thuis koken, maar wil je genieten van échte Thaise smaken zonder het gedoe? Delish Thai biedt vers bereide maaltijdkits die Thais koken gemakkelijk, betaalbaar én duurzamer maken.",
+          "chunk2": "Of je nu voor jezelf kookt, je gezin of gasten ontvangt – onze kits nemen het giswerk weg en maken het koken leuker, zodat je kunt focussen op smaak en gezelligheid.",
+          "chunk3": "Elke kit bevat alles wat je nodig hebt om een heerlijk, authentiek Thais gerecht op tafel te zetten – zonder stress of verspilling:",
+          "chunk4": "• Vooraf afgewogen ingrediënten – Geen verspilling, geen twijfel. Precies de juiste hoeveelheden voor een perfect uitgebalanceerde maaltijd.",
+          "chunk5": "• Eenvoudige stap-voor-stap recepten – Makkelijk te volgen, of je nu een beginnende kok bent of al meer ervaring hebt. De meeste gerechten staan binnen 30 minuten op tafel.",
+          "chunk6": "Alle ingrediënten zijn zorgvuldig geselecteerd en waar mogelijk gebruiken we verse kruiden en duurzaam ingekochte producten. Zo maken we samen van elke maaltijd iets lekkers, bewust én leuk – gewoon bij jou thuis."
         }
       }
     }
