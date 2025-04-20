@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import NewsEvents from '@/components/home/NewsEvents.vue'
+import NewsEventsTemp from '@/components/home/NewsEventsTemp.vue'
 </script>
 
 <template>
   <div>
-    <NewsEvents />
+    <NewsEventsTemp />
   </div>
 </template>

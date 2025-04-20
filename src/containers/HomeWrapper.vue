@@ -3,7 +3,7 @@ import HeroSection from '@/components/home/HeroSection.vue'
 import OffersSection from '@/components/home/OffersSection.vue'
 import OfferingsSection from '@/components/home/OfferingsSection.vue'
 import WhoWeAre from '@/components/home/WhoWeAre.vue'
-import NewsEvents from '@/components/home/NewsEvents.vue'
+import NewsEventsTemp from '@/components/home/NewsEventsTemp.vue'
 </script>
 
 <template>
@@ -12,6 +12,6 @@ import NewsEvents from '@/components/home/NewsEvents.vue'
     <OffersSection />
     <OfferingsSection />
     <WhoWeAre />
-    <NewsEvents />
+    <NewsEventsTemp />
   </div>
 </template>
