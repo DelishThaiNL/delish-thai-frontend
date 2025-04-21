@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TabButton from '@/components/util/tabs/TabButton.vue'
+import TabButton from '@/components/util/tabs/recipes/TabButton.vue'
 import { ref } from 'vue'
 import type { PropType } from 'vue'
 

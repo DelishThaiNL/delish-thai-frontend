@@ -10,7 +10,7 @@ import sawiGerardPhoto from '@/assets/images/sawi-gerard.png'
 import OfferBanner from '@/components/util/OfferBanner.vue'
 import offer1 from '@/assets/images/offer1.png'
 import offer2 from '@/assets/images/offer2.png'
-import TabsWrapper from '@/components/util/tabs/TabsWrapper.vue'
+import TabsWrapper from '@/components/util/tabs/recipes/TabsWrapper.vue'
 import AppInput from '@/components/util/AppInput.vue'
 
 // Placeholder tabs

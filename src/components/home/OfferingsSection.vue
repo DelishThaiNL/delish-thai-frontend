@@ -15,17 +15,20 @@ import mealKit from '@/assets/images/mealKit.png'
         <div class="w-full grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-7 xl:gap-10">
           <CardLink
             :routeName="'offerings'"
+            :routeQuery="'street-food'"
             :imgSrc="streetFoodCorner"
             :text="$t('home.offerings.streetFoodCorner.title')"
           />
           <CardLink
             :routeName="'offerings'"
+            :routeQuery="'mini-market'"
             :imgSrc="miniMarket"
             :text="$t('home.offerings.miniMarket.title')"
             :isReversed="true"
           />
           <CardLink
             :routeName="'offerings'"
+            :routeQuery="'meal-kits'"
             :imgSrc="mealKit"
             :text="$t('home.offerings.mealKit.title')"
           />

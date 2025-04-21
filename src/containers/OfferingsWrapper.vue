@@ -1,13 +1,9 @@
 <script setup lang="ts">
-import StreetFoodCornerInfoSection from '@/components/offerings/StreetFoodCornerInfoSection.vue'
-import MinimarketInfoSection from '@/components/offerings/MiniMarketInfoSection.vue'
-import MealKitInfoSection from '@/components/offerings/MealKitInfoSection.vue'
+import OfferingsSection from '@/components/offerings/OfferingsSection.vue'
 </script>
 
 <template>
   <div>
-    <StreetFoodCornerInfoSection />
-    <MinimarketInfoSection />
-    <MealKitInfoSection />
+    <OfferingsSection />
   </div>
 </template>
