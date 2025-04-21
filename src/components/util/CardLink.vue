@@ -1,11 +1,17 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
+import type { PropType } from 'vue'
+import type { OfferingKey } from '@/types/offerings'
 import ArrowIcon from '@/components/icons/ArrowIcon.vue'
 
 const props = defineProps({
   routeName: {
     type: String,
     required: true,
+  },
+  routeQuery: {
+    type: String as PropType<OfferingKey>,
+    required: false,
   },
   imgSrc: {
     type: String,
@@ -25,7 +31,7 @@ const props = defineProps({
 <template>
   <RouterLink
     class="group relative w-full h-[300px] lg:h-auto lg:aspect-3/5 rounded-[26px] sm:rounded-4xl xl:rounded-[40px] cursor-pointer shadow-custom-sm md:shadow-custom-xl overflow-hidden"
-    :to="{ name: props.routeName }"
+    :to="{ name: props.routeName, query: { tab: routeQuery } }"
   >
     <img
       class="w-full h-full object-cover rounded-[26px] sm:rounded-4xl xl:rounded-[40px]"
