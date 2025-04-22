@@ -100,5 +100,40 @@
         }
       }
     }
-  }
+  },
+  "privacy": {
+    "title": "Privacyverklaring",
+    "intro": "Bij Delish Thai hechten we veel waarde aan jouw privacy. In deze verklaring leggen we uit hoe we omgaan met jouw gegevens.",
+    "data": {
+      "title": "Welke gegevens verzamelen we?",
+      "name": "Naam (optioneel)",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer",
+      "age": "Leeftijd (optioneel)",
+      "history": "Aankoopgeschiedenis"
+    },
+    "why": {
+      "title": "Waarom verzamelen we deze gegevens?",
+      "news": "Om je nieuws, acties en updates te sturen",
+      "promotions": "Om gepersonaliseerde promoties aan te bieden",
+      "membership": "Om je lidmaatschap of spaarsysteem te beheren"
+    },
+    "consent": {
+      "title": "Toestemming",
+      "text": "We vragen altijd jouw toestemming. Uitschrijven kan op elk moment."
+    },
+    "storage": {
+      "title": "Bewaartermijn",
+      "text": "We verwijderen jouw gegevens na 2 jaar inactiviteit of op verzoek."
+    },
+    "security": {
+      "title": "Beveiliging",
+      "text": "We beschermen je gegevens met veilige systemen. Alleen geautoriseerd personeel heeft toegang."
+    },
+    "rights": {
+      "title": "Jouw rechten",
+      "text": "Je kunt altijd jouw gegevens inzien, corrigeren of laten verwijderen.",
+      "contact": "Neem contact op via"
+    }
+  }  
 }

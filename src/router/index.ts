@@ -28,6 +28,11 @@ const router = createRouter({
       name: 'news',
       component: () => import('../views/NewsView.vue'),
     },
+    {
+      path: '/privacy',
+      name: 'privacy',
+      component: () => import('../views/PrivacyView.vue'),
+    },
   ],
   scrollBehavior() {
     return { top: 0, behavior: 'instant' }

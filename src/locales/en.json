@@ -100,6 +100,41 @@
         }
       }
     }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "At Delish Thai, we care about your privacy. This policy explains how we handle your personal data.",
+    "data": {
+      "title": "What data we collect",
+      "name": "Name (optional)",
+      "email": "Email address",
+      "phone": "Phone number",
+      "age": "Age (optional)",
+      "history": "Purchase history"
+    },
+    "why": {
+      "title": "Why we collect this data",
+      "news": "To send news, updates and promotions",
+      "promotions": "To offer personalized campaigns",
+      "membership": "To manage your membership or loyalty program"
+    },
+    "consent": {
+      "title": "Consent",
+      "text": "We always ask for your permission. You can unsubscribe at any time."
+    },
+    "storage": {
+      "title": "Data retention",
+      "text": "We delete your data after 2 years of inactivity or upon request."
+    },
+    "security": {
+      "title": "Security",
+      "text": "We protect your data with secure systems. Only authorized staff has access."
+    },
+    "rights": {
+      "title": "Your rights",
+      "text": "You can request access, correction, or deletion of your data at any time.",
+      "contact": "Contact us at"
+    }
   }
 }
 

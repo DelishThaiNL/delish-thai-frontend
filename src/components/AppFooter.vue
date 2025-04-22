@@ -49,7 +49,7 @@ import TelegramIcon from '@/components/icons/social/TelegramIcon.vue'
               </a>
             </div>
 
-            <RouterLink :to="{ name: 'products' }"> Privacy policy </RouterLink>
+            <RouterLink :to="{ name: 'privacy' }"> Privacy policy </RouterLink>
           </div>
         </div>
       </div>
