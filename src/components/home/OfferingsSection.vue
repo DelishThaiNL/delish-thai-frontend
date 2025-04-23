@@ -2,7 +2,7 @@
 import AppTitle from '@/components/util/AppTitle.vue'
 import CardLink from '@/components/util/CardLink.vue'
 import streetFoodCorner from '@/assets/images/streetFoodCorner.png'
-import miniMarket from '@/assets/images/miniMarket.png'
+import minimarket from '@/assets/images/minimarket.png'
 import mealKit from '@/assets/images/mealKit.png'
 </script>
 
@@ -22,8 +22,8 @@ import mealKit from '@/assets/images/mealKit.png'
           <CardLink
             :routeName="'offerings'"
             :routeQuery="'mini-market'"
-            :imgSrc="miniMarket"
-            :text="$t('home.offerings.miniMarket.title')"
+            :imgSrc="minimarket"
+            :text="$t('home.offerings.minimarket.title')"
             :isReversed="true"
           />
           <CardLink

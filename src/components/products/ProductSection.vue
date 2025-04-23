@@ -3,7 +3,7 @@ import AppTitle from '@/components/util/AppTitle.vue'
 import AppButton from '@/components/util/AppButton.vue'
 import CardLink from '@/components/util/CardLink.vue'
 import streetFoodCorner from '@/assets/images/streetFoodCorner.png'
-import miniMarket from '@/assets/images/miniMarket.png'
+import minimarket from '@/assets/images/minimarket.png'
 import mealKit from '@/assets/images/mealKit.png'
 import CardAbout from '@/components/util/CardAbout.vue'
 import sawiGerardPhoto from '@/assets/images/sawi-gerard.png'
@@ -22,7 +22,7 @@ const tabs = [
   },
   {
     title: 'Lorem ipsum',
-    imgSrc: miniMarket,
+    imgSrc: minimarket,
     content: 'Content for Tab 2',
   },
   {
@@ -78,7 +78,7 @@ const tabs = [
               />
               <CardLink
                 :routeName="'products'"
-                :imgSrc="miniMarket"
+                :imgSrc="minimarket"
                 :text="$t('home.offerings.item2.title')"
                 :isReversed="true"
               />
