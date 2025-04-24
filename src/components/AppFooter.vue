@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
+import FacebookIcon from '@/components/icons/social/FacebookIcon.vue'
 import InstagramIcon from '@/components/icons/social/InstagramIcon.vue'
-import ViberIcon from '@/components/icons/social/ViberIcon.vue'
-import TelegramIcon from '@/components/icons/social/TelegramIcon.vue'
 </script>
 
 <template>
@@ -36,16 +35,12 @@ import TelegramIcon from '@/components/icons/social/TelegramIcon.vue'
             class="flex items-center justify-between gap-4 text-sm text-gray-secondary font-medium pr-[6px]"
           >
             <div class="flex items-center gap-2">
-              <a class="flex p-1" href="#" target="_blank">
+              <a class="flex p-1" href="https://www.facebook.com/delishthai.nl" target="_blank" rel="noopener noreferrer">
+                <FacebookIcon />
+              </a>
+
+              <a class="flex p-1" href="https://www.instagram.com/delishthai.nl" target="_blank" rel="noopener noreferrer">
                 <InstagramIcon />
-              </a>
-
-              <a class="flex p-1" href="#" target="_blank">
-                <ViberIcon />
-              </a>
-
-              <a class="flex p-1" href="#" target="_blank">
-                <TelegramIcon />
               </a>
             </div>
 
