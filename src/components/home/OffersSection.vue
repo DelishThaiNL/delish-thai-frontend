@@ -7,14 +7,14 @@ import offer2 from '@/assets/images/offer2.png'
 <template>
   <section class="z-10 px-2 flex flex-col gap-2">
     <OfferBanner
-      :routeName="'products'"
+      :routeName="'home'"
       :bgColor="'bg-green-primary'"
       :color="'white'"
       :imgSrc="offer1"
       :text="$t('home.offers.title1')"
     />
     <OfferBanner
-      :routeName="'products'"
+      :routeName="'home'"
       :bgColor="'bg-light-bege'"
       :color="'black'"
       :imgSrc="offer2"
