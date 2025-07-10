@@ -106,7 +106,7 @@
             },
             {
               "title": "Cashew Nut Stir-Fry",
-              "allergences": ["tree nuts (cashew)", "soy", "gluten"],
+              "allergences": ["cashew", "soy", "gluten"],
               "description": "Crunchy cashews and vibrant veggies in a rich garlic-soy glaze.",
               "spicyLevel": "-",
               "recommendation": "",
