@@ -86,7 +86,8 @@
               "description": "Thailand’s iconic street-noodle dish – rice noodles in sweet-tangy tamarind sauce with crushed peanuts and fresh lime.",
               "spicyLevel": "-",
               "recommendation": "#1 Thai street food favorite",
-              "src": "wok/pad-thai"
+              "src": "wok/pad-thai",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
               "title": "Pad See Ew",
@@ -94,7 +95,8 @@
               "description": "Savory flat noodles stir-fried in dark soy with egg and crisp Chinese broccoli.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "wok/pad-see-ew"
+              "src": "wok/pad-see-ew",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
               "title": "Fried Rice",
@@ -102,7 +104,8 @@
               "description": "Fragrant Thai fried rice tossed with mixed vegetables and fluffy egg.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "wok/fried-rice"
+              "src": "wok/fried-rice",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
               "title": "Cashew Nut Stir-Fry",
@@ -110,7 +113,8 @@
               "description": "Crunchy cashews and vibrant veggies in a rich garlic-soy glaze.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "wok/cashew-nut-stir-fry"
+              "src": "wok/cashew-nut-stir-fry",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
               "title": "Sweet & Sour Stir-Fry",
@@ -118,7 +122,8 @@
               "description": "Pineapple and bell pepper in our bright Thai sweet-and-sour sauce.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "wok/sweet-sour-stir-fry"
+              "src": "wok/sweet-sour-stir-fry",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
               "title": "Pineapple Fried Rice",
@@ -134,7 +139,8 @@
               "description": "A rainbow of crisp seasonal veggies in a mild garlic-soy sauce.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "wok/mixed-vegetables-stir-fry"
+              "src": "wok/mixed-vegetables-stir-fry",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             }
           ]
         },
@@ -149,7 +155,8 @@
               "description": "Mild, creamy coconut curry with warm spices, roasted peanuts and tender potatoes.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "curry/massaman"
+              "src": "curry/massaman",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
               "title": "Panang",
@@ -157,7 +164,8 @@
               "description": "Rich, slightly spicy coconut curry scented with kaffir lime and sweet basil.",
               "spicyLevel": 1,
               "recommendation": "",
-              "src": "curry/panang"
+              "src": "curry/panang",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             }
           ]
         },
@@ -171,7 +179,8 @@
               "description": "Green papaya salad pounded with lime, chili, peanuts, and fish sauce – fresh, zesty, and bold.",
               "spicyLevel": 2,
               "recommendation": "Thai food lovers will enjoy this",
-              "src": "snack/som-tam-thai"
+              "src": "snack/som-tam-thai",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
               "title": "Lumpia",
@@ -180,7 +189,8 @@
               "description": "Golden crispy vegetable spring rolls served with sweet-chili dip.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "snack/lumpia"
+              "src": "snack/lumpia",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
               "title": "Curry Puff",
@@ -189,7 +199,8 @@
               "description": "Flaky pastry filled with curried vegetables – a savoury snack with gentle warmth.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "snack/curry-puff"
+              "src": "snack/curry-puff",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
               "title": "Satay Skewer",
@@ -198,7 +209,8 @@
               "description": "Grilled skewers served with rich Thai peanut sauce and cucumber relish.",
               "spicyLevel": "-",
               "recommendation": "We recommend",
-              "src": "snack/stay-skewer"
+              "src": "snack/stay-skewer",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             }
           ]
         }

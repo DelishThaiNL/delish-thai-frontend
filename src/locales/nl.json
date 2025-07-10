@@ -82,59 +82,65 @@
           "dishes": [
             {
               "title": "Pad Thai",
-              "allergenen": ["pinda", "soja", "ei", "gluten"],
-              "description": "Het iconische Thaise noedelgerecht – rijstnoedels in een zoet-friszure tamarindesaus met gemalen pinda’s en limoen.",
+              "allergences": ["peanut", "soy", "egg", "gluten"],
+              "description": "Thailand’s iconic street-noodle dish – rice noodles in sweet-tangy tamarind sauce with crushed peanuts and fresh lime.",
               "spicyLevel": "-",
-              "recommendation": "#1 Thaise streetfood favoriet",
-              "src": "wok/pad-thai"
+              "recommendation": "#1 Thai street food favorite",
+              "src": "wok/pad-thai",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
               "title": "Pad See Ew",
-              "allergenen": ["soja", "ei", "gluten"],
-              "description": "Hartige platte noedels geroerbakt in donkere sojasaus met ei en knapperige Chinese broccoli.",
+              "allergences": ["soy", "egg", "gluten"],
+              "description": "Savory flat noodles stir-fried in dark soy with egg and crisp Chinese broccoli.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "wok/pad-see-ew"
+              "src": "wok/pad-see-ew",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
-              "title": "Gebakken Rijst",
-              "allergenen": ["ei", "soja", "gluten"],
-              "description": "Aromatische Thaise gebakken rijst met gemengde groenten en luchtig ei.",
+              "title": "Fried Rice",
+              "allergences": ["egg", "soy", "gluten"],
+              "description": "Fragrant Thai fried rice tossed with mixed vegetables and fluffy egg.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "wok/fried-rice"
+              "src": "wok/fried-rice",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
-              "title": "Cashew Roerbak",
-              "allergenen": ["noten (cashew)", "soja", "gluten"],
-              "description": "Krokante cashewnoten en kleurrijke groenten in een rijke knoflook-sojasaus.",
+              "title": "Cashew Nut Stir-Fry",
+              "allergences": ["cashew", "soy", "gluten"],
+              "description": "Crunchy cashews and vibrant veggies in a rich garlic-soy glaze.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "wok/cashew-nut-stir-fry"
+              "src": "wok/cashew-nut-stir-fry",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
-              "title": "Zoetzuur Roerbak",
-              "allergenen": ["soja", "gluten"],
-              "description": "Ananas en paprika in onze frisse Thaise zoetzure saus.",
+              "title": "Sweet & Sour Stir-Fry",
+              "allergences": ["soy", "gluten"],
+              "description": "Pineapple and bell pepper in our bright Thai sweet-and-sour sauce.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "wok/sweet-sour-stir-fry"
+              "src": "wok/sweet-sour-stir-fry",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
-              "title": "Ananas Gebakken Rijst",
-              "allergenen": ["soja"],
-              "description": "Goudgele gebakken rijst met sappige ananas, kerriekruiden en groenten – een tropische twist.",
+              "title": "Pineapple Fried Rice",
+              "allergences": ["soy"],
+              "description": "Golden fried rice with juicy pineapple, curry spices, and garden vegetables – a tropical twist.",
               "spicyLevel": "-",
-              "recommendation": "Aanrader",
+              "recommendation": "We recommend",
               "src": "wok/pineapple-fried-rice"
             },
             {
-              "title": "Groenten Roerbak",
-              "allergenen": ["soja"],
-              "description": "Een regenboog van knapperige seizoensgroenten in een milde knoflook-sojasaus.",
+              "title": "Mixed Vegetables Stir-Fry",
+              "allergences": ["soy"],
+              "description": "A rainbow of crisp seasonal veggies in a mild garlic-soy sauce.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "wok/mixed-vegetables-stir-fry"
+              "src": "wok/mixed-vegetables-stir-fry",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             }
           ]
         },
@@ -145,60 +151,66 @@
           "dishes": [
             {
               "title": "Massaman",
-              "allergenen": ["pinda", "soja", "vis"],
-              "description": "Milde, romige kokos-curry met warme specerijen, geroosterde pinda’s en zachte aardappel.",
+              "allergences": ["peanut", "soy", "fish"],
+              "description": "Mild, creamy coconut curry with warm spices, roasted peanuts and tender potatoes.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "curry/massaman"
+              "src": "curry/massaman",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
               "title": "Panang",
-              "allergenen": ["pinda", "soja", "vis"],
-              "description": "Rijke, licht pittige kokos-curry met geurige limoenblad en zoete basilicum.",
+              "allergences": ["peanut", "soy", "fish"],
+              "description": "Rich, slightly spicy coconut curry scented with kaffir lime and sweet basil.",
               "spicyLevel": 1,
               "recommendation": "",
-              "src": "curry/panang"
+              "src": "curry/panang",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             }
           ]
         },
         "snack": {
-          "label": "Salade & Snacks",
+          "label": "Salad & Snacks",
           "dishes": [
             {
               "title": "Som Tam Thai",
               "price": 6,
-              "allergenen": ["pinda", "vis", "schaaldieren"],
-              "description": "Groene papajasalade gestampt met limoen, chili, pinda’s en vissaus – fris, pittig en krachtig.",
+              "allergences": ["peanut", "fish", "shellfish"],
+              "description": "Green papaya salad pounded with lime, chili, peanuts, and fish sauce – fresh, zesty, and bold.",
               "spicyLevel": 2,
-              "recommendation": "Voor de echte Thaise foodlovers",
-              "src": "snack/som-tam-thai"
+              "recommendation": "Thai food lovers will enjoy this",
+              "src": "snack/som-tam-thai",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
-              "title": "Loempia",
+              "title": "Lumpia",
               "price": 5,
-              "allergenen": ["gluten", "soja", "ei"],
-              "description": "Goudbruine krokante groenteloempia’s met zoete chilisaus.",
+              "allergences": ["gluten", "soy", "egg"],
+              "description": "Golden crispy vegetable spring rolls served with sweet-chili dip.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "snack/lumpia"
+              "src": "snack/lumpia",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
               "title": "Curry Puff",
               "price": 5,
-              "allergenen": ["gluten", "ei", "melk"],
-              "description": "Bladerdeeg gevuld met gekruide groenten – een hartige snack met milde pit.",
+              "allergences": ["gluten", "egg", "milk"],
+              "description": "Flaky pastry filled with curried vegetables – a savoury snack with gentle warmth.",
               "spicyLevel": "-",
               "recommendation": "",
-              "src": "snack/curry-puff"
+              "src": "snack/curry-puff",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             },
             {
-              "title": "Saté Spies",
+              "title": "Satay Skewer",
               "price": 7,
-              "allergenen": ["pinda", "soja", "gluten"],
-              "description": "Gegrilde saté met rijke Thaise pindasaus en komkommer relish.",
+              "allergences": ["peanut", "soy", "gluten"],
+              "description": "Grilled skewers served with rich Thai peanut sauce and cucumber relish.",
               "spicyLevel": "-",
-              "recommendation": "Aanrader",
-              "src": "snack/stay-skewer"
+              "recommendation": "We recommend",
+              "src": "snack/stay-skewer",
+              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
             }
           ]
         }
