@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 import CardPromo from '@/components/util/CardPromo.vue'
 import AppButton from '@/components/util/AppButton.vue'
 import eventPhoto from '@/assets/images/event.png'
-import newsPhoto from '@/assets/images/news.png'
+import newsPhoto from '@/assets/images/event.png'
 </script>
 
 <template>
@@ -73,11 +73,11 @@ import newsPhoto from '@/assets/images/news.png'
         </div>
       </div>
 
-      <!-- <div class="flex justify-center">
+      <div class="flex justify-center">
         <RouterLink :to="{ name: 'products' }">
           <AppButton :text="$t('home.buttonViewAll')" />
         </RouterLink>
-      </div> -->
+      </div>
     </div>
   </section>
 </template>

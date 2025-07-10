@@ -64,14 +64,143 @@
   "offerings": {
     "streetFoodCorner": {
       "info": {
-        "title": "Thaise Streetfood Hoek",
+        "title": "Thaise Street Food Hoek",
         "description": {
-          "chunk1": "Bij Delish Thai draait onze streetfoodhoek om warmte, gezelligheid en het plezier van het delen van échte Thaise smaken. Of je nu zin hebt in een snelle hap of een knus plekje zoekt om even tot rust te komen – je bent hier altijd welkom. Onze gerechten worden met zorg vers bereid, net als thuis in Thailand, en geserveerd in een ontspannen en vriendelijke sfeer.",
-          "chunk2": "Dit staat er op het menu:",
+          "chunk1": "Bij Delish Thai draait onze street food hoek om warmte, comfort en het plezier van échte Thaise smaken delen. Of je nu op zoek bent naar een snelle hap of een gezellig moment voor jezelf, je bent hier altijd welkom. Onze gerechten worden met zorg en vers bereid – net als thuis in Thailand – en geserveerd in een ontspannen en huiselijke sfeer.",
+          "chunk2": "Dit vind je op ons menu:",
           "chunk3": "• Klassieke Thaise streetfood favorieten – Pad Thai, Khao Pad (gebakken rijst) en curry’s, op traditionele wijze bereid met liefde en balans.",
-          "chunk4": "• Heerlijke snacks – Knapperige loempia’s, gegrilde saté met romige pindasaus en andere smaakvolle kleine hapjes.",
-          "chunk5": "• Verfrissende Thaise drankjes – Zoals Thaise ijsthee, citroengras-infusies en tropische vruchtensappen om je op te frissen en op te vrolijken.",
-          "chunk6": "Een knus zitgedeelte — Een klein maar warm plekje waar je in alle rust van je maaltijd kunt genieten. We hebben dit hoekje van Thailand met liefde gecreëerd, en of je nu voor het eerst Thaise gerechten probeert of het al een deel van je leven is, we hopen dat je je hier thuis voelt – en dat elk bezoek je een glimlach én iets lekkers meegeeft om te onthouden."
+          "chunk4": "• Lekkere snacks – Krokante loempia’s, gegrilde saté met romige pindasaus en andere smaakvolle hapjes.",
+          "chunk5": "• Verfrissende Thaise drankjes – Zoals Thaise ijsthee, citroengrasinfusies en tropische vruchtensappen om je op te frissen en op te vrolijken.",
+          "chunk6": "Een knusse zithoek – Een klein maar welkom plekje om rustig van je maaltijd te genieten. We hebben dit hoekje van Thailand met hart en ziel gecreëerd, en of je nu voor het eerst Thais eet of er al van houdt: we hopen dat je je thuis voelt en dat elk bezoek je met een glimlach én iets lekkers achterlaat."
+        }
+      },
+      "menu": {
+        "wok": {
+          "label": "Wok",
+          "basePrice": 17,
+          "priceModifiers": { "beef": 1, "shrimp": 2 },
+          "dishes": [
+            {
+              "title": "Pad Thai",
+              "allergenen": ["pinda", "soja", "ei", "gluten"],
+              "description": "Het iconische Thaise noedelgerecht – rijstnoedels in een zoet-friszure tamarindesaus met gemalen pinda’s en limoen.",
+              "spicyLevel": "-",
+              "recommendation": "#1 Thaise streetfood favoriet",
+              "src": "wok/pad-thai"
+            },
+            {
+              "title": "Pad See Ew",
+              "allergenen": ["soja", "ei", "gluten"],
+              "description": "Hartige platte noedels geroerbakt in donkere sojasaus met ei en knapperige Chinese broccoli.",
+              "spicyLevel": "-",
+              "recommendation": "",
+              "src": "wok/pad-see-ew"
+            },
+            {
+              "title": "Gebakken Rijst",
+              "allergenen": ["ei", "soja", "gluten"],
+              "description": "Aromatische Thaise gebakken rijst met gemengde groenten en luchtig ei.",
+              "spicyLevel": "-",
+              "recommendation": "",
+              "src": "wok/fried-rice"
+            },
+            {
+              "title": "Cashew Roerbak",
+              "allergenen": ["noten (cashew)", "soja", "gluten"],
+              "description": "Krokante cashewnoten en kleurrijke groenten in een rijke knoflook-sojasaus.",
+              "spicyLevel": "-",
+              "recommendation": "",
+              "src": "wok/cashew-nut-stir-fry"
+            },
+            {
+              "title": "Zoetzuur Roerbak",
+              "allergenen": ["soja", "gluten"],
+              "description": "Ananas en paprika in onze frisse Thaise zoetzure saus.",
+              "spicyLevel": "-",
+              "recommendation": "",
+              "src": "wok/sweet-sour-stir-fry"
+            },
+            {
+              "title": "Ananas Gebakken Rijst",
+              "allergenen": ["soja"],
+              "description": "Goudgele gebakken rijst met sappige ananas, kerriekruiden en groenten – een tropische twist.",
+              "spicyLevel": "-",
+              "recommendation": "Aanrader",
+              "src": "wok/pineapple-fried-rice"
+            },
+            {
+              "title": "Groenten Roerbak",
+              "allergenen": ["soja"],
+              "description": "Een regenboog van knapperige seizoensgroenten in een milde knoflook-sojasaus.",
+              "spicyLevel": "-",
+              "recommendation": "",
+              "src": "wok/mixed-vegetables-stir-fry"
+            }
+          ]
+        },
+        "curry": {
+          "label": "Curry",
+          "basePrice": 18,
+          "priceModifiers": { "beef": 1 },
+          "dishes": [
+            {
+              "title": "Massaman",
+              "allergenen": ["pinda", "soja", "vis"],
+              "description": "Milde, romige kokos-curry met warme specerijen, geroosterde pinda’s en zachte aardappel.",
+              "spicyLevel": "-",
+              "recommendation": "",
+              "src": "curry/massaman"
+            },
+            {
+              "title": "Panang",
+              "allergenen": ["pinda", "soja", "vis"],
+              "description": "Rijke, licht pittige kokos-curry met geurige limoenblad en zoete basilicum.",
+              "spicyLevel": 1,
+              "recommendation": "",
+              "src": "curry/panang"
+            }
+          ]
+        },
+        "snack": {
+          "label": "Salade & Snacks",
+          "dishes": [
+            {
+              "title": "Som Tam Thai",
+              "price": 6,
+              "allergenen": ["pinda", "vis", "schaaldieren"],
+              "description": "Groene papajasalade gestampt met limoen, chili, pinda’s en vissaus – fris, pittig en krachtig.",
+              "spicyLevel": 2,
+              "recommendation": "Voor de echte Thaise foodlovers",
+              "src": "snack/som-tam-thai"
+            },
+            {
+              "title": "Loempia",
+              "price": 5,
+              "allergenen": ["gluten", "soja", "ei"],
+              "description": "Goudbruine krokante groenteloempia’s met zoete chilisaus.",
+              "spicyLevel": "-",
+              "recommendation": "",
+              "src": "snack/lumpia"
+            },
+            {
+              "title": "Curry Puff",
+              "price": 5,
+              "allergenen": ["gluten", "ei", "melk"],
+              "description": "Bladerdeeg gevuld met gekruide groenten – een hartige snack met milde pit.",
+              "spicyLevel": "-",
+              "recommendation": "",
+              "src": "snack/curry-puff"
+            },
+            {
+              "title": "Saté Spies",
+              "price": 7,
+              "allergenen": ["pinda", "soja", "gluten"],
+              "description": "Gegrilde saté met rijke Thaise pindasaus en komkommer relish.",
+              "spicyLevel": "-",
+              "recommendation": "Aanrader",
+              "src": "snack/stay-skewer"
+            }
+          ]
         }
       }
     },
