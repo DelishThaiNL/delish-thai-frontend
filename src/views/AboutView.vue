@@ -7,4 +7,3 @@ import WhoWeAre from '@/components/home/WhoWeAre.vue'
     <WhoWeAre />
   </div>
 </template>
-

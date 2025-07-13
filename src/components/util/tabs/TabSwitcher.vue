@@ -5,11 +5,11 @@ import type { OfferingKey } from '@/types/offerings'
 const props = defineProps({
   tabs: {
     type: Array as PropType<{ name: string | (() => string); key: OfferingKey }[]>,
-    required: true
+    required: true,
   },
   activeTab: {
     type: String as PropType<OfferingKey>,
-    required: true
+    required: true,
   },
 })
 

@@ -1,18 +1,21 @@
 import { createI18n } from 'vue-i18n'
-import type { Locale } from '@/types/locale'
+import { useI18n as useReactiveLocale } from 'vue-i18n'
 import en from './en.json'
 import nl from './nl.json'
-import type { MessageSchema } from '@/types/locale'
 
-const enMessages: MessageSchema = en as MessageSchema
-const nlMessages: MessageSchema = nl as MessageSchema
+const enMessages = en
+const nlMessages = nl
 
-const messages: Record<Locale, MessageSchema> = {
+const messages = {
   en: enMessages,
   nl: nlMessages,
 }
 
-const i18n = createI18n<[MessageSchema], Locale>({
+export type MessageSchema = typeof en | typeof nl
+
+export const useI18n = () => useReactiveLocale<{ message: MessageSchema }>()
+
+const i18n = createI18n({
   legacy: false,
   locale: 'en',
   fallbackLocale: 'en',

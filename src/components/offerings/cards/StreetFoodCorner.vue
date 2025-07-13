@@ -1,26 +1,28 @@
 <script setup lang="ts">
-import CardAbout from '@/components/util/CardAbout.vue'
-import streetFoodCorner from '@/assets/images/streetFoodCorner.png'
+import CardDish from '@/components/util/CardDish.vue'
+import { computed } from 'vue'
+import { useI18n } from '@/locales/i18n'
+
+const { locale, messages } = useI18n()
+
+const wokDishes = computed(() => {
+  const localeMessages = messages.value[locale.value]
+  return localeMessages.offerings.streetFoodCorner.menu.wok.dishes
+})
 </script>
 
 <template>
-  <div class="flex flex-col items-center">
-    <div class="w-full">
-      <CardAbout :imgSrc="streetFoodCorner" :title="$t('offerings.streetFoodCorner.info.title')">
-        <template #text>
-          <span>{{ $t('offerings.streetFoodCorner.info.description.chunk1') }}</span
-          ><br /><br />
-          <span>{{ $t('offerings.streetFoodCorner.info.description.chunk2') }}</span
-          ><br /><br />
-          <span>{{ $t('offerings.streetFoodCorner.info.description.chunk3') }}</span
-          ><br /><br />
-          <span>{{ $t('offerings.streetFoodCorner.info.description.chunk4') }}</span
-          ><br /><br />
-          <span>{{ $t('offerings.streetFoodCorner.info.description.chunk5') }}</span
-          ><br /><br />
-          <span>{{ $t('offerings.streetFoodCorner.info.description.chunk6') }}</span>
-        </template>
-      </CardAbout>
-    </div>
+  <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <CardDish
+      v-for="(dish, index) in wokDishes"
+      :key="index"
+      :title="dish.title"
+      :price="dish.price"
+      :allergences="dish.allergences"
+      :description="dish.description"
+      :spicyLevel="dish.spicyLevel"
+      :recommendation="dish.recommendation"
+      :imgSrc="dish.src"
+    />
   </div>
 </template>

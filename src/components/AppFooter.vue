@@ -35,11 +35,21 @@ import InstagramIcon from '@/components/icons/social/InstagramIcon.vue'
             class="flex items-center justify-between gap-4 text-sm text-gray-secondary font-medium pr-[6px]"
           >
             <div class="flex items-center gap-2">
-              <a class="flex p-1" href="https://www.facebook.com/delishthai.nl" target="_blank" rel="noopener noreferrer">
+              <a
+                class="flex p-1"
+                href="https://www.facebook.com/delishthai.nl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FacebookIcon />
               </a>
 
-              <a class="flex p-1" href="https://www.instagram.com/delishthai.nl" target="_blank" rel="noopener noreferrer">
+              <a
+                class="flex p-1"
+                href="https://www.instagram.com/delishthai.nl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <InstagramIcon />
               </a>
             </div>

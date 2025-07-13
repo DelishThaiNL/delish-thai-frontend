@@ -15,7 +15,7 @@ import newsPhoto from '@/assets/images/news.jpg'
           <CardAbout :imgSrc="newsPhoto" :title="$t('home.news.item1.date')">
             <template #text>
               <h4 class="mt-auto text-lg sm:text-xl md:text-2xl xl:text-[28px] font-medium">
-                  {{ $t('home.news.item1.title') }}
+                {{ $t('home.news.item1.title') }}
               </h4>
             </template>
           </CardAbout>
