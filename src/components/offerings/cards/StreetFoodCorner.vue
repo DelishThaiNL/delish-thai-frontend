@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import CardDish from '@/components/util/CardDish.vue'
-import { computed, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { useI18n } from '@/locales/i18n'
 import { CategoryKey } from '@/types/dishes'
 import AppButton from '@/components/util/AppButton.vue'
+import AppPagination from '@/components/util/AppPagination.vue'
 
 const { locale, messages } = useI18n()
 const localeMessages = messages.value[locale.value]
@@ -41,15 +42,27 @@ const filteredDishes = computed(() =>
     ? dishes.value
     : dishes.value.filter(dish => dish.type === selectedCategory.value)
 )
+
+const currentPage = ref(1)
+const pageSize = 6
+
+const paginatedDishes = computed(() => {
+  const start = (currentPage.value - 1) * pageSize
+  return filteredDishes.value.slice(start, start + pageSize)
+})
+
+watch(selectedCategory, () => {
+  currentPage.value = 1
+})
 </script>
 
 <template>
-  <div class="w-full flex flex-col gap-8">
+  <div class="w-full flex flex-col gap-6 lg:gap-8">
     <div class="flex flex-wrap gap-2">
       <AppButton
         text="All"
         type="transparent-border"
-        class="font-normal !text-black !outline-brown-secondary hover:!outline-green-primary"
+        class="text-sm font-normal !text-black !outline-brown-secondary hover:!outline-green-primary"
         :class="{ 'bg-white !outline-green-primary': selectedCategory === CategoryKey.All }"
         @click="selectAll"
       />
@@ -59,7 +72,7 @@ const filteredDishes = computed(() =>
         :key="category.key"
         :text="category.name"
         type="transparent-border"
-        class="font-normal !text-black !outline-brown-secondary hover:!outline-green-primary"
+        class="text-sm font-normal !text-black !outline-brown-secondary hover:!outline-green-primary"
         :class="{ 'bg-white !outline-green-primary': selectedCategory === category.key }"
         @click="selectCategory(category.key)"
       />
@@ -67,7 +80,7 @@ const filteredDishes = computed(() =>
 
     <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-6">
       <CardDish
-        v-for="(dish, index) in filteredDishes"
+        v-for="(dish, index) in paginatedDishes"
         :key="index"
         :title="dish.title"
         :price="dish.price"
@@ -78,5 +91,11 @@ const filteredDishes = computed(() =>
         :imgSrc="dish.src"
       />
     </div>
+
+    <AppPagination
+      v-model="currentPage"
+      :totalItems="filteredDishes.length"
+      :pageSize="pageSize"
+    />
   </div>
 </template>
