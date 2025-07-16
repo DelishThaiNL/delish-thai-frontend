@@ -80,7 +80,7 @@ const imgUrl = computed(() => images[`../../assets/images/menu/${props.imgSrc}.w
 
 <template>
   <div
-    class="group relative flex-1 w-full lg:min-h-[300px] pt-[390px] sm:pt-[490px] lg:pt-0 overflow-hidden flex lg:items-stretch lg:justify-end shadow-custom-sm md:shadow-custom-md rounded-3xl"
+    class="group relative flex-1 w-full lg:min-h-[300px] pt-[320px] sm:pt-[490px] lg:pt-0 overflow-hidden flex lg:items-stretch lg:justify-end shadow-custom-sm md:shadow-custom-md rounded-3xl"
   >
     <img
       class="absolute -z-1 top-0 left-0 w-full h-[446px] sm:h-[546px] lg:h-full lg:max-w-[52%] object-cover transition-all duration-500 lg:group-hover:scale-125 rounded-3xl lg:rounded-r-none"
