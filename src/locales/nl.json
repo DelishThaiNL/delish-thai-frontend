@@ -81,7 +81,7 @@
       "menu": {
         "wok": {
           "label": "Wok",
-          "priceModifiers": { "beef": 1, "shrimp": 2 },
+          "priceModifiers": { "chicken": 0, "tofu": 0, "beef": 1, "shrimp": 2 },
           "dishes": [
             {
               "title": "Pad Thai",
@@ -156,7 +156,7 @@
         },
         "curry": {
           "label": "Curry",
-          "priceModifiers": { "beef": 1 },
+          "priceModifiers": { "chicken": 0, "beef": 1 },
           "dishes": [
             {
               "title": "Massaman",

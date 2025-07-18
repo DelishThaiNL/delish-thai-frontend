@@ -74,14 +74,13 @@
           "chunk6": "A cozy seating corner — A small but welcoming space to enjoy your meal at your own pace. We've created this little corner of Thailand with heart, and whether you're trying Thai food for the first time or it's already part of who you are, we hope you feel at home here — and that every visit leaves you with a smile and something delicious to remember."
         },
         "banner": {
-          "chunk1": "All main dishes:",
-          "chunk2": "included."
+          "chunk1": "All main dishes:"
         }
       },
       "menu": {
         "wok": {
           "label": "Wok",
-          "priceModifiers": { "beef": 1, "shrimp": 2 },
+          "priceModifiers": { "chicken": 0, "tofu": 0, "beef": 1, "shrimp": 2 },
           "dishes": [
             {
               "title": "Pad Thai",
@@ -156,7 +155,7 @@
         },
         "curry": {
           "label": "Curry",
-          "priceModifiers": { "beef": 1 },
+          "priceModifiers": { "chicken": 0, "beef": 1},
           "dishes": [
             {
               "title": "Massaman",

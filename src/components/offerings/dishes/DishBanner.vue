@@ -23,6 +23,8 @@ const props = defineProps({
 })
 
 const iconMap: Record<string, Component> = {
+  chicken: ChickenIcon,
+  tofu: TofuIcon,
   beef: BeefIcon,
   shrimp: ShrimpIcon,
 }
@@ -39,29 +41,24 @@ const activeModifierGroup = computed(() => {
 
 const activeModifierIcons = computed(() => {
   if (!activeModifierGroup.value) return []
-  return Object.entries(activeModifierGroup.value.modifiers).map(([name, value]) => ({
-    name,
-    value,
-    icon: iconMap[name],
-  })).filter(m => m.icon)
+
+  // Ensure chicken and tofu come first
+  const order = ['chicken', 'tofu', 'beef', 'shrimp']
+
+  return order
+    .filter(name => Object.keys(activeModifierGroup.value!.modifiers).includes(name))
+    .map(name => ({
+      name,
+      value: activeModifierGroup.value!.modifiers[name],
+      icon: iconMap[name],
+    }))
+    .filter(m => m.icon)
 })
 </script>
 
 <template>
   <div class="w-[100vw] sm:w-full flex items-center gap-2 flex-wrap bg-green-primary text-white text-sm px-3 py-[6px] -mx-4 sm:mx-0 sm:rounded-xl">
     <span>{{ $t('offerings.streetFoodCorner.info.banner.chunk1') }}</span>
-
-    <div class="flex items-center gap-1">
-      <span title="chicken">
-        <ChickenIcon class="w-6 h-6" />
-      </span>
-      <span>/</span>
-      <span title="tofu">
-        <TofuIcon class="w-6 h-6" />
-      </span>
-    </div>
-
-    <span>{{ $t('offerings.streetFoodCorner.info.banner.chunk2') }}</span>
 
     <div class="flex items-center gap-2" v-if="activeModifierIcons.length">
       <div
