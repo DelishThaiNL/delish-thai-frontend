@@ -72,16 +72,20 @@
           "chunk4": "• Lekkere snacks – Krokante loempia’s, gegrilde saté met romige pindasaus en andere smaakvolle hapjes.",
           "chunk5": "• Verfrissende Thaise drankjes – Zoals Thaise ijsthee, citroengrasinfusies en tropische vruchtensappen om je op te frissen en op te vrolijken.",
           "chunk6": "Een knusse zithoek – Een klein maar welkom plekje om rustig van je maaltijd te genieten. We hebben dit hoekje van Thailand met hart en ziel gecreëerd, en of je nu voor het eerst Thais eet of er al van houdt: we hopen dat je je thuis voelt en dat elk bezoek je met een glimlach én iets lekkers achterlaat."
+        },
+        "banner": {
+          "chunk1": "Alle hoofdgerechten:",
+          "chunk2": "inbegrepen."
         }
       },
       "menu": {
         "wok": {
           "label": "Wok",
+          "priceModifiers": { "beef": 1, "shrimp": 2 },
           "dishes": [
             {
               "title": "Pad Thai",
               "price": 17,
-              "priceModifiers": { "beef": 1, "shrimp": 2 },
               "allergences": ["peanut", "soy", "egg", "gluten"],
               "description": "Thailand’s iconic street-noodle dish – rice noodles in sweet-tangy tamarind sauce with crushed peanuts and fresh lime.",
               "spicyLevel": 0,
@@ -92,7 +96,6 @@
             {
               "title": "Pad See Ew",
               "price": 17,
-              "priceModifiers": { "beef": 1, "shrimp": 2 },
               "allergences": ["soy", "egg", "gluten"],
               "description": "Savory flat noodles stir-fried in dark soy with egg and crisp Chinese broccoli.",
               "spicyLevel": 0,
@@ -103,7 +106,6 @@
             {
               "title": "Fried Rice",
               "price": 17,
-              "priceModifiers": { "beef": 1, "shrimp": 2 },
               "allergences": ["egg", "soy", "gluten"],
               "description": "Fragrant Thai fried rice tossed with mixed vegetables and fluffy egg.",
               "spicyLevel": 0,
@@ -114,7 +116,6 @@
             {
               "title": "Cashew Nut Stir-Fry",
               "price": 17,
-              "priceModifiers": { "beef": 1, "shrimp": 2 },
               "allergences": ["cashew", "soy", "gluten"],
               "description": "Crunchy cashews and vibrant veggies in a rich garlic-soy glaze.",
               "spicyLevel": 0,
@@ -125,7 +126,6 @@
             {
               "title": "Sweet & Sour Stir-Fry",
               "price": 17,
-              "priceModifiers": { "beef": 1, "shrimp": 2 },
               "allergences": ["soy", "gluten"],
               "description": "Pineapple and bell pepper in our bright Thai sweet-and-sour sauce.",
               "spicyLevel": 0,
@@ -136,7 +136,6 @@
             {
               "title": "Pineapple Fried Rice",
               "price": 17,
-              "priceModifiers": { "beef": 1, "shrimp": 2 },
               "allergences": ["soy"],
               "description": "Golden fried rice with juicy pineapple, curry spices, and garden vegetables – a tropical twist.",
               "spicyLevel": 0,
@@ -146,7 +145,6 @@
             {
               "title": "Mixed Vegetables Stir-Fry",
               "price": 17,
-              "priceModifiers": { "beef": 1, "shrimp": 2 },
               "allergences": ["soy"],
               "description": "A rainbow of crisp seasonal veggies in a mild garlic-soy sauce.",
               "spicyLevel": 0,
@@ -158,11 +156,11 @@
         },
         "curry": {
           "label": "Curry",
+          "priceModifiers": { "beef": 1 },
           "dishes": [
             {
               "title": "Massaman",
               "price": 18,
-              "priceModifiers": { "beef": 1 },
               "allergences": ["peanut", "soy", "fish"],
               "description": "Mild, creamy coconut curry with warm spices, roasted peanuts and tender potatoes.",
               "spicyLevel": 0,
@@ -173,7 +171,6 @@
             {
               "title": "Panang",
               "price": 18,
-              "priceModifiers": { "beef": 1 },
               "allergences": ["peanut", "soy", "fish"],
               "description": "Rich, slightly spicy coconut curry scented with kaffir lime and sweet basil.",
               "spicyLevel": 1,

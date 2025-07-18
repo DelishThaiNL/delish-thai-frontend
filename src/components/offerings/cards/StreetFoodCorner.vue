@@ -5,6 +5,7 @@ import { useI18n } from '@/locales/i18n'
 import { CategoryKey } from '@/types/dishes'
 import AppButton from '@/components/util/AppButton.vue'
 import AppPagination from '@/components/util/AppPagination.vue'
+import DishBanner from '@/components/offerings/DishBanner.vue'
 
 const { locale, messages } = useI18n()
 const localeMessages = messages.value[locale.value]
@@ -25,6 +26,11 @@ const dishes = computed(() => [
   ...localeMessages.offerings.streetFoodCorner.menu.snack.dishes.map(
     (dish) => ({ ...dish, type: CategoryKey.Snack })
   ),
+])
+
+const priceModifiers = computed(() => [
+  { modifiers: { ...localeMessages.offerings.streetFoodCorner.menu.wok.priceModifiers }, type: CategoryKey.Wok },
+  { modifiers: { ...localeMessages.offerings.streetFoodCorner.menu.curry.priceModifiers }, type: CategoryKey.Curry },
 ])
 
 const selectedCategory = ref<CategoryKey>(CategoryKey.All)
@@ -57,7 +63,7 @@ watch(selectedCategory, () => {
 </script>
 
 <template>
-  <div class="w-full flex flex-col gap-6 lg:gap-8">
+  <div class="w-full flex flex-col gap-6">
     <div class="flex flex-wrap gap-2">
       <AppButton
         text="All"
@@ -77,6 +83,11 @@ watch(selectedCategory, () => {
         @click="selectCategory(category.key)"
       />
     </div>
+
+    <DishBanner
+      :priceModifiers="priceModifiers"
+      :selectedCategory="selectedCategory"
+    />
 
     <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-6">
       <CardDish

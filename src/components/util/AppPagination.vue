@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, defineProps, defineEmits } from 'vue'
+import { computed } from 'vue'
 import ArrowIcon from '@/components/icons/ArrowIcon.vue'
 
 const props = defineProps<{
