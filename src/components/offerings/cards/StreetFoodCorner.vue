@@ -1,37 +1,48 @@
 <script setup lang="ts">
-import CardDish from '@/components/util/CardDish.vue'
 import { computed, ref, watch } from 'vue'
 import { useI18n } from '@/locales/i18n'
 import { CategoryKey } from '@/types/dishes'
 import AppButton from '@/components/util/AppButton.vue'
 import AppPagination from '@/components/util/AppPagination.vue'
-import DishBanner from '@/components/offerings/DishBanner.vue'
+import CardDish from '@/components/offerings/dishes/CardDish.vue'
+import DishBanner from '@/components/offerings/dishes/DishBanner.vue'
 
 const { locale, messages } = useI18n()
-const localeMessages = messages.value[locale.value]
 
-const categories = computed(() => [
-  { name: localeMessages.offerings.streetFoodCorner.menu.wok.label, key: CategoryKey.Wok },
-  { name: localeMessages.offerings.streetFoodCorner.menu.curry.label, key: CategoryKey.Curry },
-  { name: localeMessages.offerings.streetFoodCorner.menu.snack.label, key: CategoryKey.Snack },
-])
+const categories = computed(() => {
+  const localeMessages = messages.value[locale.value]
 
-const dishes = computed(() => [
-  ...localeMessages.offerings.streetFoodCorner.menu.wok.dishes.map(
-    (dish) => ({ ...dish, type: CategoryKey.Wok })
-  ),
-  ...localeMessages.offerings.streetFoodCorner.menu.curry.dishes.map(
-    (dish) => ({ ...dish, type: CategoryKey.Curry })
-  ),
-  ...localeMessages.offerings.streetFoodCorner.menu.snack.dishes.map(
-    (dish) => ({ ...dish, type: CategoryKey.Snack })
-  ),
-])
+  return [
+    { name: localeMessages.offerings.streetFoodCorner.menu.wok.label, key: CategoryKey.Wok },
+    { name: localeMessages.offerings.streetFoodCorner.menu.curry.label, key: CategoryKey.Curry },
+    { name: localeMessages.offerings.streetFoodCorner.menu.snack.label, key: CategoryKey.Snack },
+  ]
+})
 
-const priceModifiers = computed(() => [
-  { modifiers: { ...localeMessages.offerings.streetFoodCorner.menu.wok.priceModifiers }, type: CategoryKey.Wok },
-  { modifiers: { ...localeMessages.offerings.streetFoodCorner.menu.curry.priceModifiers }, type: CategoryKey.Curry },
-])
+const dishes = computed(() => {
+  const localeMessages = messages.value[locale.value]
+
+  return [
+    ...localeMessages.offerings.streetFoodCorner.menu.wok.dishes.map(
+      (dish) => ({ ...dish, type: CategoryKey.Wok })
+    ),
+    ...localeMessages.offerings.streetFoodCorner.menu.curry.dishes.map(
+      (dish) => ({ ...dish, type: CategoryKey.Curry })
+    ),
+    ...localeMessages.offerings.streetFoodCorner.menu.snack.dishes.map(
+      (dish) => ({ ...dish, type: CategoryKey.Snack })
+    ),
+  ]
+})
+
+const priceModifiers = computed(() => {
+  const localeMessages = messages.value[locale.value]
+
+  return [
+    { modifiers: { ...localeMessages.offerings.streetFoodCorner.menu.wok.priceModifiers }, type: CategoryKey.Wok },
+    { modifiers: { ...localeMessages.offerings.streetFoodCorner.menu.curry.priceModifiers }, type: CategoryKey.Curry },
+  ]
+})
 
 const selectedCategory = ref<CategoryKey>(CategoryKey.All)
 
@@ -97,6 +108,7 @@ watch(selectedCategory, () => {
         :price="dish.price"
         :allergences="dish.allergences"
         :description="dish.description"
+        :moreDescription="dish.moreDescription"
         :spicyLevel="dish.spicyLevel"
         :recommendation="dish.recommendation"
         :imgSrc="dish.src"
@@ -104,6 +116,7 @@ watch(selectedCategory, () => {
     </div>
 
     <AppPagination
+      class="mt-2"
       v-model="currentPage"
       :totalItems="filteredDishes.length"
       :pageSize="pageSize"

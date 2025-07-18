@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import type { Component } from 'vue'
 import AppLabel from '@/components/util/AppLabel.vue'
 import AppButton from '@/components/util/AppButton.vue'
+import DishModal from '@/components/offerings/dishes/DishModal.vue'
 
 import BeefIcon from '@/components/icons/allergences/BeefIcon.vue'
 import CashewIcon from '@/components/icons/allergences/CashewIcon.vue'
@@ -33,6 +34,10 @@ const props = defineProps({
     default: () => [],
   },
   description: {
+    type: String,
+    default: '',
+  },
+  moreDescription: {
     type: String,
     default: '',
   },
@@ -71,11 +76,13 @@ const allergenIconList = computed(() =>
 
 const spicyIcons = computed(() => Array(props.spicyLevel).fill(ChilliIcon))
 
-const images = import.meta.glob('../../assets/images/menu/**/*.webp', {
+const images = import.meta.glob('../../../assets/images/menu/**/*.webp', {
   eager: true,
   import: 'default',
 }) as Record<string, string>
-const imgUrl = computed(() => images[`../../assets/images/menu/${props.imgSrc}.webp`] || '')
+const imgUrl = computed(() => images[`../../../assets/images/menu/${props.imgSrc}.webp`] || '')
+
+const isModalActive = ref(false)
 </script>
 
 <template>
@@ -89,7 +96,7 @@ const imgUrl = computed(() => images[`../../assets/images/menu/${props.imgSrc}.w
     />
 
     <div
-      class="w-full lg:max-w-[52%] lg:group-hover:max-w-[66%] transition-all duration-500 bg-white p-4 flex flex-col gap-2 font-medium rounded-3xl"
+      class="w-full lg:max-w-[52%] lg:group-hover:max-w-[66%] transition-all duration-500 bg-light-bege p-4 flex flex-col gap-2 font-medium rounded-3xl"
     >
       <div class="flex items-center gap-4 h-8">
         <AppLabel v-if="props.recommendation" :text="props.recommendation" />
@@ -130,8 +137,16 @@ const imgUrl = computed(() => images[`../../assets/images/menu/${props.imgSrc}.w
       <div class="lg:mt-auto flex flex-col gap-2 text-center">
         <h3 class="text-[28px]">{{ props.title }}</h3>
 
-        <AppButton text="View" type="transparent-border" />
+        <AppButton text="View" type="transparent-border" @click="isModalActive = true" />
       </div>
     </div>
   </div>
+
+  <DishModal
+    v-if="isModalActive"
+    :title="props.title"
+    :description="props.moreDescription"
+    :imgSrc="imgUrl"
+    @close="isModalActive = false"
+  />
 </template>

@@ -31,7 +31,7 @@ const activeModifierGroup = computed(() => {
   if (props.selectedCategory === CategoryKey.Wok || props.selectedCategory === CategoryKey.All) {
     return props.priceModifiers.find(m => m.type === CategoryKey.Wok)
   }
-  if (props.selectedCategory === 'curry') {
+  if (props.selectedCategory === CategoryKey.Curry) {
     return props.priceModifiers.find(m => m.type === CategoryKey.Curry)
   }
   return null
@@ -52,11 +52,11 @@ const activeModifierIcons = computed(() => {
     <span>{{ $t('offerings.streetFoodCorner.info.banner.chunk1') }}</span>
 
     <div class="flex items-center gap-1">
-      <span title="Chicken">
+      <span title="chicken">
         <ChickenIcon class="w-6 h-6" />
       </span>
       <span>/</span>
-      <span title="Tofu">
+      <span title="tofu">
         <TofuIcon class="w-6 h-6" />
       </span>
     </div>

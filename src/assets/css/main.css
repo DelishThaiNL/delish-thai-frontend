@@ -68,4 +68,13 @@
     width: 10px !important;
     height: 10px !important;
   }
+
+  .scroll-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scroll-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
