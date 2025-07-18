@@ -96,6 +96,7 @@ watch(selectedCategory, () => {
     </div>
 
     <DishBanner
+      v-if="selectedCategory !== CategoryKey.Snack"
       :priceModifiers="priceModifiers"
       :selectedCategory="selectedCategory"
     />
