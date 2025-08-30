@@ -66,7 +66,7 @@ onMounted(() => {
                 </h1>
 
                 <div
-                  class="bg-white py-1 sm:py-2 px-2 sm:px-6 text-sm sm:text-xl xl:text-2xl font-light rounded-lg sm:rounded-[20px]"
+                  class="bg-light-bege py-1 sm:py-2 px-2 sm:px-6 text-sm sm:text-xl xl:text-2xl font-light rounded-lg sm:rounded-[20px]"
                 >
                   {{ $t('home.hero.sliderItem1.description') }}
                 </div>
@@ -107,7 +107,7 @@ onMounted(() => {
                 </div>
 
                 <div
-                  class="bg-white py-1 sm:py-2 px-2 sm:px-6 text-sm sm:text-xl xl:text-2xl font-light rounded-lg sm:rounded-[20px]"
+                  class="bg-light-bege py-1 sm:py-2 px-2 sm:px-6 text-sm sm:text-xl xl:text-2xl font-light rounded-lg sm:rounded-[20px]"
                 >
                   <p class="mb-2 lg:mb-3">{{ $t('home.hero.sliderItem2.description1') }}</p>
                   <p class="font-semibold">{{ $t('home.hero.sliderItem2.description2') }}</p>

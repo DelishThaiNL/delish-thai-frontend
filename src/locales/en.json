@@ -85,71 +85,92 @@
             {
               "title": "Pad Thai",
               "price": 17,
-              "allergences": ["peanut", "soy", "egg", "gluten"],
-              "description": "Thailand’s iconic street-noodle dish – rice noodles in sweet-tangy tamarind sauce with crushed peanuts and fresh lime.",
+              "allergences": ["fish", "egg", "peanut"],
+              "description": "Thailand’s iconic wok-fried noodle dish with egg, peanuts, bean sprouts & our tangy-sweet tamarind sauce.",
               "spicyLevel": 0,
               "recommendation": "#1 Thai street food favorite",
               "src": "wok/pad-thai",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "moreDescription": {
+                "chunk1": "The true taste of Thailand’s streets! Our wok-tossed rice noodles are stir-fried with egg, crunchy peanuts, fresh bean sprouts, spring onion and a perfectly balanced sauce of tamarind, palm sugar and fish sauce.",
+                "chunk2": "Contains: fish, egg, peanut"
+              }
             },
             {
               "title": "Pad See Ew",
               "price": 17,
-              "allergences": ["soy", "egg", "gluten"],
-              "description": "Savory flat noodles stir-fried in dark soy with egg and crisp Chinese broccoli.",
+              "allergences": ["soy", "shellfish", "egg", "gluten"],
+              "description": "Smoky Thai stir-fry with wide rice noodles, egg & broccoli in a rich soy sauce blend.",
               "spicyLevel": 0,
-              "recommendation": "",
+              "recommendation": "Sawi’s childhood favorite ❤️",
               "src": "wok/pad-see-ew",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "moreDescription": {
+                "chunk1": "A Thai street classic with bold, comforting flavors. Wide rice noodles are wok-seared over high heat for a delicious smoky aroma, then tossed with egg, crisp broccoli, and carrot in a savory soy and oyster sauce mix. Simple, hearty, and full of flavor!",
+                "chunk2": "Contains: egg, soy, molluscs (oyster)"
+              }
             },
             {
-              "title": "Fried Rice",
+              "title": "Khao Pad Sapparot (Pineapple Fried Rice)",
               "price": 17,
-              "allergences": ["egg", "soy", "gluten"],
-              "description": "Fragrant Thai fried rice tossed with mixed vegetables and fluffy egg.",
+              "allergences": ["soy", "cashew", "egg", "shellfish"],
+              "description": "Sweet pineapple, cashews & egg fried rice with a hint of curry.",
+              "spicyLevel": 0,
+              "recommendation": "Gerard’s favorite pick! ❤️",
+              "src": "wok/khao-pad-sapparot",
+              "moreDescription": {
+                "chunk1": "A colorful Thai favorite where jasmine rice is fried with egg, pineapple chunks, onion, carrot, bell pepper, spring onion and cashew nuts. Flavored with curry powder, soy sauce and oyster sauce for a fragrant tropical twist.",
+                "chunk2": "Contains: egg, tree nuts (cashew), soy, molluscs (oyster)"
+              }
+            },
+            {
+              "title": "Khao Man Gai (Thai Chicken Rice)",
+              "price": 17,
+              "allergences": ["soy", "fish", "shellfish", "gluten"],
+              "description": "Crispy fried chicken with fragrant rice & Thai sweet chili sauce.",
               "spicyLevel": 0,
               "recommendation": "",
-              "src": "wok/fried-rice",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "src": "wok/khao-Man-gai",
+              "moreDescription": {
+                "chunk1": "A Thai comfort classic with a twist: golden fried chicken served with aromatic jasmine rice, fresh cucumber, coriander, and a touch of Thai sweet chili sauce for the perfect balance of crunch and flavor.",
+                "chunk2": "Contains: soy, molluscs (oyster), fish (sweet chili sauce), gluten (flour)"
+              }            
             },
             {
-              "title": "Cashew Nut Stir-Fry",
+              "title": "Pad Med Mamuang (Cashew Nut Stir-Fry)",
               "price": 17,
-              "allergences": ["cashew", "soy", "gluten"],
-              "description": "Crunchy cashews and vibrant veggies in a rich garlic-soy glaze.",
+              "allergences": ["soy", "fish", "shellfish", "gluten", "cashew"],
+              "description": "Crunchy cashews with colorful veggies in a sweet-savory Thai sauce.",
               "spicyLevel": 0,
               "recommendation": "",
-              "src": "wok/cashew-nut-stir-fry",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
-            },
+              "src": "wok/pad-med-mamuang",
+              "moreDescription": {
+                "chunk1": "A vibrant mix of onion, bell pepper, carrot and garlic wok-tossed with crunchy cashew nuts. The sauce is a flavorful balance of soy, oyster, tamarind and a touch of chili jam. Served with jasmine rice for a perfect bite.",
+                "chunk2": "Contains: tree nuts (cashew), soy, molluscs (oyster), fish"
+              }            },
             {
-              "title": "Sweet & Sour Stir-Fry",
+              "title": "Khao Pad (Fried Rice)",
               "price": 17,
-              "allergences": ["soy", "gluten"],
-              "description": "Pineapple and bell pepper in our bright Thai sweet-and-sour sauce.",
+              "allergences": ["soy", "shellfish", "egg", "gluten"],
+              "description": "Jasmine rice wok-fried with egg, vegetables & our savory soy blend.",
               "spicyLevel": 0,
               "recommendation": "",
-              "src": "wok/sweet-sour-stir-fry",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "src": "wok/khao-pad",
+              "moreDescription": {
+                "chunk1": "Fluffy jasmine rice stir-fried with egg, garlic, onion, carrot, cauliflower and broccoli. Lightly seasoned with soy sauce, oyster sauce and Maggi for a satisfying, homestyle taste.",
+                "chunk2": "Contains: egg, soy, molluscs (oyster)"
+              }            
             },
             {
-              "title": "Pineapple Fried Rice",
+              "title": "Pad Phak Ruam Mitr (Mixed Vegetables Stir-Fry)",
               "price": 17,
-              "allergences": ["soy"],
-              "description": "Golden fried rice with juicy pineapple, curry spices, and garden vegetables – a tropical twist.",
-              "spicyLevel": 0,
-              "recommendation": "We recommend",
-              "src": "wok/pineapple-fried-rice"
-            },
-            {
-              "title": "Mixed Vegetables Stir-Fry",
-              "price": 17,
-              "allergences": ["soy"],
+              "allergences": ["soy", "shellfish"],
               "description": "A rainbow of crisp seasonal veggies in a mild garlic-soy sauce.",
               "spicyLevel": 0,
               "recommendation": "",
-              "src": "wok/mixed-vegetables-stir-fry",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "src": "wok/pad-phak-ruam-mitr",
+              "moreDescription": {
+                "chunk1": "Fresh, colorful vegetables stir-fried over high heat with garlic and a savory soy–oyster sauce. A light and wholesome choice that still delivers big wok flavor.",
+                "chunk2": "Contains: soy, molluscs (oyster sauce)"
+              }            
             }
           ]
         },
@@ -160,22 +181,27 @@
             {
               "title": "Massaman",
               "price": 18,
-              "allergences": ["peanut", "soy", "fish"],
-              "description": "Mild, creamy coconut curry with warm spices, roasted peanuts and tender potatoes.",
+              "allergences": ["fish", "soy", "Gluten", "peanut"],
+              "description": "Rich, aromatic curry with potato, onion & peanuts.",
               "spicyLevel": 0,
-              "recommendation": "",
+              "recommendation": "Chef’s Recommendation",
               "src": "curry/massaman",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
-            },
+              "moreDescription": {
+                "chunk1": "A mild, fragrant curry with tender potatoes, onion, peanuts and a creamy coconut milk base. Flavored with Massaman curry paste, palm sugar and a hint of tamarind for a deep, nutty taste.",
+                "chunk2": "Contains: fish, soy, gluten, peanuts"
+              }            },
             {
               "title": "Panang",
               "price": 18,
-              "allergences": ["peanut", "soy", "fish"],
-              "description": "Rich, slightly spicy coconut curry scented with kaffir lime and sweet basil.",
+              "allergences": ["fish", "shellfish"],
+              "description": "Rich, slightly spicy coconut curry scented with kaffir lime and long beans.",
               "spicyLevel": 1,
               "recommendation": "",
               "src": "curry/panang",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "moreDescription": {
+                "chunk1": "A rich and aromatic Thai curry made with coconut milk, Panang curry paste, kaffir lime leaves, red chili and long beans. Balanced with palm sugar and fish sauce for a sweet, salty and spicy finish.",
+                "chunk2": "Contains: fish, crustaceans (shrimp paste in curry paste)"
+              }            
             }
           ]
         },
@@ -188,39 +214,38 @@
               "allergences": ["peanut", "fish", "shellfish"],
               "description": "Green papaya salad pounded with lime, chili, peanuts, and fish sauce – fresh, zesty, and bold.",
               "spicyLevel": 2,
-              "recommendation": "Thai food lovers will enjoy this",
+              "recommendation": "A must-try for Thai food lovers, when available.",
               "src": "snack/som-tam-thai",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
-            },
-            {
-              "title": "Lumpia",
-              "price": 5,
-              "allergences": ["gluten", "soy", "egg"],
-              "description": "Golden crispy vegetable spring rolls served with sweet-chili dip.",
-              "spicyLevel": 0,
-              "recommendation": "",
-              "src": "snack/lumpia",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
-            },
-            {
-              "title": "Curry Puff",
-              "price": 5,
-              "allergences": ["gluten", "egg", "milk"],
-              "description": "Flaky pastry filled with curried vegetables – a savoury snack with gentle warmth.",
-              "spicyLevel": 0,
-              "recommendation": "",
-              "src": "snack/curry-puff",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "moreDescription": {
+              "chunk1": "The true taste of Thailand’s streets! Freshly shredded green papaya mixed with lime, chili, peanuts, and fish sauce for a vibrant balance of sweet, sour, salty, and spicy. Because we rely on papaya deliveries, this dish is not available every day.",
+              "chunk2": "Contains: fish, peanut"
+              }            
             },
             {
               "title": "Satay Skewer",
               "price": 7,
               "allergences": ["peanut", "soy", "gluten"],
-              "description": "Grilled skewers served with rich Thai peanut sauce and cucumber relish.",
+              "description": "Juicy grilled chicken skewers with creamy Thai peanut sauce",
               "spicyLevel": 0,
-              "recommendation": "We recommend",
-              "src": "snack/satay-skewer",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "recommendation": "Perfect for sharing or as a starter.",
+              "src": "snack/satay",
+              "moreDescription": {
+                "chunk1": "A Thai street food favorite! Tender marinated chicken, grilled to perfection, served with a rich and creamy peanut sauce.",
+                "chunk2": "Contains: peanut, soy, gluten"
+              }            
+            },
+            {
+              "title": "Thai Spring rolls",
+              "price": 5,
+              "allergences": ["gluten", "soy", "egg", "shellfish"],
+              "description": "Golden crispy spring rolls filled with cabbage, carrot, glass noodles, and corn – served with Thai sweet-chili dip.",
+              "spicyLevel": 0,
+              "recommendation": "",
+              "src": "snack/lumpia",
+              "moreDescription": {
+                "chunk1": "Our Thai-style lumpia are stuffed with a flavorful mix of cabbage, carrot, glass noodles, corn, and garlic, seasoned with oyster sauce, white pepper, and a touch of sugar. Wrapped in spring roll pastry (contains egg), fried until perfectly crispy, and paired with a sweet-chili dip.",
+                "chunk2": "Contains: gluten, soy, egg (wrapper), molluscs."
+              }            
             }
           ]
         }

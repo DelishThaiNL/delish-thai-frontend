@@ -38,8 +38,8 @@ const props = defineProps({
     default: '',
   },
   moreDescription: {
-    type: String,
-    default: '',
+    type: Object,
+    default: () => {},
   },
   spicyLevel: {
     type: Number,

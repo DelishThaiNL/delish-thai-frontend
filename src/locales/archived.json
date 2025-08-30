@@ -1,0 +1,30 @@
+{
+    "future menu": [
+        {
+            "title": "Som Tam Thai",
+            "price": 6,
+            "allergences": ["peanut", "fish", "shellfish"],
+            "description": "Green papaya salad pounded with lime, chili, peanuts, and fish sauce – fresh, zesty, and bold.",
+            "spicyLevel": 2,
+            "recommendation": "Thai food lovers will enjoy this",
+            "src": "snack/som-tam-thai",
+            "moreDescription": {
+            "chunk1": "The true taste of Thailand’s streets! Our wok-tossed rice noodles are stir-fried with egg, crunchy peanuts, fresh bean sprouts, spring onion and a perfectly balanced sauce of tamarind, palm sugar and fish sauce.",
+            "chunk2": "Contains: fish, egg, peanut"
+            }            
+        },
+        {
+        "title": "Curry Puff",
+        "price": 5,
+        "allergences": ["gluten", "egg", "milk"],
+        "description": "Flaky pastry filled with curried vegetables – a savoury snack with gentle warmth.",
+        "spicyLevel": 0,
+        "recommendation": "",
+        "src": "snack/curry-puff",
+        "moreDescription": {
+        "chunk1": "The true taste of Thailand’s streets! Our wok-tossed rice noodles are stir-fried with egg, crunchy peanuts, fresh bean sprouts, spring onion and a perfectly balanced sauce of tamarind, palm sugar and fish sauce.",
+        "chunk2": "Contains: fish, egg, peanut"
+        }            
+        }
+    ]
+}

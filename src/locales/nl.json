@@ -86,71 +86,93 @@
             {
               "title": "Pad Thai",
               "price": 17,
-              "allergences": ["peanut", "soy", "egg", "gluten"],
-              "description": "Thailand’s iconic street-noodle dish – rice noodles in sweet-tangy tamarind sauce with crushed peanuts and fresh lime.",
+              "allergences": ["fish", "egg", "peanut"],
+              "description": "Thailand’s iconische wokgerecht met noedels, ei, pinda’s, taugé & onze zoet-frisse tamarindesaus.",
               "spicyLevel": 0,
-              "recommendation": "#1 Thai street food favorite",
+              "recommendation": "#1 Thaise streetfood favoriet",
               "src": "wok/pad-thai",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "moreDescription": {
+                "chunk1": "De echte smaak van de Thaise straat! Onze rijstnoedels worden gewokt met ei, knapperige pinda’s, verse taugé, bosui en een perfect gebalanceerde saus van tamarinde, palmsuiker en vissaus.",
+                "chunk2": "Bevat: vis, ei, pinda"
+              }
             },
             {
               "title": "Pad See Ew",
               "price": 17,
-              "allergences": ["soy", "egg", "gluten"],
-              "description": "Savory flat noodles stir-fried in dark soy with egg and crisp Chinese broccoli.",
+              "allergences": ["soy", "shellfish", "egg", "gluten"],
+              "description": "Rokerige Thaise roerbak met brede rijstnoedels, ei & broccoli in een hartige sojasaus.",
               "spicyLevel": 0,
-              "recommendation": "",
+              "recommendation": "Sawi’s jeugdherinnering ❤️",
               "src": "wok/pad-see-ew",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "moreDescription": {
+                "chunk1": "Een Thaise klassieker met volle, troostrijke smaken. Brede rijstnoedels worden op hoog vuur gewokt voor een heerlijke rokerige smaak, daarna gemengd met ei, knapperige broccoli en wortel in een hartige mix van sojasaus en oestersaus.",
+                "chunk2": "Bevat: ei, soja, weekdieren (oester)"
+              }
             },
             {
-              "title": "Fried Rice",
+              "title": "Khao Pad Sapparot (Ananas Gebakken Rijst)",
               "price": 17,
-              "allergences": ["egg", "soy", "gluten"],
-              "description": "Fragrant Thai fried rice tossed with mixed vegetables and fluffy egg.",
+              "allergences": ["soy", "cashew", "egg", "shellfish"],
+              "description": "Zoete ananas, cashewnoten & ei met gebakken rijst en een vleugje kerrie.",
+              "spicyLevel": 0,
+              "recommendation": "Gerard’s favoriet ❤️",
+              "src": "wok/khao-pad-sapparot",
+              "moreDescription": {
+                "chunk1": "Een kleurrijke Thaise klassieker: jasmijnrijst gebakken met ei, stukjes ananas, ui, wortel, paprika, bosui en cashewnoten. Op smaak gebracht met kerriepoeder, sojasaus en oestersaus voor een tropische twist.",
+                "chunk2": "Bevat: ei, noten (cashew), soja, weekdieren (oester)"
+              }
+            },
+            {
+              "title": "Khao Man Gai (Thaise Kip met Rijst)",
+              "price": 17,
+              "allergences": ["soy", "fish", "shellfish", "gluten"],
+              "description": "Krokant gebakken kip met geurige rijst & Thaise zoete chilisaus.",
               "spicyLevel": 0,
               "recommendation": "",
-              "src": "wok/fried-rice",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "src": "wok/khao-Man-gai",
+              "moreDescription": {
+                "chunk1": "Een Thaise comfortklassieker met een twist: goudbruin gebakken kip geserveerd met geurige jasmijnrijst, verse komkommer, koriander en een vleugje Thaise zoete chilisaus voor de perfecte balans tussen knapperig en smaakvol.",
+                "chunk2": "Bevat: soja, weekdieren (oester), vis (chilisaus), gluten (bloem)"
+              }
             },
             {
-              "title": "Cashew Nut Stir-Fry",
+              "title": "Pad Med Mamuang (Cashew Roerbak)",
               "price": 17,
-              "allergences": ["cashew", "soy", "gluten"],
-              "description": "Crunchy cashews and vibrant veggies in a rich garlic-soy glaze.",
+              "allergences": ["soy", "fish", "shellfish", "gluten", "cashew"],
+              "description": "Knapperige cashewnoten met kleurrijke groenten in een zoet-hartige Thaise saus.",
               "spicyLevel": 0,
               "recommendation": "",
-              "src": "wok/cashew-nut-stir-fry",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "src": "wok/pad-med-mamuang",
+              "moreDescription": {
+                "chunk1": "Een levendige mix van ui, paprika, wortel en knoflook, gewokt met knapperige cashewnoten. De saus is een smaakvolle balans van soja, oester, tamarinde en een vleugje chilijam. Geserveerd met jasmijnrijst voor de perfecte hap.",
+                "chunk2": "Bevat: noten (cashew), soja, weekdieren (oester), vis"
+              }
             },
             {
-              "title": "Sweet & Sour Stir-Fry",
+              "title": "Khao Pad (Gebakken rijst)",
               "price": 17,
-              "allergences": ["soy", "gluten"],
-              "description": "Pineapple and bell pepper in our bright Thai sweet-and-sour sauce.",
+              "allergences": ["soy", "shellfish", "egg", "gluten"],
+              "description": "Jasmijnrijst gebakken met ei, groenten & onze hartige sojasaus.",
               "spicyLevel": 0,
               "recommendation": "",
-              "src": "wok/sweet-sour-stir-fry",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "src": "wok/khao-pad",
+              "moreDescription": {
+                "chunk1": "Luchtige jasmijnrijst gebakken met ei, knoflook, ui, wortel, bloemkool en broccoli. Licht op smaak gebracht met sojasaus, oestersaus en Maggi voor een vertrouwde, huiselijke smaak.",
+                "chunk2": "Bevat: ei, soja, weekdieren (oester)"
+              }
             },
             {
-              "title": "Pineapple Fried Rice",
+              "title": "Pad Phak Ruam Mitr (Gemengde Groenten Roerbak)",
               "price": 17,
-              "allergences": ["soy"],
-              "description": "Golden fried rice with juicy pineapple, curry spices, and garden vegetables – a tropical twist.",
-              "spicyLevel": 0,
-              "recommendation": "We recommend",
-              "src": "wok/pineapple-fried-rice"
-            },
-            {
-              "title": "Mixed Vegetables Stir-Fry",
-              "price": 17,
-              "allergences": ["soy"],
-              "description": "A rainbow of crisp seasonal veggies in a mild garlic-soy sauce.",
+              "allergences": ["soy", "shellfish"],
+              "description": "Een regenboog van knapperige seizoensgroenten in een milde knoflook-sojasaus.",
               "spicyLevel": 0,
               "recommendation": "",
-              "src": "wok/mixed-vegetables-stir-fry",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "src": "wok/pad-phak-ruam-mitr",
+              "moreDescription": {
+                "chunk1": "Verse, kleurrijke groenten roergebakken op hoog vuur met knoflook en een hartige soja–oestersaus. Licht, gezond en toch vol woksmaken.",
+                "chunk2": "Bevat: soja, weekdieren (oestersaus)"
+              }
             }
           ]
         },
@@ -161,69 +183,74 @@
             {
               "title": "Massaman",
               "price": 18,
-              "allergences": ["peanut", "soy", "fish"],
-              "description": "Mild, creamy coconut curry with warm spices, roasted peanuts and tender potatoes.",
+              "allergences": ["fish", "soy", "Gluten", "peanut"],
+              "description": "Rijke, aromatische curry met aardappel, ui & pinda’s.",
               "spicyLevel": 0,
-              "recommendation": "",
+              "recommendation": "Chef’s Aanrader",
               "src": "curry/massaman",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "moreDescription": {
+                "chunk1": "Een milde, geurige curry met zachte aardappelen, ui, pinda’s en een romige kokosmelkbasis. Op smaak gebracht met Massaman currypasta, palmsuiker en een vleugje tamarinde voor een diepe, nootachtige smaak.",
+                "chunk2": "Bevat: vis, soja, gluten, pinda’s"
+              }
             },
             {
               "title": "Panang",
               "price": 18,
-              "allergences": ["peanut", "soy", "fish"],
-              "description": "Rich, slightly spicy coconut curry scented with kaffir lime and sweet basil.",
+              "allergences": ["fish", "shellfish"],
+              "description": "Rijke, licht pittige kokos-curry met kaffir limoenblad en lange bonen.",
               "spicyLevel": 1,
               "recommendation": "",
               "src": "curry/panang",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
+              "moreDescription": {
+                "chunk1": "Een rijke en aromatische Thaise curry gemaakt met kokosmelk, Panang currypasta, kaffir limoenblad, rode chili en lange bonen. In balans gebracht met palmsuiker en vissaus voor een zoete, zoute en pittige afwerking.",
+                "chunk2": "Bevat: vis, schaaldieren (garnalenpasta in currypasta)"
+              }
             }
           ]
         },
         "snack": {
           "label": "Salad & Snacks",
           "dishes": [
-            {
-              "title": "Som Tam Thai",
-              "price": 6,
-              "allergences": ["peanut", "fish", "shellfish"],
-              "description": "Green papaya salad pounded with lime, chili, peanuts, and fish sauce – fresh, zesty, and bold.",
-              "spicyLevel": 2,
-              "recommendation": "Thai food lovers will enjoy this",
-              "src": "snack/som-tam-thai",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
-            },
-            {
-              "title": "Lumpia",
-              "price": 5,
-              "allergences": ["gluten", "soy", "egg"],
-              "description": "Golden crispy vegetable spring rolls served with sweet-chili dip.",
-              "spicyLevel": 0,
-              "recommendation": "",
-              "src": "snack/lumpia",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
-            },
-            {
-              "title": "Curry Puff",
-              "price": 5,
-              "allergences": ["gluten", "egg", "milk"],
-              "description": "Flaky pastry filled with curried vegetables – a savoury snack with gentle warmth.",
-              "spicyLevel": 0,
-              "recommendation": "",
-              "src": "snack/curry-puff",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
-            },
-            {
-              "title": "Satay Skewer",
-              "price": 7,
-              "allergences": ["peanut", "soy", "gluten"],
-              "description": "Grilled skewers served with rich Thai peanut sauce and cucumber relish.",
-              "spicyLevel": 0,
-              "recommendation": "We recommend",
-              "src": "snack/satay-skewer",
-              "moreDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five ce"
-            }
-          ]
+              {
+                "title": "Som Tam Thai",
+                "price": 6,
+                "allergences": ["peanut", "fish", "shellfish"],
+                "description": "Groene papajasalade met limoen, chili, pinda’s en vissaus – fris, pittig & vol smaak.",
+                "spicyLevel": 2,
+                "recommendation": "Een must-try voor Thaise food lovers, wanneer beschikbaar.",
+                "src": "snack/som-tam-thai",
+                "moreDescription": {
+                  "chunk1": "De echte smaak van Thailand’s straten! Vers geraspte groene papaja gemengd met limoen, chili, pinda’s en vissaus voor een levendige balans van zoet, zuur, zout en pittig. Omdat we afhankelijk zijn van papaja-leveringen, is dit gerecht niet elke dag beschikbaar.",
+                  "chunk2": "Bevat: vis, pinda"
+                }
+              },
+              {
+                "title": "Satay Spies",
+                "price": 7,
+                "allergences": ["peanut", "soy", "gluten"],
+                "description": "Sappige gegrilde kipspiesen met romige Thaise pindasaus.",
+                "spicyLevel": 0,
+                "recommendation": "Perfect om te delen of als voorgerecht.",
+                "src": "snack/satay",
+                "moreDescription": {
+                  "chunk1": "Een Thaise streetfood favoriet! Malse gemarineerde kip, perfect gegrild en geserveerd met een rijke en romige pindasaus.",
+                  "chunk2": "Bevat: pinda, soja, gluten"
+                }
+              },
+              {
+                "title": "Thaise Lumpia",
+                "price": 5,
+                "allergences": ["gluten", "soy", "egg", "shellfish"],
+                "description": "Goudbruine krokante lumpia’s gevuld met kool, wortel, glasnoedels en maïs – geserveerd met Thaise zoete chilidip.",
+                "spicyLevel": 0,
+                "recommendation": "",
+                "src": "snack/lumpia",
+                "moreDescription": {
+                  "chunk1": "Onze Thaise lumpia’s zijn gevuld met een smaakvolle mix van kool, wortel, glasnoedels, maïs en knoflook, gekruid met oestersaus, witte peper en een vleugje suiker. Gewikkeld in loempiavel (bevat ei), gefrituurd tot perfect knapperig en geserveerd met een zoete chilidip.",
+                  "chunk2": "Bevat: gluten, soja, ei (deeg), weekdieren"
+                }
+              }
+            ]
         }
       }
     },
