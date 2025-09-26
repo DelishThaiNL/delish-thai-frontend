@@ -13,9 +13,8 @@ const categories = computed(() => {
   const localeMessages = messages.value[locale.value]
 
   return [
-    { name: localeMessages.offerings.streetFoodCorner.menu.wok.label, key: CategoryKey.Wok },
-    { name: localeMessages.offerings.streetFoodCorner.menu.curry.label, key: CategoryKey.Curry },
-    { name: localeMessages.offerings.streetFoodCorner.menu.snack.label, key: CategoryKey.Snack },
+    { name: localeMessages.offerings.streetFoodCorner.menu.mainDishes.label, key: CategoryKey.Main },
+    { name: localeMessages.offerings.streetFoodCorner.menu.smallBitesAndSweets.label, key: CategoryKey.Bite },
   ]
 })
 
@@ -23,14 +22,11 @@ const dishes = computed(() => {
   const localeMessages = messages.value[locale.value]
 
   return [
-    ...localeMessages.offerings.streetFoodCorner.menu.wok.dishes.map(
-      (dish) => ({ ...dish, type: CategoryKey.Wok })
+    ...localeMessages.offerings.streetFoodCorner.menu.mainDishes.dishes.map(
+      (dish) => ({ ...dish, type: CategoryKey.Main })
     ),
-    ...localeMessages.offerings.streetFoodCorner.menu.curry.dishes.map(
-      (dish) => ({ ...dish, type: CategoryKey.Curry })
-    ),
-    ...localeMessages.offerings.streetFoodCorner.menu.snack.dishes.map(
-      (dish) => ({ ...dish, type: CategoryKey.Snack })
+    ...localeMessages.offerings.streetFoodCorner.menu.smallBitesAndSweets.dishes.map(
+      (dish) => ({ ...dish, type: CategoryKey.Bite })
     ),
   ]
 })
@@ -39,8 +35,7 @@ const priceModifiers = computed(() => {
   const localeMessages = messages.value[locale.value]
 
   return [
-    { modifiers: { ...localeMessages.offerings.streetFoodCorner.menu.wok.priceModifiers }, type: CategoryKey.Wok },
-    { modifiers: { ...localeMessages.offerings.streetFoodCorner.menu.curry.priceModifiers }, type: CategoryKey.Curry },
+    { modifiers: { ...localeMessages.offerings.streetFoodCorner.menu.mainDishes.priceModifiers }, type: CategoryKey.Main },
   ]
 })
 
@@ -96,7 +91,7 @@ watch(selectedCategory, () => {
     </div>
 
     <DishBanner
-      v-if="selectedCategory !== CategoryKey.Snack"
+      v-if="selectedCategory !== CategoryKey.Bite"
       :priceModifiers="priceModifiers"
       :selectedCategory="selectedCategory"
     />

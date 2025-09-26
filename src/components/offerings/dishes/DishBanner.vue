@@ -30,11 +30,8 @@ const iconMap: Record<string, Component> = {
 }
 
 const activeModifierGroup = computed(() => {
-  if (props.selectedCategory === CategoryKey.Wok || props.selectedCategory === CategoryKey.All) {
-    return props.priceModifiers.find(m => m.type === CategoryKey.Wok)
-  }
-  if (props.selectedCategory === CategoryKey.Curry) {
-    return props.priceModifiers.find(m => m.type === CategoryKey.Curry)
+  if (props.selectedCategory === CategoryKey.Main || props.selectedCategory === CategoryKey.All) {
+    return props.priceModifiers.find(m => m.type === CategoryKey.Main)
   }
   return null
 })

@@ -24,7 +24,20 @@
         "moreDescription": {
         "chunk1": "The true taste of Thailand’s streets! Our wok-tossed rice noodles are stir-fried with egg, crunchy peanuts, fresh bean sprouts, spring onion and a perfectly balanced sauce of tamarind, palm sugar and fish sauce.",
         "chunk2": "Contains: fish, egg, peanut"
-        }            
-        }
+            }            
+        },  
+        {
+            "title": "Khao Man Gai (Thai Chicken Rice)",
+            "price": 17,
+            "allergences": ["soy", "fish", "shellfish", "gluten"],
+            "description": "Crispy fried chicken with fragrant rice & Thai sweet chili sauce.",
+            "spicyLevel": 0,
+            "recommendation": "",
+            "src": "wok/khao-Man-gai",
+            "moreDescription": {
+            "chunk1": "A Thai comfort classic with a twist: golden fried chicken served with aromatic jasmine rice, fresh cucumber, coriander, and a touch of Thai sweet chili sauce for the perfect balance of crunch and flavor.",
+            "chunk2": "Contains: soy, molluscs (oyster), fish (sweet chili sauce), gluten (flour)"
+            }
+        }       
     ]
 }
