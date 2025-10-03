@@ -72,18 +72,18 @@ const tabs = [
           <div class="flex flex-col gap-16">
             <div class="w-full grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-7 xl:gap-10">
               <CardLink
-                :routeName="'products'"
+                :routeName="'news'"
                 :imgSrc="streetFoodCorner"
                 :text="$t('home.offerings.item1.title')"
               />
               <CardLink
-                :routeName="'products'"
+                :routeName="'news'"
                 :imgSrc="minimarket"
                 :text="$t('home.offerings.item2.title')"
                 :isReversed="true"
               />
               <CardLink
-                :routeName="'products'"
+                :routeName="'news'"
                 :imgSrc="mealKit"
                 :text="$t('home.offerings.item3.title')"
               />
@@ -135,14 +135,14 @@ const tabs = [
 
           <div class="flex flex-col gap-2">
             <OfferBanner
-              :routeName="'products'"
+              :route="{name: 'offerings', query: { tab: 'street-food' }}"
               :bgColor="'bg-green-primary'"
               :color="'white'"
               :imgSrc="offer1"
               :text="'Lorem ipsum dolor sit amet consectetur adipisicing elit.'"
             />
             <OfferBanner
-              :routeName="'products'"
+              :route="{name: 'offerings', query: { tab: 'street-food' }}"
               :bgColor="'bg-light-bege'"
               :color="'black'"
               :imgSrc="offer2"
