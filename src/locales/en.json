@@ -200,17 +200,17 @@
               }
             },
             {
-              "title": "M9. Panang",
-              "price": 16.50,
-              "allergences": ["fish", "shellfish"],
-              "description": "Rich, slightly spicy coconut curry scented with kaffir lime, bell peppers and long beans — served with steamed jasmine rice.",
-              "spicyLevel": 1,
-              "recommendation": "",
-              "src": "Panang",
+              "title": "M9. Phat Nuea Nam Man Hoi",
+              "price": 22.95,
+              "allergences": ["soy", "shellfish", "gluten"],
+              "description": "Tender sliced beef stir-fried with onion and red chilli in our special oyster sauce.",
+              "spicyLevel": 0,
+              "recommendation": "Perfect with jasmine rice",
+              "src": "Phat Nuea Nam Man Hoi",
               "moreDescription": {
-                "chunk1": "A rich and aromatic Thai curry made with coconut milk, Panang curry paste, kaffir lime leaves, , bell peppers and long beans. Balanced with palm sugar and fish sauce for a sweet, salty and spicy finish — served with steamed jasmine rice.",
-                "chunk2": "Contains: fish, crustaceans (shrimp paste in curry paste)"
-              }            
+                "chunk1": "A Thai favorite with tender beef slices, caramelized onion, and fresh red chilli. Wok-fried quickly over high heat and finished in our signature oyster sauce for a rich, savory taste.",
+                "chunk2": "Contains: soy, shellfish (oyster), gluten"
+              }
             }
           ]
         },
@@ -219,7 +219,7 @@
             "dishes": [
               {
                 "title": "S1. Thai Spring rolls",
-                "price": 5,
+                "price": 6.50,
                 "allergences": ["gluten", "soy", "egg", "shellfish"],
                 "description": "Goudbruin krokante loempia’s gevuld met kool, wortel, glasnoedels en maïs – geserveerd met Thaise sweet-chili dip.",
                 "spicyLevel": 0,
@@ -232,7 +232,7 @@
               },
               {
                 "title": "S2. Chicken Satay",
-                "price": 7,
+                "price": 8.95,
                 "allergences": ["peanut", "soy", "gluten"],
                 "description": "Sappige gegrilde kippenspiesen met romige Thaise pindasaus.",
                 "spicyLevel": 0,

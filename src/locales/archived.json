@@ -40,6 +40,20 @@
             }
         } ,
                     {
+              "title": "M9. Panang",
+              "price": 16.50,
+              "allergences": ["fish", "shellfish"],
+              "description": "Rich, slightly spicy coconut curry scented with kaffir lime, bell peppers and long beans — served with steamed jasmine rice.",
+              "spicyLevel": 1,
+              "recommendation": "",
+              "src": "Panang",
+              "moreDescription": {
+                "chunk1": "A rich and aromatic Thai curry made with coconut milk, Panang curry paste, kaffir lime leaves, , bell peppers and long beans. Balanced with palm sugar and fish sauce for a sweet, salty and spicy finish — served with steamed jasmine rice.",
+                "chunk2": "Contains: fish, crustaceans (shrimp paste in curry paste)"
+              }            
+            },
+
+                    {
               "title": "Mango Sticky Rice",
               "price": 6,
               "allergences": ["coconut", "sesame"],

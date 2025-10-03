@@ -201,16 +201,16 @@
                   }
                 },
                 {
-                  "title": "M9. Panang",
-                  "price": 16.50,
-                  "allergences": ["fish", "shellfish"],
-                  "description": "Rijke, licht pittige kokoscurry geparfumeerd met kaffir limoen, paprika en lange bonen — geserveerd met gestoomde jasmijnrijst.",
-                  "spicyLevel": 1,
-                  "recommendation": "",
-                  "src": "Panang",
+                  "title": "M9. Phat Nuea Nam Man Hoi",
+                  "price": 22.95,
+                  "allergences": ["soy", "shellfish", "gluten"],
+                  "description": "Malse reepjes rundvlees, roergebakken met ui en rode peper in onze speciale oestersaus.",
+                  "spicyLevel": 0,
+                  "recommendation": "Heerlijk met jasmijnrijst",
+                  "src": "Phat Nuea Nam Man Hoi",
                   "moreDescription": {
-                    "chunk1": "Een rijke en aromatische Thaise curry met kokosmelk, Panang-currypasta, kaffir limoenblaadjes, paprika en lange bonen. In balans gebracht met palmsuiker en vissaus voor een zoete, zoute en pittige finish — geserveerd met gestoomde jasmijnrijst.",
-                    "chunk2": "Bevat: vis, schaaldieren (garnalenpasta in currypasta)"
+                    "chunk1": "Een Thaise favoriet met malse rundvleesreepjes, gekarameliseerde ui en verse rode peper. Snel gewokt op hoog vuur en afgewerkt in onze signature oestersaus voor een rijke, hartige smaak.",
+                    "chunk2": "Bevat: soja, schaaldieren (oester), gluten"
                   }
                 }
               ]
