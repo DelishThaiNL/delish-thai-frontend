@@ -38,6 +38,19 @@
             "chunk1": "A Thai comfort classic with a twist: golden fried chicken served with aromatic jasmine rice, fresh cucumber, coriander, and a touch of Thai sweet chili sauce for the perfect balance of crunch and flavor.",
             "chunk2": "Contains: soy, molluscs (oyster), fish (sweet chili sauce), gluten (flour)"
             }
-        }       
+        } ,
+                    {
+              "title": "Mango Sticky Rice",
+              "price": 6,
+              "allergences": ["coconut", "sesame"],
+              "description": "Sweet glutinous (sticky) rice cooked in creamy coconut milk, served with ripe mango slices and a drizzle of extra coconut cream — finished with sesame seeds.",
+              "spicyLevel": 0,
+              "recommendation": "",
+              "src": "Mango Sticky Rice",
+              "moreDescription": {
+                "chunk1": "Classic Thai mango sticky rice: glutinous rice is steamed then gently folded with sweetened coconut milk and a pinch of salt, served warm alongside perfectly ripe mango. We finish with an extra spoon of thick coconut cream and a sprinkle of toasted sesame seeds for texture.",
+                "chunk2": "Contains: coconut (coconut milk/cream), sesame (garnish). May contain traces of tree nuts and peanuts due to shared kitchen equipment."
+              }
+            }      
     ]
 }

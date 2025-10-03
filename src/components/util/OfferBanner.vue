@@ -3,8 +3,8 @@ import { RouterLink } from 'vue-router'
 import ArrowIcon from '@/components/icons/ArrowIcon.vue'
 
 const props = defineProps({
-  routeName: {
-    type: String,
+  route: {
+    type: Object,
     required: true,
   },
   bgColor: {
@@ -30,7 +30,7 @@ const props = defineProps({
   <RouterLink
     class="group w-full p-[2px] flex items-center gap-4 xl:gap-6 rounded-full cursor-pointer transition duration-500 hover:bg-white hover:text-black shadow-custom-sm md:shadow-custom-md"
     :class="`${props.bgColor} text-${props.color}`"
-    :to="{ name: props.routeName }"
+    :to="route"
   >
     <div
       class="flex justify-center items-center shrink-0 w-14 sm:w-19 xl:w-24 aspect-square rounded-full"

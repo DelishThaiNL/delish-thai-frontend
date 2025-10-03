@@ -15,6 +15,7 @@
   --background-image-banner1: url('../images/banner1-desktop.webp');
   --background-image-banner1-mobile: url('../images/banner1-mobile.webp');
   --background-image-banner2: url('../images/banner2-desktop.webp');
+  --background-image-banner2-mobile: url('../images/banner2-mobile.webp');
   --shadow-custom-sm:
     15px 12px 5px 0px rgb(18 18 17 / 0%), 10px 8px 5px 0px rgb(18 18 17 / 1%),
     5px 4px 4px 0px rgb(18 18 17 / 3%), 2px 2px 3px 0px rgb(18 18 17 / 5%),
