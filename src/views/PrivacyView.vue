@@ -31,6 +31,9 @@
 
     <h2 class="text-xl font-semibold mt-6 mb-2">{{ $t('privacy.rights.title') }}</h2>
     <p class="mb-2">{{ $t('privacy.rights.text') }}</p>
-    <p>{{ $t('privacy.rights.contact') }} <a href="mailto:info@delishthai.nl" class="text-blue-600 underline">info@delishthai.nl</a></p>
+    <p>
+      {{ $t('privacy.rights.contact') }}
+      <a href="mailto:info@delishthai.nl" class="text-blue-600 underline">info@delishthai.nl</a>
+    </p>
   </section>
 </template>

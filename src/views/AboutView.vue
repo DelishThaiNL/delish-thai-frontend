@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import WhoWeAreWrapper from '@/containers/WhoWeAreWrapper.vue'
+import WhoWeAre from '@/components/home/WhoWeAre.vue'
 </script>
 
 <template>
-  <WhoWeAreWrapper />
+  <div>
+    <WhoWeAre />
+  </div>
 </template>

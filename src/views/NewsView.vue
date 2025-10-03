@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import NewsWrapper from '@/containers/NewsWrapper.vue'
+import NewsEventsTemp from '@/components/home/NewsEventsTemp.vue'
 </script>
 
 <template>
-  <NewsWrapper />
+  <div>
+    <NewsEventsTemp />
+  </div>
 </template>

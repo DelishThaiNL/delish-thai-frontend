@@ -4,6 +4,7 @@
 @theme {
   --font-archivo: 'Archivo', sans-serif;
   --color-green-primary: #5c6c29;
+  --color-brown-secondary: #682d0f;
   --color-cream: #ece6db;
   --color-bege: #d2c1a7;
   --color-light-bege: #fbf8f2;
@@ -14,6 +15,7 @@
   --background-image-banner1: url('../images/banner1-desktop.webp');
   --background-image-banner1-mobile: url('../images/banner1-mobile.webp');
   --background-image-banner2: url('../images/banner2-desktop.webp');
+  --background-image-banner2-mobile: url('../images/banner2-mobile.webp');
   --shadow-custom-sm:
     15px 12px 5px 0px rgb(18 18 17 / 0%), 10px 8px 5px 0px rgb(18 18 17 / 1%),
     5px 4px 4px 0px rgb(18 18 17 / 3%), 2px 2px 3px 0px rgb(18 18 17 / 5%),
@@ -66,5 +68,14 @@
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
     width: 10px !important;
     height: 10px !important;
+  }
+
+  .scroll-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scroll-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }

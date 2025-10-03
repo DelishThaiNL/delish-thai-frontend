@@ -66,26 +66,28 @@ onMounted(() => {
                 </h1>
 
                 <div
-                  class="bg-white py-1 sm:py-2 px-2 sm:px-6 text-sm sm:text-xl xl:text-2xl font-light rounded-lg sm:rounded-[20px]"
+                  class="bg-light-bege py-1 sm:py-2 px-2 sm:px-6 text-sm sm:text-xl xl:text-2xl font-light rounded-lg sm:rounded-[20px]"
                 >
                   {{ $t('home.hero.sliderItem1.description') }}
                 </div>
               </div>
 
-              <div class="lg:flex-1">
+              <div class="hidden lg:flex lg:flex-1"></div>
+
+              <!-- <div class="lg:flex-1">
                 <img
                   class="w-full max-w-28 sm:max-w-[200px] lg:max-w-[320px] xl:max-w-[400px] 2xl:max-w-[470px]"
                   src="@/assets/images/logo-white.png"
                   alt="Delish Thai Logo"
                 />
-              </div>
+              </div> -->
             </div>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div
-            class="w-full h-[500px] sm:h-[600px] 2xl:h-[800px] bg-banner2 bg-no-repeat bg-[35%] md:bg-left lg:bg-center bg-cover shadow-custom-sm md:shadow-custom-xl rounded-3xl lg:rounded-4xl xl:rounded-[48px]"
+            class="w-full h-[500px] sm:h-[600px] 2xl:h-[800px] bg-banner2-mobile lg:bg-banner2 bg-no-repeat bg-[35%] md:bg-left lg:bg-center bg-cover shadow-custom-sm md:shadow-custom-xl rounded-3xl lg:rounded-4xl xl:rounded-[48px]"
           >
             <div
               class="container h-full py-24 flex items-center justify-center flex-col lg:flex-row gap-8 lg:gap-0"
@@ -107,7 +109,7 @@ onMounted(() => {
                 </div>
 
                 <div
-                  class="bg-white py-1 sm:py-2 px-2 sm:px-6 text-sm sm:text-xl xl:text-2xl font-light rounded-lg sm:rounded-[20px]"
+                  class="bg-light-bege py-1 sm:py-2 px-2 sm:px-6 text-sm sm:text-xl xl:text-2xl font-light rounded-lg sm:rounded-[20px]"
                 >
                   <p class="mb-2 lg:mb-3">{{ $t('home.hero.sliderItem2.description1') }}</p>
                   <p class="font-semibold">{{ $t('home.hero.sliderItem2.description2') }}</p>

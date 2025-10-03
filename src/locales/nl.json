@@ -11,16 +11,16 @@
         "title": "Welkom bij Delish Thai",
         "description": "BRENGT THAILAND BIJ JOU THUIS"
       },
-      "sliderItem2": {
-        "title": "Binnenkort!",
-        "subtitle": "(deze zomer)",
-        "description1": "In het hart van Veenendaal:",
-        "description2": "BERNARD VAN KREELPOORT 5"
-      }
+    "sliderItem2": {
+      "title": "Opening Streetfood Corner",
+      "subtitle": "Zaterdag 11 oktober 2025",
+      "description1": "Eerst open: onze Thaise streetfood-afhaal",
+      "description2": "BERNARD VAN KREELPOORT 5"
+    }
     },
     "offers": {
-      "title1": "Kom snel terug - binnenkort maken we onze speciale openingsaanbieding bekend - speciaal voor jou!",
-      "title2": "Binnenkort bij Delish Thai: maaltijdpakketten. Echte Thaise smaken, zó op tafel."
+      "title1": "Bekijk ons Thaise streetfood-menu.",
+      "title2": "Delish Thai Minimarket — binnenkort geopend."
     },
     "offerings": {
       "title": "Bekijk wat we voor je hebben",
@@ -53,40 +53,213 @@
     },
     "news": {
       "title": "Nieuws",
-      "date": "22 april 2025",
-      "item1": {
-        "title": "We hebben onze locatie in het hart van Veenendaal vastgelegd – Delish Thai komt dichterbij! De locatie is Bernard van Kreelpoort 5, Veenendaal. We zijn nu bezig om de ruimte om te toveren tot een warme en gastvrije Thaise minimarkt. Blijf ons volgen – we kunnen niet wachten om je binnenkort te verwelkomen!",
-        "buttonText": "Lees meer"
-      }
+      "items": [
+        {
+          "title": "Uitgelicht door Winkelstad Veenendaal",
+          "date": "2 oktober 2025",
+          "description": "Dank aan Raoni van de Pol (Marketing & PR-coördinator) voor het langskomen, het schrijven van ons verhaal en de foto’s. Het artikel belicht onze Thaise street-food afhaal, favorieten zoals Massaman en Pad Kra Pao, je keuze aan eiwitten en ons plan om gerechten toe te voegen uit Sawi’s Isaan-roots plus seizoensspecials. Ook krijg je een voorproefje van onze minimarkt met Thaise basisproducten.",
+          "buttonText": "Lees het artikel",
+          "src": "02-10-2025 Winkelstad Veenendaal.jpg",
+          "link": "https://winkelstadveenendaal.nl/nieuws/delish-thai-opent-deuren-bernard-van-kreelpoort?fbclid=IwY2xjawNMf-JleHRuA2FlbQIxMQABHg29fUma_VYEIbN9GYGqrQY0L9QR9V6j4XtWObZwp9bhHHYqfdbaBcotjuPf_aem_XjQgxPgGIVGfeVW_ZmtvOw"
+        },
+        {
+          "title": "In de media: Een stukje Thailand in Veenendaal",
+          "date": "9 september 2025",
+          "description": "Indebuurt Veenendaal interviewde Sawi & Gerard over onze Thaise street-food hoek, de aankomende minimarkt en waarom we voor deze levendige binnenstad kozen. Speciale dank aan Fleur Hensen voor het mooie artikel en de foto’s.",
+          "buttonText": "Lees het artikel",
+          "src": "09-09-2025 Indebuurt Veenendaal.jpg",
+          "link": "https://indebuurt.nl/veenendaal/nieuws/sawi-en-gerard-brengen-met-hun-nieuwe-zaak-een-stukje-thailand-naar-veenendaal~315004/?fbclid=IwY2xjawNMg9lleHRuA2FlbQIxMQABHniQwYgwftSS7wEuW7lIUXb83hUGhjfXAib56g7nQwql3FfX9o33Txm4Ikmp_aem_JZfA3oU6zpPGkSvT7ghmzg"
+        }
+      ]
     },
     "buttonViewAll": "Bekijk alles"
   },
   "offerings": {
     "streetFoodCorner": {
       "info": {
-        "title": "Thaise Streetfood Hoek",
+        "title": "Thaise Street Food Hoek",
         "description": {
-          "chunk1": "Bij Delish Thai draait onze streetfoodhoek om warmte, gezelligheid en het plezier van het delen van échte Thaise smaken. Of je nu zin hebt in een snelle hap of een knus plekje zoekt om even tot rust te komen – je bent hier altijd welkom. Onze gerechten worden met zorg vers bereid, net als thuis in Thailand, en geserveerd in een ontspannen en vriendelijke sfeer.",
-          "chunk2": "Dit staat er op het menu:",
+          "chunk1": "Bij Delish Thai draait onze street food hoek om warmte, comfort en het plezier van échte Thaise smaken delen. Of je nu op zoek bent naar een snelle hap of een gezellig moment voor jezelf, je bent hier altijd welkom. Onze gerechten worden met zorg en vers bereid – net als thuis in Thailand – en geserveerd in een ontspannen en huiselijke sfeer.",
+          "chunk2": "Dit vind je op ons menu:",
           "chunk3": "• Klassieke Thaise streetfood favorieten – Pad Thai, Khao Pad (gebakken rijst) en curry’s, op traditionele wijze bereid met liefde en balans.",
-          "chunk4": "• Heerlijke snacks – Knapperige loempia’s, gegrilde saté met romige pindasaus en andere smaakvolle kleine hapjes.",
-          "chunk5": "• Verfrissende Thaise drankjes – Zoals Thaise ijsthee, citroengras-infusies en tropische vruchtensappen om je op te frissen en op te vrolijken.",
-          "chunk6": "Een knus zitgedeelte — Een klein maar warm plekje waar je in alle rust van je maaltijd kunt genieten. We hebben dit hoekje van Thailand met liefde gecreëerd, en of je nu voor het eerst Thaise gerechten probeert of het al een deel van je leven is, we hopen dat je je hier thuis voelt – en dat elk bezoek je een glimlach én iets lekkers meegeeft om te onthouden."
+          "chunk4": "• Lekkere snacks – Krokante loempia’s, gegrilde saté met romige pindasaus en andere smaakvolle hapjes.",
+          "chunk5": "• Verfrissende Thaise drankjes – Zoals Thaise ijsthee, citroengrasinfusies en tropische vruchtensappen om je op te frissen en op te vrolijken.",
+          "chunk6": "Een knusse zithoek – Een klein maar welkom plekje om rustig van je maaltijd te genieten. We hebben dit hoekje van Thailand met hart en ziel gecreëerd, en of je nu voor het eerst Thais eet of er al van houdt: we hopen dat je je thuis voelt en dat elk bezoek je met een glimlach én iets lekkers achterlaat."
+        },
+        "banner": {
+          "chunk1": "Alle hoofdgerechten:",
+          "chunk2": "inbegrepen."
+        }
+      },
+        "menu": {
+          "mainDishes": {
+            "label": "Main Dishes",
+            "priceModifiers": { "chicken": 0, "tofu": 0, "beef": 2, "shrimp": 2 },
+            "dishes": [
+                {
+                  "title": "M1. Pad Kra Pao Kai(Thai Basil Stir-Fry)",
+                  "price": 16.50,
+                  "allergences": ["soy", "fish", "gluten", "shellfish"],
+                  "description": "Vurige roerbak van gehakt, knoflook en veel heilige basilicum — hartig en aromatisch.",
+                  "spicyLevel": 2,
+                  "recommendation": "Favoriet van Sawi ❤️",
+                  "src": "Pad Kra Pao",
+                  "moreDescription": {
+                    "chunk1": "Een klassiek Thais streetfoodgerecht: kipgehakt gewokt met knoflook, verse rawitpepertjes en volop heilige (kra pao) basilicum, gekruid met vissaus, oestersaus en een tikkeltje soja. Intens aromatisch, hartig en licht pittig — geserveerd met gestoomde jasmijnrijst.",
+                    "chunk2": "Bevat: vis (vissaus), soja, weekdieren (oestersaus), gluten (in soja-/oestersauzen)"
+                  }
+                },
+                {
+                  "title": "M2. Khao Pad Sapparot (Pineapple Fried Rice)",
+                  "price": 15.95,
+                  "allergences": ["soy", "cashew", "egg", "shellfish"],
+                  "description": "Zoete ananas, rozijnen, cashewnoten & ei in gebakken rijst met een vleugje kerrie.",
+                  "spicyLevel": 0,
+                  "recommendation": "Favoriet van Gerard ❤️",
+                  "src": "Khao Pad Sapparot",
+                  "moreDescription": {
+                    "chunk1": "Een kleurrijke Thaise favoriet waarbij jasmijnrijst wordt gebakken met ei, ananasstukjes, ui, wortel, paprika, rozijnen, bosui en cashewnoten. Op smaak gebracht met kerriepoeder, sojasaus en oestersaus voor een geurige tropische twist.",
+                    "chunk2": "Bevat: ei, noten (cashew), soja, weekdieren (oester)"
+                  }
+                },
+                {
+                  "title": "M3. Massaman",
+                  "price": 15.50,
+                  "allergences": ["fish", "soy", "Gluten", "peanut"],
+                  "description": "Rijke, aromatische curry met aardappel, ui & pinda’s.",
+                  "spicyLevel": 0,
+                  "recommendation": "Aanrader van de chef",
+                  "src": "Massaman",
+                  "moreDescription": {
+                    "chunk1": "Een milde, geurende curry met zachte aardappelen, ui, pinda’s en een romige basis van kokosmelk. Op smaak gebracht met Massaman-currypasta, palmsuiker en een vleugje tamarinde voor een diepe, nootachtige smaak — geserveerd met gestoomde jasmijnrijst.",
+                    "chunk2": "Bevat: vis, soja, gluten, pinda’s"
+                  }
+                },
+                {
+                  "title": "M4. Pad Thai",
+                  "price": 16.95,
+                  "allergences": ["fish", "egg", "peanut"],
+                  "description": "Het iconische Thaise woknoedelgerecht met ei, pinda’s, taugé & onze fris-zoete tamarindesaus.",
+                  "spicyLevel": 0,
+                  "recommendation": "#1 Thaise streetfoodfavoriet",
+                  "src": "Pad Thai",
+                  "moreDescription": {
+                    "chunk1": "De echte smaak van de Thaise straten! Onze gewokte rijstnoedels worden geroerbakt met ei, knapperige pinda’s, verse taugé, bosui en een perfect gebalanceerde saus van tamarinde, palmsuiker en vissaus.",
+                    "chunk2": "Bevat: vis, ei, pinda"
+                  }
+                },
+                {
+                  "title": "M5. Pad Med Mamuang",
+                  "price": 14.95,
+                  "allergences": ["soy", "fish", "shellfish", "gluten", "cashew"],
+                  "description": "Knapperige cashewnoten met kleurrijke groenten in een zoet-hartige Thaise saus.",
+                  "spicyLevel": 0,
+                  "recommendation": "",
+                  "src": "Pad Med Mamuang",
+                  "moreDescription": {
+                    "chunk1": "Een levendige mix van ui, paprika, wortel en knoflook, gewokt met knapperige cashewnoten. De saus is een smaakvolle balans van soja, oester, tamarinde en een vleugje chilijam. Geserveerd met jasmijnrijst voor de perfecte hap.",
+                    "chunk2": "Bevat: noten (cashew), soja, weekdieren (oester), vis"
+                  }
+                },
+                {
+                  "title": "M6. Khao Pad (Gebakken rijst)",
+                  "price": 9.95,
+                  "allergences": ["soy", "shellfish", "egg", "gluten"],
+                  "description": "Jasmijnrijst gewokt met ei, groenten & onze hartige sojamelange.",
+                  "spicyLevel": 0,
+                  "recommendation": "",
+                  "src": "Khao Pad",
+                  "moreDescription": {
+                    "chunk1": "Luchtige jasmijnrijst geroerbakt met ei, knoflook, ui, wortel, paprika en maïs. Licht gekruid met onze hartige sojamelange voor een vertrouwde, huiselijke smaak.",
+                    "chunk2": "Bevat: ei, soja, weekdieren (oester)"
+                  }
+                },
+                {
+                  "title": "M7. Pad Phak Ruam Mitr",
+                  "price": 14.95,
+                  "allergences": ["soy", "shellfish"],
+                  "description": "Een regenboog aan knapperige seizoensgroenten in een milde knoflook-sojasaus.",
+                  "spicyLevel": 0,
+                  "recommendation": "",
+                  "src": "Pad Phak Ruam Mitr",
+                  "moreDescription": {
+                    "chunk1": "Verse, kleurrijke groenten kort en heet geroerbakt met knoflook en een hartige soja-oestersaus. Licht en voedzaam, maar vol woksmaken — geserveerd met gestoomde jasmijnrijst.",
+                    "chunk2": "Bevat: soja, weekdieren (oestersaus)"
+                  }
+                },
+                {
+                  "title": "M8. Pad See Ew",
+                  "price": 12.50,
+                  "allergences": ["soy", "shellfish", "egg", "gluten"],
+                  "description": "Rokerige Thaise roerbak met brede rijstnoedels, ei & broccoli in een rijke sojasausmix.",
+                  "spicyLevel": 0,
+                  "recommendation": "",
+                  "src": "Pad See Ew",
+                  "moreDescription": {
+                    "chunk1": "Een Thaise streetklassieker met volle, geruststellende smaken. Brede rijstnoedels worden op hoge hitte gewokt voor een heerlijke rokerige geur, daarna gemengd met ei, knapperige broccoli en wortel in een hartige mix van soja- en oestersaus. Simpel, voedzaam en vol smaak!",
+                    "chunk2": "Bevat: ei, soja, weekdieren (oester)"
+                  }
+                },
+                {
+                  "title": "M9. Panang",
+                  "price": 16.50,
+                  "allergences": ["fish", "shellfish"],
+                  "description": "Rijke, licht pittige kokoscurry geparfumeerd met kaffir limoen, paprika en lange bonen — geserveerd met gestoomde jasmijnrijst.",
+                  "spicyLevel": 1,
+                  "recommendation": "",
+                  "src": "Panang",
+                  "moreDescription": {
+                    "chunk1": "Een rijke en aromatische Thaise curry met kokosmelk, Panang-currypasta, kaffir limoenblaadjes, paprika en lange bonen. In balans gebracht met palmsuiker en vissaus voor een zoete, zoute en pittige finish — geserveerd met gestoomde jasmijnrijst.",
+                    "chunk2": "Bevat: vis, schaaldieren (garnalenpasta in currypasta)"
+                  }
+                }
+              ]
+          },
+          "smallBitesAndSweets": {
+            "label": "Small Bites & Sweets",
+            "dishes": [
+              {
+                "title": "S1. Thaise Loempia",
+                "price": 5,
+                "allergences": ["gluten", "soy", "egg", "shellfish"],
+                "description": "Goudbruin krokante loempia’s gevuld met kool, wortel, glasnoedels en maïs – geserveerd met Thaise sweet-chili dip.",
+                "spicyLevel": 0,
+                "recommendation": "Huisgemaakt",
+                "src": "Thai Spring rolls",
+                "moreDescription": {
+                  "chunk1": "Onze Thaise lumpia’s zijn gevuld met een smaakvolle mix van kool, wortel, glasnoedels, maïs en knoflook, op smaak gebracht met oestersaus, witte peper en een vleugje suiker. Gewikkeld in loempiavel (bevat ei), gefrituurd tot perfect krokant en geserveerd met een sweet-chili dip.",
+                  "chunk2": "Bevat: gluten, soja, ei (vel), weekdieren."
+                }
+              },
+              {
+                "title": "S2. Kipsaté",
+                "price": 7,
+                "allergences": ["peanut", "soy", "gluten"],
+                "description": "Sappige gegrilde kippenspiesen met romige Thaise pindasaus.",
+                "spicyLevel": 0,
+                "recommendation": "Huisgemaakt",
+                "src": "Chicken Satay",
+                "moreDescription": {
+                  "chunk1": "Een Thaise streetfoodfavoriet! Mals gemarineerde kip, gegrild tot perfectie en geserveerd met een volle, romige pindasaus.",
+                  "chunk2": "Bevat: pinda, soja, gluten"
+                }
+              }
+            ]
+          }
+        }
+    },
+    "minimarket": {
+      "info": {
+        "title": "Mini Markt",
+        "description": {
+          "chunk1": "Onze mini markt is gespecialiseerd in authentieke Thaise ingrediënten en lekkernijen, zorgvuldig geselecteerd om de beste kwaliteit en échte Thaise smaken te garanderen.",
+          "chunk2": "Je vindt bij ons essentiële ingrediënten zoals verse Thaise basilicum, kaffir limoenblad, galanga, citroengras en chilipepers – de basis van veel geliefde Thaise gerechten, vers en vol smaak.",
+          "chunk3": "Daarnaast bieden we een ruim assortiment aan authentieke sauzen en currypasta’s – waaronder rode, groene en massaman curry – evenals vissaus, oestersaus, tamarindepasta en andere essentiële smaakmakers.",
+          "chunk4": "Ook vind je bij ons Thaise drankjes en theesoorten – perfect voor een verfrissend moment of bij je maaltijd. En een paar non-food items zoals traditionele kruideninhalers en de populaire elephant pants – ideaal als cadeau of een vleugje Thaise gezelligheid voor thuis.",
+          "chunk5": "Naast geïmporteerde producten bieden we ook een wisselend aanbod van seizoensgebonden groenten en fruit van Nederlandse bodem. Deze verse ingrediënten zijn perfect te combineren met Thaise producten en nodigen uit tot creatieve fusiongerechten of toegankelijke dagelijkse maaltijden met een Thaise twist."
         }
       }
     },
-  "minimarket": {
-    "info": {
-      "title": "Mini Markt",
-      "description": {
-        "chunk1": "Onze mini markt is gespecialiseerd in authentieke Thaise ingrediënten en lekkernijen, zorgvuldig geselecteerd om de beste kwaliteit en échte Thaise smaken te garanderen.",
-        "chunk2": "Je vindt bij ons essentiële ingrediënten zoals verse Thaise basilicum, kaffir limoenblad, galanga, citroengras en chilipepers – de basis van veel geliefde Thaise gerechten, vers en vol smaak.",
-        "chunk3": "Daarnaast bieden we een ruim assortiment aan authentieke sauzen en currypasta’s – waaronder rode, groene en massaman curry – evenals vissaus, oestersaus, tamarindepasta en andere essentiële smaakmakers.",
-        "chunk4": "Ook vind je bij ons Thaise drankjes en theesoorten – perfect voor een verfrissend moment of bij je maaltijd. En een paar non-food items zoals traditionele kruideninhalers en de populaire elephant pants – ideaal als cadeau of een vleugje Thaise gezelligheid voor thuis.",
-        "chunk5": "Naast geïmporteerde producten bieden we ook een wisselend aanbod van seizoensgebonden groenten en fruit van Nederlandse bodem. Deze verse ingrediënten zijn perfect te combineren met Thaise producten en nodigen uit tot creatieve fusiongerechten of toegankelijke dagelijkse maaltijden met een Thaise twist."
-      }
-    }
-  },
     "mealKit": {
       "info": {
         "title": "Maaltijdkit",
@@ -135,5 +308,5 @@
       "text": "Je kunt altijd jouw gegevens inzien, corrigeren of laten verwijderen.",
       "contact": "Neem contact op via"
     }
-  }  
+  }
 }
