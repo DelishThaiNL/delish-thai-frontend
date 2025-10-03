@@ -220,7 +220,7 @@
             "dishes": [
               {
                 "title": "S1. Thaise Loempia",
-                "price": 5,
+                "price": 6.50,
                 "allergences": ["gluten", "soy", "egg", "shellfish"],
                 "description": "Goudbruin krokante loempia’s gevuld met kool, wortel, glasnoedels en maïs – geserveerd met Thaise sweet-chili dip.",
                 "spicyLevel": 0,
@@ -233,7 +233,7 @@
               },
               {
                 "title": "S2. Kipsaté",
-                "price": 7,
+                "price": 8.95,
                 "allergences": ["peanut", "soy", "gluten"],
                 "description": "Sappige gegrilde kippenspiesen met romige Thaise pindasaus.",
                 "spicyLevel": 0,
