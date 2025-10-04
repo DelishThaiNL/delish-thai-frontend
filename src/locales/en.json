@@ -96,15 +96,15 @@
           "priceModifiers": { "chicken": 0, "tofu": 0, "beef": 2},
           "dishes": [
             {
-              "title": "M1. Pad Kra Pao Kai(Thai Basil Stir-Fry)",
+              "title": "M1. Pad Kra Pao (Thai Basil Stir-Fry)",
               "price": 16.50,
               "allergences": ["soy", "fish", "gluten", "shellfish"],
-              "description": "Fiery stir-fry of minced meat, garlic and plenty of holy basil — savory, aromatic.",
+              "description": "Fiery stir-fry of minced chicken/sliced beef, garlic and plenty of holy basil — savory, aromatic.",
               "spicyLevel": 2,
               "recommendation": "Sawi’s childhood favorite ❤️",
               "src": "Pad Kra Pao",
               "moreDescription": {
-                "chunk1": "A classic Thai street-food dish: minced chicken wok-tossed with garlic, fresh bird’s eye chillies, and loads of holy (kra pao) basil, seasoned with fish sauce, oyster sauce and a touch of soy. Intensely aromatic, savoury and slightly spicy — served with steamed jasmine rice.",
+                "chunk1": "A classic Thai street-food dish: minced chicken/sliced beef wok-tossed with garlic, fresh bird’s eye chillies, and loads of holy (kra pao) basil, seasoned with fish sauce, oyster sauce and a touch of soy. Intensely aromatic, savoury and slightly spicy — served with steamed jasmine rice.",
                 "chunk2": "Contains: fish (fish sauce), soy, molluscs (oyster sauce), gluten (in soy/oyster sauces)"
               }
             },
