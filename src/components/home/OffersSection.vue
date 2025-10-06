@@ -13,12 +13,14 @@ import offer2 from '@/assets/images/offer2.png'
       :imgSrc="offer1"
       :text="$t('home.offers.title1')"
     />
-    <OfferBanner
-      :route="{name: 'offerings', query: { tab: 'mini-market' }}"
-      :bgColor="'bg-light-bege'"
-      :color="'black'"
-      :imgSrc="offer2"
-      :text="$t('home.offers.title2')"
-    />
+    <a
+      href="https://forms.leat.com/forms/a8989f33-ee5e-41f9-922f-12f24c55fdd0?account-uuid=a69850a0-d85d-47a2-ae41-8f0a2ee6ed6e">
+      <OfferBanner
+        :bgColor="'bg-light-bege'"
+        :color="'black'"
+        :imgSrc="offer2"
+        :text="$t('home.offers.title2')"
+      />
+    </a>
   </section>
 </template>
