@@ -243,7 +243,20 @@
                   "chunk1": "Een Thaise streetfoodfavoriet! Mals gemarineerde kip, gegrild tot perfectie en geserveerd met een volle, romige pindasaus.",
                   "chunk2": "Bevat: pinda, soja, gluten"
                 }
+              },
+              {
+              "title": "S3. Mango Sticky Rice",
+              "price": 6,
+              "allergences": ["coconut", "sesame"],
+              "description": "Zoete kleefrijst (sticky rice) gekookt in romige kokosmelk, geserveerd met rijpe mangoplakken en een extra drizzle kokosroom — afgemaakt met sesamzaad.",
+              "spicyLevel": 0,
+              "recommendation": "",
+              "src": "Mango Sticky Rice",
+              "moreDescription": {
+                "chunk1": "Klassieke Thaise mango sticky rice: kleefrijst wordt gestoomd en vervolgens voorzichtig gemengd met gezoete kokosmelk en een snufje zout, warm geserveerd naast perfect rijpe mango. We maken het af met een extra lepel dikke kokosroom en een snufje geroosterd sesamzaad voor textuur.",
+                "chunk2": "Bevat: kokos (kokosmelk/room), sesam (garnering). Kan sporen bevatten van noten en pinda’s door gedeelde keukenapparatuur."
               }
+            }
             ]
           }
         }
