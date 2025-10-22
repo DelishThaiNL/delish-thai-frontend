@@ -9,7 +9,7 @@
     "hero": {
       "sliderItem1": {
         "title": "Welkom bij Delish Thai",
-        "description": "BRENGT THAILAND BIJ JOU THUIS"
+        "description": "Tik om online te bestellen en af te halen"
       },
     "sliderItem2": {
       "title": "Opening Streetfood Corner",
@@ -28,10 +28,10 @@
         "title": "Thaise Street Food-hoek"
       },
       "minimarket": {
-        "title": "Minimarkt"
+        "title": "Minimarkt - Komt binnenkort"
       },
       "mealKit": {
-        "title": "Maaltijdpakket"
+        "title": "Maaltijdpakket - Komt binnenkort"
       }
     },
     "about": {

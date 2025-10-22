@@ -9,7 +9,7 @@
     "hero": {
       "sliderItem1": {
         "title": "Welcome to Delish Thai",
-        "description": "BRINGING THAILAND TO YOUR HOME"
+        "description": "Click here to order online & pick up"
       },
       "sliderItem2": {
         "title": "Street Food Corner Opening",
@@ -28,10 +28,10 @@
         "title": "Thai  Street Food Corner"
       },
       "minimarket": {
-        "title": "Mini Market"
+        "title": "Mini Market - Coming Soon"
       },
       "mealKit": {
-        "title": "Meal Kits"
+        "title": "Meal Kits - Coming Soon"
       }
     },
     "about": {

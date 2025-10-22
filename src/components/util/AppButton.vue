@@ -24,6 +24,7 @@ const props = defineProps({
       'min-w-[154px] bg-green-primary text-white py-3 hover:bg-white hover:text-black':
         props.type === 'default',
       'bg-transparent text-green-primary py-2 hover:bg-white': props.type === 'transparent',
+      'bg-white text-xl text-black py-2 hover:bg-green-primary hover:text-white': props.type === 'bg-white',
       'bg-transparent text-green-primary py-2 outline-2 outline-green-primary -outline-offset-2 hover:bg-white':
         props.type === 'transparent-border',
     }"

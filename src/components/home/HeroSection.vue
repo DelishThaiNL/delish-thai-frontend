@@ -7,6 +7,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/autoplay'
 import { Autoplay, Pagination, Navigation } from 'swiper/modules'
 import ArrowIcon from '@/components/icons/ArrowIcon.vue'
+import AppButton from '@/components/util/AppButton.vue'
 
 const modules = [Autoplay, Pagination, Navigation]
 
@@ -64,12 +65,18 @@ onMounted(() => {
                 >
                   {{ $t('home.hero.sliderItem1.title') }}
                 </h1>
+              <a
+                href="https://mylightspeed.app/FTVNJXKG/C-ordering/menu"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AppButton
+                 :text="$t('home.hero.sliderItem1.description')"
+                 type="bg-white"
+                />
+              </a>
 
-                <div
-                  class="bg-light-bege py-1 sm:py-2 px-2 sm:px-6 text-sm sm:text-xl xl:text-2xl font-light rounded-lg sm:rounded-[20px]"
-                >
-                  {{ $t('home.hero.sliderItem1.description') }}
-                </div>
+
               </div>
 
               <div class="hidden lg:flex lg:flex-1"></div>
@@ -84,7 +91,7 @@ onMounted(() => {
             </div>
           </div>
         </SwiperSlide>
-
+<!--
         <SwiperSlide>
           <div
             class="w-full h-[500px] sm:h-[600px] 2xl:h-[800px] bg-banner2-mobile lg:bg-banner2 bg-no-repeat bg-[35%] md:bg-left lg:bg-center bg-cover shadow-custom-sm md:shadow-custom-xl rounded-3xl lg:rounded-4xl xl:rounded-[48px]"
@@ -119,7 +126,7 @@ onMounted(() => {
               <div class="hidden lg:flex lg:flex-1"></div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> -->
       </Swiper>
 
       <!-- Custom controls layout -->
