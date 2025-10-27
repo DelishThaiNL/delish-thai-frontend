@@ -19,7 +19,9 @@ import InstagramIcon from '@/components/icons/social/InstagramIcon.vue'
             class="flex flex-col sm:flex-row justify-between gap-4 text-sm text-gray-secondary font-medium px-[6px]"
           >
             <div class="flex flex-col gap-2 items-start">
-              <span> Tue - Sat: 12:00-19:00 </span>
+              <span> Din - do: 16:00-19:00 </span>
+              <span> Vrijdag: 12:00-20:00 </span>
+              <span> Zaterdag: 12:00-19:00 </span>
 
               <span> Bernard van Kreelpoort 5, Veenendaal </span>
             </div>

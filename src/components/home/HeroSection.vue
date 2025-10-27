@@ -65,18 +65,34 @@ onMounted(() => {
                 >
                   {{ $t('home.hero.sliderItem1.title') }}
                 </h1>
-              <a
-                href="https://mylightspeed.app/FTVNJXKG/C-ordering/menu"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AppButton
-                 :text="$t('home.hero.sliderItem1.description')"
-                 type="bg-white"
-                />
-              </a>
+              <div>
+                <a
+                  href="https://mylightspeed.app/FTVNJXKG/C-ordering/menu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="group inline-block"
+                >
+                  <div
+                    class="relative inline-flex items-center gap-2 p-[2px] rounded-[26px] sm:rounded-4xl xl:rounded-[40px] bg-light-bege md:shadow-custom-sm transition-all duration-500 group-hover:py-2 xl:group-hover:py-[10px]"
+                  >
+                    <p class="ml-4 text-lg sm:text-xl xl:text-2xl font-medium">
+                      {{$t('home.hero.sliderItem1.description')}}
+                    </p>
 
+                    <div
+                      class="flex justify-center items-center shrink-0 w-[50px] sm:w-15 xl:w-19 aspect-square rounded-full ml-auto bg-bege transition duration-500 group-hover:bg-transparent"
+                    >
+                      <ArrowIcon color="black" />
+                    </div>
 
+                    <!-- optional hover overlay -->
+                    <div
+                      class="absolute inset-0 rounded-[26px] sm:rounded-4xl xl:rounded-[40px] pointer-events-none bg-black opacity-0 transition duration-500 group-hover:opacity-15"
+                    ></div>
+                  </div>
+                </a>
+                <div class="mt-2 text-white">{{$t('home.hero.sliderItem1.subDescription')}}</div>
+              </div>
               </div>
 
               <div class="hidden lg:flex lg:flex-1"></div>

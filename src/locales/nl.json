@@ -9,7 +9,8 @@
     "hero": {
       "sliderItem1": {
         "title": "Welkom bij Delish Thai",
-        "description": "Klik om online te bestellen en af te halen"
+        "description": "Bestel online",
+        "subDescription": "Zo klaar om af te halen"
       },
     "sliderItem2": {
       "title": "Opening Streetfood Corner",

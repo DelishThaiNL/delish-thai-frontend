@@ -9,7 +9,8 @@
     "hero": {
       "sliderItem1": {
         "title": "Welcome to Delish Thai",
-        "description": "Click here to order online & pick up"
+        "description": "Order online",
+        "subDescription": "Ready for pickup soon"
       },
       "sliderItem2": {
         "title": "Street Food Corner Opening",
