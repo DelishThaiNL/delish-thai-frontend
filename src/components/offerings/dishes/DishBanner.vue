@@ -69,5 +69,6 @@ const activeModifierIcons = computed(() => {
         <span>+{{ value }}</span>
       </div>
     </div>
+    <div> ✅ 100% Halal ✅ Allergievrije ✅ Vegetarische optie</div>
   </div>
 </template>
