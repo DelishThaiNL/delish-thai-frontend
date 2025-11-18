@@ -67,7 +67,7 @@ onMounted(() => {
                 </h1>
               <div>
                 <a
-                  href="https://mylightspeed.app/FTVNJXKG/C-ordering/menu"
+                  href="https://delishthai.sitedish.shop/app"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="group inline-block"
