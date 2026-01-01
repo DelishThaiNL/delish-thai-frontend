@@ -4,8 +4,8 @@ import { useRoute, useRouter } from 'vue-router'
 import i18n from '@/locales/i18n'
 import TabSwitcher from '@/components/util/tabs/TabSwitcher.vue'
 import StreetFoodCorner from '@/components/offerings/cards/StreetFoodCorner.vue'
-import Minimarket from '@/components/offerings/cards/MiniMarket.vue'
-import MealKit from '@/components/offerings/cards/MealKit.vue'
+// import Minimarket from '@/components/offerings/cards/MiniMarket.vue'
+// import MealKit from '@/components/offerings/cards/MealKit.vue'
 import type { OfferingKey } from '@/types/offerings'
 
 const tabs: { name: () => string; key: OfferingKey; component: unknown }[] = [
@@ -13,17 +13,17 @@ const tabs: { name: () => string; key: OfferingKey; component: unknown }[] = [
     name: () => i18n.global.t('offerings.streetFoodCorner.info.title'),
     key: 'street-food',
     component: StreetFoodCorner,
-  },
-  {
-    name: () => i18n.global.t('offerings.minimarket.info.title'),
-    key: 'mini-market',
-    component: Minimarket,
-  },
-  {
-    name: () => i18n.global.t('offerings.mealKit.info.title'),
-    key: 'meal-kits',
-    component: MealKit,
-  },
+  }
+  // {
+  //   name: () => i18n.global.t('offerings.minimarket.info.title'),
+  //   key: 'mini-market',
+  //   component: Minimarket,
+  // },
+  // {
+  //   name: () => i18n.global.t('offerings.mealKit.info.title'),
+  //   key: 'meal-kits',
+  //   component: MealKit,
+  // },
 ]
 
 const activeTab = ref<OfferingKey>(tabs[0].key)
