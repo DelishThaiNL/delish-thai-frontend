@@ -61,7 +61,7 @@ onMounted(() => {
                 class="lg:flex-1 flex flex-col items-center gap-8 lg:gap-12 xl:gap-16 text-center"
               >
                 <h1
-                  class="text-white text-3xl sm:text-4xl lg:text-5xl xl:text-6xl italic tracking-widest leading-tight w-full max-w-60 sm:max-w-xs lg:max-w-sm"
+                  class="text-white text-3xl sm:text-4xl lg:text-5xl xl:text-6xl italic tracking-widest leading-tight w-full max-w-60 sm:max-w-xs lg:max-w-sm drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]"
                 >
                   {{ $t('home.hero.sliderItem1.title') }}
                 </h1>
@@ -87,7 +87,7 @@ onMounted(() => {
 
                     <!-- optional hover overlay -->
                     <div
-                      class="absolute inset-0 rounded-[26px] sm:rounded-4xl xl:rounded-[40px] pointer-events-none bg-black opacity-0 transition duration-500 group-hover:opacity-15"
+                      class="absolute inset-0 rounded-[26px] sm:rounded-4xl xl:rounded-[40px] pointer-events-none bg-black opacity-0 transition duration-500 group-hover:opacity-15 drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]"
                     ></div>
                   </div>
                 </a>

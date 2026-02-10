@@ -92,175 +92,214 @@
           "chunk2": "inbegrepen."
         }
       },
-        "menu": {
-          "mainDishes": {
-            "label": "Main Dishes",
-            "priceModifiers": { "chicken": 0, "tofu": 0, "beef": 2, "shrimp": 2 },
-            "dishes": [
-                {
-                  "title": "M1. Pad Kra Pao Kai(Thai Basil Stir-Fry)",
-                  "price": 16.50,
-                  "allergences": ["soy", "fish", "gluten", "shellfish"],
-                  "description": "Vurige roerbak van kipgehakt/gesneden rundvlees, knoflook en veel heilige basilicum — hartig en aromatisch.",
-                  "spicyLevel": 2,
-                  "recommendation": "Favoriet van Sawi ❤️",
-                  "src": "Pad Kra Pao",
-                  "moreDescription": {
-                    "chunk1": "Een klassiek Thais streetfoodgerecht: kipgehakt/gesneden rundvlees gewokt met knoflook, verse rawitpepertjes en volop heilige (kra pao) basilicum, gekruid met vissaus, oestersaus en een tikkeltje soja. Intens aromatisch, hartig en licht pittig — geserveerd met gestoomde jasmijnrijst.",
-                    "chunk2": "Bevat: vis (vissaus), soja, weekdieren (oestersaus), gluten (in soja-/oestersauzen)"
-                  }
-                },
-                {
-                  "title": "M2. Khao Pad Sapparot (Pineapple Fried Rice)",
-                  "price": 15.95,
-                  "allergences": ["soy", "cashew", "egg", "shellfish"],
-                  "description": "Zoete ananas, rozijnen, cashewnoten & ei in gebakken rijst met een vleugje kerrie.",
-                  "spicyLevel": 0,
-                  "recommendation": "Favoriet van Gerard ❤️",
-                  "src": "Khao Pad Sapparot",
-                  "moreDescription": {
-                    "chunk1": "Een kleurrijke Thaise favoriet waarbij jasmijnrijst wordt gebakken met ei, ananasstukjes, ui, wortel, paprika, rozijnen, bosui en cashewnoten. Op smaak gebracht met kerriepoeder, sojasaus en oestersaus voor een geurige tropische twist.",
-                    "chunk2": "Bevat: ei, noten (cashew), soja, weekdieren (oester)"
-                  }
-                },
-                {
-                  "title": "M3. Massaman",
-                  "price": 15.50,
-                  "allergences": ["fish", "soy", "Gluten", "peanut"],
-                  "description": "Rijke, aromatische curry met aardappel, ui & pinda’s.",
-                  "spicyLevel": 0,
-                  "recommendation": "Aanrader van de chef",
-                  "src": "Massaman",
-                  "moreDescription": {
-                    "chunk1": "Een milde, geurende curry met zachte aardappelen, ui, pinda’s en een romige basis van kokosmelk. Op smaak gebracht met Massaman-currypasta, palmsuiker en een vleugje tamarinde voor een diepe, nootachtige smaak — geserveerd met gestoomde jasmijnrijst.",
-                    "chunk2": "Bevat: vis, soja, gluten, pinda’s"
-                  }
-                },
-                {
-                  "title": "M4. Pad Thai",
-                  "price": 16.95,
-                  "allergences": ["fish", "egg", "peanut"],
-                  "description": "Het iconische Thaise woknoedelgerecht met ei, pinda’s, taugé & onze fris-zoete tamarindesaus.",
-                  "spicyLevel": 0,
-                  "recommendation": "#1 Thaise streetfoodfavoriet",
-                  "src": "Pad Thai",
-                  "moreDescription": {
-                    "chunk1": "De echte smaak van de Thaise straten! Onze gewokte rijstnoedels worden geroerbakt met ei, knapperige pinda’s, verse taugé, bosui en een perfect gebalanceerde saus van tamarinde, palmsuiker en vissaus.",
-                    "chunk2": "Bevat: vis, ei, pinda"
-                  }
-                },
-                {
-                  "title": "M5. Pad Med Mamuang",
-                  "price": 14.95,
-                  "allergences": ["soy", "fish", "shellfish", "gluten", "cashew"],
-                  "description": "Knapperige cashewnoten met kleurrijke groenten in een zoet-hartige Thaise saus.",
-                  "spicyLevel": 0,
-                  "recommendation": "",
-                  "src": "Pad Med Mamuang",
-                  "moreDescription": {
-                    "chunk1": "Een levendige mix van ui, paprika, wortel en knoflook, gewokt met knapperige cashewnoten. De saus is een smaakvolle balans van soja, oester, tamarinde en een vleugje chilijam. Geserveerd met jasmijnrijst voor de perfecte hap.",
-                    "chunk2": "Bevat: noten (cashew), soja, weekdieren (oester), vis"
-                  }
-                },
-                {
-                  "title": "M6. Khao Pad (Gebakken rijst)",
-                  "price": 9.95,
-                  "allergences": ["soy", "shellfish", "egg", "gluten"],
-                  "description": "Jasmijnrijst gewokt met ei, groenten & onze hartige sojamelange.",
-                  "spicyLevel": 0,
-                  "recommendation": "",
-                  "src": "Khao Pad",
-                  "moreDescription": {
-                    "chunk1": "Luchtige jasmijnrijst geroerbakt met ei, knoflook, ui, wortel, paprika en maïs. Licht gekruid met onze hartige sojamelange voor een vertrouwde, huiselijke smaak.",
-                    "chunk2": "Bevat: ei, soja, weekdieren (oester)"
-                  }
-                },
-                {
-                  "title": "M7. Pad Phak Ruam Mitr",
-                  "price": 14.95,
-                  "allergences": ["soy", "shellfish"],
-                  "description": "Een regenboog aan knapperige seizoensgroenten in een milde knoflook-sojasaus.",
-                  "spicyLevel": 0,
-                  "recommendation": "",
-                  "src": "Pad Phak Ruam Mitr",
-                  "moreDescription": {
-                    "chunk1": "Verse, kleurrijke groenten kort en heet geroerbakt met knoflook en een hartige soja-oestersaus. Licht en voedzaam, maar vol woksmaken — geserveerd met gestoomde jasmijnrijst.",
-                    "chunk2": "Bevat: soja, weekdieren (oestersaus)"
-                  }
-                },
-                {
-                  "title": "M8. Pad See Ew",
-                  "price": 14.50,
-                  "allergences": ["soy", "shellfish", "egg", "gluten"],
-                  "description": "Rokerige Thaise roerbak met brede rijstnoedels, ei & broccoli in een rijke sojasausmix.",
-                  "spicyLevel": 0,
-                  "recommendation": "",
-                  "src": "Pad See Ew",
-                  "moreDescription": {
-                    "chunk1": "Een Thaise streetklassieker met volle, geruststellende smaken. Brede rijstnoedels worden op hoge hitte gewokt voor een heerlijke rokerige geur, daarna gemengd met ei, knapperige broccoli en wortel in een hartige mix van soja- en oestersaus. Simpel, voedzaam en vol smaak!",
-                    "chunk2": "Bevat: ei, soja, weekdieren (oester)"
-                  }
-                },
-                {
-                  "title": "M9. Phat Nuea Nam Man Hoi",
-                  "price": 22.95,
-                  "allergences": ["soy", "shellfish", "gluten"],
-                  "description": "Malse reepjes rundvlees, roergebakken met ui en rode peper in onze speciale oestersaus.",
-                  "spicyLevel": 0,
-                  "recommendation": "Heerlijk met jasmijnrijst",
-                  "src": "Phat Nuea Nam Man Hoi",
-                  "moreDescription": {
-                    "chunk1": "Een Thaise favoriet met malse rundvleesreepjes, gekarameliseerde ui en verse rode peper. Snel gewokt op hoog vuur en afgewerkt in onze signature oestersaus voor een rijke, hartige smaak.",
-                    "chunk2": "Bevat: soja, schaaldieren (oester), gluten"
-                  }
-                }
-              ]
-          },
-          "smallBitesAndSweets": {
-            "label": "Small Bites & Sweets",
-            "dishes": [
-              {
-                "title": "S1. Thaise Loempia",
-                "price": 6.50,
-                "allergences": ["gluten", "soy", "egg", "shellfish"],
-                "description": "Goudbruin krokante loempia’s gevuld met kool, wortel, glasnoedels en maïs – geserveerd met Thaise sweet-chili dip.",
-                "spicyLevel": 0,
-                "recommendation": "Huisgemaakt",
-                "src": "Thai Spring rolls",
-                "moreDescription": {
-                  "chunk1": "Onze Thaise lumpia’s zijn gevuld met een smaakvolle mix van kool, wortel, glasnoedels, maïs en knoflook, op smaak gebracht met oestersaus, witte peper en een vleugje suiker. Gewikkeld in loempiavel (bevat ei), gefrituurd tot perfect krokant en geserveerd met een sweet-chili dip.",
-                  "chunk2": "Bevat: gluten, soja, ei (vel), weekdieren."
-                }
-              },
-              {
-                "title": "S2. Kipsaté",
-                "price": 8.95,
-                "allergences": ["peanut", "soy", "gluten"],
-                "description": "Sappige gegrilde kippenspiesen met romige Thaise pindasaus.",
-                "spicyLevel": 0,
-                "recommendation": "Huisgemaakt",
-                "src": "Chicken Satay",
-                "moreDescription": {
-                  "chunk1": "Een Thaise streetfoodfavoriet! Mals gemarineerde kip, gegrild tot perfectie en geserveerd met een volle, romige pindasaus.",
-                  "chunk2": "Bevat: pinda, soja, gluten"
-                }
-              },
-              {
-              "title": "S3. Mango Sticky Rice",
-              "price": 8.95,
-              "allergences": ["coconut", "sesame"],
-              "description": "Zoete kleefrijst (sticky rice) gekookt in romige kokosmelk, geserveerd met rijpe mangoplakken en een extra drizzle kokosroom — afgemaakt met sesamzaad.",
+      "menu": {
+        "mainDishes": {
+          "label": "Main Dishes",
+          "priceModifiers": { "chicken": 0, "tofu": 0, "beef": 2, "shrimp": 2 },
+          "dishes": [
+            {
+              "title": "M1. Pad Kra Pao (Thai Basil Stir-Fry)",
+              "price": 16.50,
+              "allergences": ["soy", "gluten", "shellfish"],
+              "description": "Heet geroerbakt gerecht met gesneden vlees of tofu, knoflook en veel Thaise basilicum — hartig en aromatisch.",
+              "spicyLevel": 2,
+              "recommendation": "Sawi’s jeugdfavoriet ❤️",
+              "src": "Pad Kra Pao",
+              "moreDescription": {
+                "chunk1": "Een klassiek Thais streetfoodgerecht: fijngehakte of gesneden kip of rundvlees, snel gewokt met knoflook, verse bird’s eye chilipepers en volop Thaise basilicum (kra pao). Op smaak gebracht met vissaus, oestersaus en een vleugje sojasaus. Intens aromatisch, hartig en licht pittig — geserveerd met gestoomde jasmijnrijst.",
+                "chunk2": "Bevat: vis (vissaus), soja, weekdieren (oestersaus), gluten (in soja- en oestersaus)."
+              }
+            },
+            {
+              "title": "M2. Khao Pad Sapparot (Pineapple Fried Rice)",
+              "price": 15.95,
+              "allergences": ["soy", "gluten", "cashew", "egg", "shellfish"],
+              "description": "Gebakken rijst met zoete ananas, rozijnen, cashewnoten en ei, met een vleugje curry.",
+              "spicyLevel": 0,
+              "recommendation": "Gerards favoriet ❤️",
+              "src": "Khao Pad Sapparot",
+              "moreDescription": {
+                "chunk1": "Een kleurrijke Thaise favoriet waarbij jasmijnrijst wordt gebakken met ei, stukjes ananas, ui, wortel, rozijnen, lente-ui en cashewnoten. Op smaak gebracht met currypoeder, sojasaus en oestersaus voor een tropische twist.",
+                "chunk2": "Bevat: ei, noten (cashew), soja, weekdieren (oestersaus)."
+              }
+            },
+            {
+              "title": "M3. Massaman",
+              "price": 15.50,
+              "allergences": ["peanut"],
+              "description": "Rijke, aromatische curry met aardappel, ui en pinda’s.",
+              "spicyLevel": 0,
+              "recommendation": "Aanbevolen door de chef",
+              "src": "Massaman",
+              "moreDescription": {
+                "chunk1": "Een milde, geurige curry met zachte aardappelen, ui, pinda’s en een romige basis van kokosmelk. Op smaak gebracht met Massaman currypasta, palmsuiker en een vleugje tamarinde voor een diepe, nootachtige smaak — geserveerd met jasmijnrijst.",
+                "chunk2": "Bevat: pinda’s."
+              }
+            },
+            {
+              "title": "M4. Pad Thai",
+              "price": 16.95,
+              "allergences": ["fish", "egg", "peanut"],
+              "description": "Thailand’s iconische gewokte noedelgerecht met ei, pinda’s, taugé en onze fris-zoete tamarindesaus.",
+              "spicyLevel": 0,
+              "recommendation": "#1 Thaise streetfoodfavoriet",
+              "src": "Pad Thai",
+              "moreDescription": {
+                "chunk1": "De echte smaak van Thailand’s straten! Onze rijstnoedels worden gewokt met ei, knapperige pinda’s, verse taugé, lente-ui en een perfect gebalanceerde saus van tamarinde, palmsuiker en vissaus.",
+                "chunk2": "Bevat: vis, ei en pinda."
+              }
+            },
+            {
+              "title": "M5. Pad Med Mamuang (Cashew Nut Stir-Fry)",
+              "price": 14.95,
+              "allergences": ["soy", "fish", "shellfish", "gluten", "cashew"],
+              "description": "Knapperige cashewnoten met kleurrijke groenten in een zoet-hartige Thaise saus.",
+              "spicyLevel": 0,
+              "recommendation": "Thaise twist",
+              "src": "Pad Med Mamuang",
+              "moreDescription": {
+                "chunk1": "Een levendige mix van ui, paprika, wortel en knoflook, gewokt met knapperige cashewnoten. De saus is een smaakvolle balans van soja, oester, tamarinde en een vleugje chilipasta. Geserveerd met jasmijnrijst.",
+                "chunk2": "Bevat: noten (cashew), soja, weekdieren (oestersaus), vis (vissaus) en gluten."
+              }
+            },
+            {
+              "title": "M6. Khao Pad (Fried Rice)",
+              "price": 9.95,
+              "allergences": ["soy", "shellfish", "egg", "gluten"],
+              "description": "Jasmijnrijst gewokt met ei, groenten en onze hartige sojamelange.",
               "spicyLevel": 0,
               "recommendation": "",
-              "src": "Mango Sticky Rice",
+              "src": "Khao Pad",
               "moreDescription": {
-                "chunk1": "Klassieke Thaise mango sticky rice: kleefrijst wordt gestoomd en vervolgens voorzichtig gemengd met gezoete kokosmelk en een snufje zout, warm geserveerd naast perfect rijpe mango. We maken het af met een extra lepel dikke kokosroom en een snufje geroosterd sesamzaad voor textuur.",
-                "chunk2": "Bevat: kokos (kokosmelk/room), sesam (garnering). Kan sporen bevatten van noten en pinda’s door gedeelde keukenapparatuur."
+                "chunk1": "Luchtige jasmijnrijst gebakken met ei, knoflook, ui, wortel, doperwt en maïs. Licht op smaak gebracht met onze hartige sojamelange voor een huiselijke, volle smaak.",
+                "chunk2": "Bevat: ei, soja, weekdieren (oestersaus) en gluten."
+              }
+            },
+            {
+              "title": "M7. Pad Phak Ruam Mitr (Mixed Vegetables Stir-Fry)",
+              "price": 14.95,
+              "allergences": ["soy", "shellfish", "gluten"],
+              "description": "Een kleurrijke mix van knapperige seizoensgroenten in een milde knoflook-sojasaus.",
+              "spicyLevel": 0,
+              "recommendation": "",
+              "src": "Pad Phak Ruam Mitr",
+              "moreDescription": {
+                "chunk1": "Verse, kleurrijke groenten die op hoge temperatuur worden gewokt met knoflook en een hartige soja–oestersaus. Een lichte en gezonde keuze met volop woksmaak — geserveerd met jasmijnrijst.",
+                "chunk2": "Bevat: soja, weekdieren (oestersaus) en gluten."
+              }
+            },
+            {
+              "title": "M8. Pad See Ew",
+              "price": 14.50,
+              "allergences": ["soy", "shellfish", "egg", "gluten"],
+              "description": "Rokerig Thais roerbakgerecht met brede rijstnoedels, ei en broccoli in een rijke sojasaus.",
+              "spicyLevel": 0,
+              "recommendation": "",
+              "src": "Pad See Ew",
+              "moreDescription": {
+                "chunk1": "Een Thaise streetfoodklassieker met diepe, comfortabele smaken. Brede rijstnoedels worden op hoge hitte gewokt voor een licht rokerig aroma, daarna gemengd met ei, knapperige broccoli en wortel in een hartige soja- en oestersaus. Simpel, vullend en vol smaak.",
+                "chunk2": "Bevat: ei, soja, weekdieren (oestersaus) en gluten."
+              }
+            },
+            {
+              "title": "M9. Phat Nuea Nam Man Hoi",
+              "price": 22.95,
+              "allergences": ["soy", "shellfish", "gluten"],
+              "description": "Malse plakjes rundvlees, gewokt met ui en rode chili in onze speciale oestersaus.",
+              "spicyLevel": 0,
+              "recommendation": "Perfect met jasmijnrijst",
+              "src": "Phat Nuea Nam Man Hoi",
+              "moreDescription": {
+                "chunk1": "Een Thaise favoriet met zachte plakjes rundvlees, gekaramelliseerde ui en verse rode chili. Snel gewokt op hoge temperatuur en afgewerkt met onze kenmerkende oestersaus voor een rijke, hartige smaak.",
+                "chunk2": "Bevat: soja, weekdieren (oestersaus) en gluten."
+              }
+            },
+            {
+              "title": "M10. Pad Pong Kari",
+              "price": 15.50,
+              "allergences": ["soy", "shellfish", "fish", "egg", "milk", "gluten"],
+              "description": "Kip of garnalen met ei in een milde gele curry, licht zoet en zout, romig van smaak, met chili-olie apart.",
+              "spicyLevel": 1,
+              "recommendation": "",
+              "src": "Pad Pong Kari",
+              "moreDescription": {
+                "chunk1": "Kip of garnalen, gewokt met ei in een milde gele currysaus, licht zoet en zout, met wortel, bleekselderij en ui. Romig, comfortabel en vol smaak — geserveerd met jasmijnrijst.",
+                "chunk2": "Bevat: vis (vissaus), soja, ei, melk en weekdieren (oestersaus)."
+              }
+            },
+            {
+              "title": "M11. Larb",
+              "price": 18.50,
+              "allergences": ["fish"],
+              "description": "Frisse Thaise salade van fijngehakt of gesneden vlees met kruiden, limoen, chili en gekneusde geroosterde rijst — hartig en fris van smaak, geserveerd met jasmijnrijst.",
+              "spicyLevel": 1,
+              "recommendation": "",
+              "src": "Larb",
+              "moreDescription": {
+                "chunk1": "Een frisse Thaise salade van fijngehakt of gesneden vlees, verse kruiden, limoen, chili en gekneusde geroosterde rijst. Perfect in balans tussen hartig en friszuur — geserveerd met jasmijnrijst.",
+                "chunk2": "Bevat: vis (vissaus)."
+              }
+            },
+            {
+              "title": "M12. Panang",
+              "price": 17.50,
+              "allergences": ["fish", "shellfish"],
+              "description": "Rijke, licht pittige kokos-curry met kaffirlimoenblad en sperziebonen — geserveerd met jasmijnrijst.",
+              "spicyLevel": 1,
+              "recommendation": "",
+              "src": "Panang",
+              "moreDescription": {
+                "chunk1": "Een rijke en aromatische Thaise curry met kokosmelk, Panang currypasta, kaffirlimoenblad en sperziebonen. In balans gebracht met palmsuiker en vissaus voor een zoet, zout en licht pittig karakter — geserveerd met jasmijnrijst.",
+                "chunk2": "Bevat: vis (vissaus), schaaldieren (garnalenpasta in currypasta)."
               }
             }
-            ]
+          ]
+        },
+      "smallBitesAndSweets": {
+        "label": "Small Bites & Sweets",
+        "dishes": [
+          {
+            "title": "S1. Thai Spring rolls",
+            "price": 7.50,
+            "allergences": ["gluten", "soy", "shellfish"],
+            "description": "Goudbruin krokante loempia’s gevuld met kool, wortel, glasnoedels en maïs, geserveerd met Thaise sweet-chilidip.",
+            "spicyLevel": 0,
+            "recommendation": "",
+            "src": "Thai Spring rolls",
+            "moreDescription": {
+              "chunk1": "Onze Thaise loempia’s zijn gevuld met een smaakvolle mix van kool, wortel, glasnoedels, maïs en knoflook, op smaak gebracht met oestersaus, witte peper en een vleugje suiker. Gewikkeld in loempiavel, gefrituurd tot perfect krokant en geserveerd met een sweet-chilidip.",
+              "chunk2": "Bevat: gluten, soja, weekdieren (oestersaus)."
+            }
+          },
+          {
+            "title": "S2. Chicken Satay",
+            "price": 8.95,
+            "allergences": ["peanut", "soy"],
+            "description": "Sappige gegrilde kippenspiesen geserveerd met romige Thaise pindasaus.",
+            "spicyLevel": 0,
+            "recommendation": "Perfect om te delen.",
+            "src": "Chicken Satay",
+            "moreDescription": {
+              "chunk1": "Een Thaise streetfoodfavoriet! Mals gemarineerde kip, gegrild tot perfectie en geserveerd met een volle, romige pindasaus.",
+              "chunk2": "Bevat: pinda en soja."
+            }
+          },
+          {
+            "title": "S3. Mango Sticky Rice",
+            "price": 8.95,
+            "allergences": ["coconut", "sesame"],
+            "description": "Zoete kleefrijst gekookt in romige kokosmelk, geserveerd met rijpe mango en een extra lepel kokosroom, afgewerkt met sesamzaad.",
+            "spicyLevel": 0,
+            "recommendation": "",
+            "src": "Mango Sticky Rice",
+            "moreDescription": {
+              "chunk1": "Klassieke Thaise mango sticky rice: kleefrijst wordt gestoomd en daarna voorzichtig gemengd met gezoete kokosmelk en een snufje zout. Warm geserveerd met perfect rijpe mango, afgewerkt met extra dikke kokosroom en geroosterd sesamzaad voor textuur.",
+              "chunk2": "Bevat: kokos (kokosmelk/-room) en sesam."
+            }
           }
-        }
+        ]
+      }
+  }
     },
     "minimarket": {
       "info": {
