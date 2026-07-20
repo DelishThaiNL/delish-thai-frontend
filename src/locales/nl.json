@@ -12,12 +12,12 @@
         "description": "Bestel online",
         "subDescription": "Zo klaar om af te halen"
       },
-    "sliderItem2": {
-      "title": "Opening Streetfood Corner",
-      "subtitle": "Zaterdag 18 oktober 2025",
-      "description1": "Eerst open: onze Thaise streetfood-afhaal",
-      "description2": "BERNARD VAN KREELPOORT 5"
-    }
+      "sliderItem2": {
+        "title": "Opening Streetfood Corner",
+        "subtitle": "Zaterdag 18 oktober 2025",
+        "description1": "Eerst open: onze Thaise streetfood-afhaal",
+        "description2": "BERNARD VAN KREELPOORT 5"
+      }
     },
     "offers": {
       "title1": "Bekijk ons Thaise streetfood-menu.",
@@ -95,11 +95,11 @@
       "menu": {
         "mainDishes": {
           "label": "Main Dishes",
-          "priceModifiers": { "chicken": 0, "tofu": 0, "beef": 2, "shrimp": 2 },
+          "priceModifiers": { "chicken": 0, "tofu": 0, "beef": 2, "shrimp": 3 },
           "dishes": [
             {
               "title": "M1. Pad Kra Pao (Thai Basil Stir-Fry)",
-              "price": 16.50,
+              "price": 16.5,
               "allergences": ["soy", "gluten", "shellfish"],
               "description": "Heet geroerbakt gerecht met gesneden vlees of tofu, knoflook en veel Thaise basilicum — hartig en aromatisch.",
               "spicyLevel": 2,
@@ -125,7 +125,7 @@
             },
             {
               "title": "M3. Massaman",
-              "price": 15.50,
+              "price": 15.5,
               "allergences": ["peanut"],
               "description": "Rijke, aromatische curry met aardappel, ui en pinda’s.",
               "spicyLevel": 0,
@@ -190,7 +190,7 @@
             },
             {
               "title": "M8. Pad See Ew",
-              "price": 14.50,
+              "price": 14.5,
               "allergences": ["soy", "shellfish", "egg", "gluten"],
               "description": "Rokerig Thais roerbakgerecht met brede rijstnoedels, ei en broccoli in een rijke sojasaus.",
               "spicyLevel": 0,
@@ -216,7 +216,7 @@
             },
             {
               "title": "M10. Pad Pong Kari",
-              "price": 15.50,
+              "price": 15.5,
               "allergences": ["soy", "shellfish", "fish", "egg", "milk", "gluten"],
               "description": "Kip of garnalen met ei in een milde gele curry, licht zoet en zout, romig van smaak, met chili-olie apart.",
               "spicyLevel": 1,
@@ -229,7 +229,7 @@
             },
             {
               "title": "M11. Larb",
-              "price": 18.50,
+              "price": 18.5,
               "allergences": ["fish"],
               "description": "Frisse Thaise salade van fijngehakt of gesneden vlees met kruiden, limoen, chili en gekneusde geroosterde rijst — hartig en fris van smaak, geserveerd met jasmijnrijst.",
               "spicyLevel": 1,
@@ -242,7 +242,7 @@
             },
             {
               "title": "M12. Panang",
-              "price": 17.50,
+              "price": 17.5,
               "allergences": ["fish", "shellfish"],
               "description": "Rijke, licht pittige kokos-curry met kaffirlimoenblad en sperziebonen — geserveerd met jasmijnrijst.",
               "spicyLevel": 1,
@@ -255,51 +255,64 @@
             }
           ]
         },
-      "smallBitesAndSweets": {
-        "label": "Small Bites & Sweets",
-        "dishes": [
-          {
-            "title": "S1. Thai Spring rolls",
-            "price": 7.50,
-            "allergences": ["gluten", "soy", "shellfish"],
-            "description": "Goudbruin krokante loempia’s gevuld met kool, wortel, glasnoedels en maïs, geserveerd met Thaise sweet-chilidip.",
-            "spicyLevel": 0,
-            "recommendation": "",
-            "src": "Thai Spring rolls",
-            "moreDescription": {
-              "chunk1": "Onze Thaise loempia’s zijn gevuld met een smaakvolle mix van kool, wortel, glasnoedels, maïs en knoflook, op smaak gebracht met oestersaus, witte peper en een vleugje suiker. Gewikkeld in loempiavel, gefrituurd tot perfect krokant en geserveerd met een sweet-chilidip.",
-              "chunk2": "Bevat: gluten, soja, weekdieren (oestersaus)."
+        "smallBitesAndSweets": {
+          "label": "Small Bites & Sweets",
+          "dishes": [
+            {
+              "title": "S1. Thai Spring rolls",
+              "price": 7.5,
+              "allergences": ["gluten", "soy", "shellfish"],
+              "description": "Goudbruin krokante loempia’s gevuld met kool, wortel, glasnoedels en maïs, geserveerd met Thaise sweet-chilidip.",
+              "spicyLevel": 0,
+              "recommendation": "",
+              "src": "Thai Spring rolls",
+              "moreDescription": {
+                "chunk1": "Onze Thaise loempia’s zijn gevuld met een smaakvolle mix van kool, wortel, glasnoedels, maïs en knoflook, op smaak gebracht met oestersaus, witte peper en een vleugje suiker. Gewikkeld in loempiavel, gefrituurd tot perfect krokant en geserveerd met een sweet-chilidip.",
+                "chunk2": "Bevat: gluten, soja, weekdieren (oestersaus)."
+              }
+            },
+            {
+              "title": "S2. Chicken Satay",
+              "price": 8.95,
+              "allergences": ["peanut", "soy"],
+              "description": "Sappige gegrilde kippenspiesen geserveerd met romige Thaise pindasaus.",
+              "spicyLevel": 0,
+              "recommendation": "Perfect om te delen.",
+              "src": "Chicken Satay",
+              "moreDescription": {
+                "chunk1": "Een Thaise streetfoodfavoriet! Mals gemarineerde kip, gegrild tot perfectie en geserveerd met een volle, romige pindasaus.",
+                "chunk2": "Bevat: pinda en soja."
+              }
+            },
+            {
+              "title": "S3. Mango Sticky Rice",
+              "price": 8.95,
+              "allergences": ["coconut", "sesame"],
+              "description": "Zoete kleefrijst gekookt in romige kokosmelk, geserveerd met rijpe mango en een extra lepel kokosroom, afgewerkt met sesamzaad.",
+              "spicyLevel": 0,
+              "recommendation": "",
+              "src": "Mango Sticky Rice",
+              "moreDescription": {
+                "chunk1": "Klassieke Thaise mango sticky rice: kleefrijst wordt gestoomd en daarna voorzichtig gemengd met gezoete kokosmelk en een snufje zout. Warm geserveerd met perfect rijpe mango, afgewerkt met extra dikke kokosroom en geroosterd sesamzaad voor textuur.",
+                "chunk2": "Bevat: kokos (kokosmelk/-room) en sesam."
+              }
+            },
+            {
+              "title": "S4. Toong Tong",
+              "price": 8.95,
+              "allergences": ["gluten", "soy", "shellfish"],
+              "description": "Krokante Thaise gouden buideltjes gevuld met kip, garnaal en groenten. Een traditionele snack: hapje geluk om van te genieten.",
+              "spicyLevel": 0,
+              "recommendation": "",
+              "src": "Toong Tong",
+              "moreDescription": {
+                "chunk1": "Krokante Thaise gouden buideltjes, gevuld met een hartige mix van kip, garnaal en groenten. Omhuld met een dun deeglaagje en goudbruin gefrituurd. Deze traditionele Thaise snack is krokant van buiten, smaakvol van binnen en een klein hapje geluk om van te genieten.",
+                "chunk2": "Bevat: gluten, soja, weekdieren (oestersaus)."
+              }
             }
-          },
-          {
-            "title": "S2. Chicken Satay",
-            "price": 8.95,
-            "allergences": ["peanut", "soy"],
-            "description": "Sappige gegrilde kippenspiesen geserveerd met romige Thaise pindasaus.",
-            "spicyLevel": 0,
-            "recommendation": "Perfect om te delen.",
-            "src": "Chicken Satay",
-            "moreDescription": {
-              "chunk1": "Een Thaise streetfoodfavoriet! Mals gemarineerde kip, gegrild tot perfectie en geserveerd met een volle, romige pindasaus.",
-              "chunk2": "Bevat: pinda en soja."
-            }
-          },
-          {
-            "title": "S3. Mango Sticky Rice",
-            "price": 8.95,
-            "allergences": ["coconut", "sesame"],
-            "description": "Zoete kleefrijst gekookt in romige kokosmelk, geserveerd met rijpe mango en een extra lepel kokosroom, afgewerkt met sesamzaad.",
-            "spicyLevel": 0,
-            "recommendation": "",
-            "src": "Mango Sticky Rice",
-            "moreDescription": {
-              "chunk1": "Klassieke Thaise mango sticky rice: kleefrijst wordt gestoomd en daarna voorzichtig gemengd met gezoete kokosmelk en een snufje zout. Warm geserveerd met perfect rijpe mango, afgewerkt met extra dikke kokosroom en geroosterd sesamzaad voor textuur.",
-              "chunk2": "Bevat: kokos (kokosmelk/-room) en sesam."
-            }
-          }
-        ]
+          ]
+        }
       }
-  }
     },
     "minimarket": {
       "info": {

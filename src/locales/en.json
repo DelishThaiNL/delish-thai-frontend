@@ -94,11 +94,11 @@
       "menu": {
         "mainDishes": {
           "label": "Main Dishes",
-          "priceModifiers": { "chicken": 0, "tofu": 0, "beef": 2, "shrimp": 2},
+          "priceModifiers": { "chicken": 0, "tofu": 0, "beef": 2, "shrimp": 3 },
           "dishes": [
             {
               "title": "M1. Pad Kra Pao (Thai Basil Stir-Fry)",
-              "price": 16.50,
+              "price": 16.5,
               "allergences": ["soy", "gluten", "shellfish"],
               "description": "Fiery stir-fry of sliced meat or tofu, garlic and plenty of holy basil — savory, aromatic.",
               "spicyLevel": 2,
@@ -124,7 +124,7 @@
             },
             {
               "title": "M3. Massaman",
-              "price": 15.50,
+              "price": 15.5,
               "allergences": ["peanut"],
               "description": "Rich, aromatic curry with potato, onion & peanuts.",
               "spicyLevel": 0,
@@ -133,7 +133,7 @@
               "moreDescription": {
                 "chunk1": "A mild, fragrant curry with tender potatoes, onion, peanuts and a creamy coconut milk base. Flavored with Massaman curry paste, palm sugar and a hint of tamarind for a deep, nutty taste — served with steamed jasmine rice.",
                 "chunk2": "Contains: peanuts."
-              }            
+              }
             },
             {
               "title": "M4. Pad Thai",
@@ -159,7 +159,7 @@
               "moreDescription": {
                 "chunk1": "A vibrant mix of onion, bell pepper, carrot and garlic wok-tossed with crunchy cashew nuts. The sauce is a flavorful balance of soy, oyster, tamarind and a touch of chili jam. Served with jasmine rice for a perfect bite.",
                 "chunk2": "Contains: tree nuts (cashew), soy, molluscs (oyster sauce), fish (fish sauce) and gluten."
-              }            
+              }
             },
             {
               "title": "M6. Khao Pad (Fried Rice)",
@@ -172,7 +172,7 @@
               "moreDescription": {
                 "chunk1": "Fluffy jasmine rice stir-fried with egg, garlic, onion, carrot, green pea and corn. Lightly seasoned with our savory soy blend for a satisfying, homestyle taste.",
                 "chunk2": "Contains: egg, soy, molluscs (oyster suace) and gluten"
-              }            
+              }
             },
             {
               "title": "M7. Pad Phak Ruam Mitr (Mixed Vegetables Stir-Fry)",
@@ -185,11 +185,11 @@
               "moreDescription": {
                 "chunk1": "Fresh, colorful vegetables stir-fried over high heat with garlic and a savory soy–oyster sauce. A light and wholesome choice that still delivers big wok flavor — served with steamed jasmine rice.",
                 "chunk2": "Contains: soy, molluscs (oyster sauce) and gluten."
-              }            
+              }
             },
             {
               "title": "M8. Pad See Ew",
-              "price": 14.50,
+              "price": 14.5,
               "allergences": ["soy", "shellfish", "egg", "gluten"],
               "description": "Smoky Thai stir-fry with wide rice noodles, egg & broccoli in a rich soy sauce blend.",
               "spicyLevel": 0,
@@ -215,7 +215,7 @@
             },
             {
               "title": "M10. Pad Pong Kari",
-              "price": 15.50,
+              "price": 15.5,
               "allergences": ["soy", "shellfish", "fish", "egg", "milk", "gluten"],
               "description": "Chicken or shrimp with egg in a mild yellow curry, gently sweet and salty with a creamy finish with chili oil on the side.",
               "spicyLevel": 1,
@@ -224,11 +224,11 @@
               "moreDescription": {
                 "chunk1": "Chicken or shrimp stir-fried with egg in a mild yellow curry sauce, lightly sweet and salty, with carrot, celery, and onion. Creamy, comforting, and full of flavour. — served with steamed jasmine rice.",
                 "chunk2": "Contains: fish (fish sauce), soy, egg, milk, and shellfish (oyster sauce)"
-              }            
+              }
             },
             {
               "title": "M11. Larb",
-              "price": 18.50,
+              "price": 18.5,
               "allergences": ["fish"],
               "description": "A fresh Thai salad of minced/sliced meat with herbs, lime, chili and crushed toasted rice balanced with savoury and tangy flavour — served with steamed jasmine rice.",
               "spicyLevel": 1,
@@ -237,11 +237,11 @@
               "moreDescription": {
                 "chunk1": "A fresh Thai salad of minced/sliced meat with herbs, lime, chili and crushed toasted rice balanced with savoury and tangy flavour — served with steamed jasmine rice.",
                 "chunk2": "Contains: fish (fish sauce)."
-              }            
+              }
             },
             {
               "title": "M12. Panang",
-              "price": 17.50,
+              "price": 17.5,
               "allergences": ["fish", "shellfish"],
               "description": "Rich, slightly spicy coconut curry scented with kaffir lime and long beans — served with steamed jasmine rice.",
               "spicyLevel": 1,
@@ -250,40 +250,40 @@
               "moreDescription": {
                 "chunk1": "A rich and aromatic Thai curry made with coconut milk, Panang curry paste, kaffir lime leaves and long beans. Balanced with palm sugar and fish sauce for a sweet, salty and spicy finish — served with steamed jasmine rice.",
                 "chunk2": "Contains: fish (fish sauce), crustaceans (shrimp paste in curry paste)"
-              }            
+              }
             }
           ]
         },
         "smallBitesAndSweets": {
           "label": "Small Bites & Sweets",
-            "dishes": [
-              {
-                "title": "S1. Thai Spring rolls",
-                "price": 7.50,
-                "allergences": ["gluten", "soy", "shellfish"],
-                "description": "Goudbruin krokante loempia’s gevuld met kool, wortel, glasnoedels en maïs – geserveerd met Thaise sweet-chili dip.",
-                "spicyLevel": 0,
-                "recommendation": "",
-                "src": "Thai Spring rolls",
-                "moreDescription": {
-                  "chunk1": "Onze Thaise lumpia’s zijn gevuld met een smaakvolle mix van kool, wortel, glasnoedels, maïs en knoflook, op smaak gebracht met oestersaus, witte peper en een vleugje suiker. Gewikkeld in loempiavel (bevat ei), gefrituurd tot perfect krokant en geserveerd met een sweet-chili dip.",
-                  "chunk2": "Contains: gluten, soy, shellfish (oyster sauce)."
-                }
-              },
-              {
-                "title": "S2. Chicken Satay",
-                "price": 8.95,
-                "allergences": ["peanut", "soy"],
-                "description": "Juicy grilled chicken skewers served with a creamy Thai peanut sauce.",
-                "spicyLevel": 0,
-                "recommendation": "Perfect for sharing.",
-                "src": "Chicken Satay",
-                "moreDescription": {
-                  "chunk1": "A Thai street food favourite! Tender marinated chicken, grilled to perfection and served with a rich, creamy peanut sauce.",
-                  "chunk2": "Contains: peanut and soy."
-                }
-              },
-              {
+          "dishes": [
+            {
+              "title": "S1. Thai Spring rolls",
+              "price": 7.5,
+              "allergences": ["gluten", "soy", "shellfish"],
+              "description": "Golden-brown crispy spring rolls filled with cabbage, carrot, glass noodles and sweetcorn – served with a Thai sweet chilli dip.",
+              "spicyLevel": 0,
+              "recommendation": "",
+              "src": "Thai Spring rolls",
+              "moreDescription": {
+                "chunk1": "Onze Thaise lumpia’s zijn gevuld met een smaakvolle mix van kool, wortel, glasnoedels, maïs en knoflook, op smaak gebracht met oestersaus, witte peper en een vleugje suiker. Gewikkeld in loempiavel (bevat ei), gefrituurd tot perfect krokant en geserveerd met een sweet-chili dip.",
+                "chunk2": "Contains: gluten, soy, shellfish (oyster sauce)."
+              }
+            },
+            {
+              "title": "S2. Chicken Satay",
+              "price": 8.95,
+              "allergences": ["peanut", "soy"],
+              "description": "Juicy grilled chicken skewers served with a creamy Thai peanut sauce.",
+              "spicyLevel": 0,
+              "recommendation": "Perfect for sharing.",
+              "src": "Chicken Satay",
+              "moreDescription": {
+                "chunk1": "A Thai street food favourite! Tender marinated chicken, grilled to perfection and served with a rich, creamy peanut sauce.",
+                "chunk2": "Contains: peanut and soy."
+              }
+            },
+            {
               "title": "S3. Mango Sticky Rice",
               "price": 8.95,
               "allergences": ["coconut", "sesame"],
@@ -295,8 +295,21 @@
                 "chunk1": "Classic Thai mango sticky rice: glutinous rice is steamed then gently folded with sweetened coconut milk and a pinch of salt, served warm alongside perfectly ripe mango. We finish with an extra spoon of thick coconut cream and a sprinkle of toasted sesame seeds for texture.",
                 "chunk2": "Contains: coconut (coconut milk/cream) andsesame (garnish)."
               }
+            },
+            {
+              "title": "S4. Toong Tong",
+              "price": 8.95,
+              "allergences": ["gluten", "soy", "shellfish"],
+              "description": "Crispy Thai golden pouches filled with chicken, shrimp and vegetables. A traditional snack—a little bite of happiness to enjoy.",
+              "spicyLevel": 0,
+              "recommendation": "",
+              "src": "Toong Tong",
+              "moreDescription": {
+                "chunk1": "Crispy Thai golden pouches filled with a savoury mixture of chicken, shrimp and vegetables, wrapped in delicate pastry and fried until perfectly golden. This traditional Thai snack is crunchy on the outside, flavourful on the inside, and made to be enjoyed as a little bite of happiness.",
+                "chunk2": "Contains: soy, molluscs (oyster sauce) and gluten."
+              }
             }
-            ]
+          ]
         }
       }
     },
