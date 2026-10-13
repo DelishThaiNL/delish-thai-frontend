@@ -145,7 +145,7 @@
               "src": "Pad Thai",
               "moreDescription": {
                 "chunk1": "The true taste of Thailand’s streets! Our wok-tossed rice noodles are stir-fried with egg, crunchy peanuts, fresh bean sprouts, spring onion and a perfectly balanced sauce of tamarind, palm sugar and fish sauce.",
-                "chunk2": "Contains: fish, egg and peanut."
+                "chunk2": "Contains: fish, egg and peanuts."
               }
             },
             {
@@ -227,7 +227,7 @@
               }
             },
             {
-              "title": "M11. Larb",
+              "title": "M11. Laab",
               "price": 18.5,
               "allergences": ["fish"],
               "description": "A fresh Thai salad of minced/sliced meat with herbs, lime, chili and crushed toasted rice balanced with savoury and tangy flavour — served with steamed jasmine rice.",
@@ -260,32 +260,32 @@
             {
               "title": "S1. Thai Spring rolls",
               "price": 7.5,
-              "allergences": ["gluten", "soy", "shellfish"],
+              "allergences": ["gluten"],
               "description": "Golden-brown crispy spring rolls filled with cabbage, carrot, glass noodles and sweetcorn – served with a Thai sweet chilli dip.",
               "spicyLevel": 0,
               "recommendation": "",
               "src": "Thai Spring rolls",
               "moreDescription": {
                 "chunk1": "Onze Thaise lumpia’s zijn gevuld met een smaakvolle mix van kool, wortel, glasnoedels, maïs en knoflook, op smaak gebracht met oestersaus, witte peper en een vleugje suiker. Gewikkeld in loempiavel (bevat ei), gefrituurd tot perfect krokant en geserveerd met een sweet-chili dip.",
-                "chunk2": "Contains: gluten, soy, shellfish (oyster sauce)."
+                "chunk2": "Contains: gluten."
               }
             },
             {
               "title": "S2. Chicken Satay",
               "price": 8.95,
-              "allergences": ["peanut", "soy"],
+              "allergences": ["peanut", "soy", "gluten"],
               "description": "Juicy grilled chicken skewers served with a creamy Thai peanut sauce.",
               "spicyLevel": 0,
               "recommendation": "Perfect for sharing.",
               "src": "Chicken Satay",
               "moreDescription": {
                 "chunk1": "A Thai street food favourite! Tender marinated chicken, grilled to perfection and served with a rich, creamy peanut sauce.",
-                "chunk2": "Contains: peanut and soy."
+                "chunk2": "Contains: gluten, peanut and soy."
               }
             },
             {
               "title": "S3. Mango Sticky Rice",
-              "price": 8.95,
+              "price": 9.95,
               "allergences": ["coconut", "sesame"],
               "description": "Sweet glutinous (sticky) rice cooked in creamy coconut milk, served with ripe mango slices and a drizzle of extra coconut cream — finished with sesame seeds.",
               "spicyLevel": 0,
@@ -299,14 +299,27 @@
             {
               "title": "S4. Toong Tong",
               "price": 8.95,
-              "allergences": ["gluten", "soy", "shellfish"],
-              "description": "Crispy Thai golden pouches filled with chicken, shrimp and vegetables. A traditional snack—a little bite of happiness to enjoy.",
+              "allergences": ["gluten", "soy"],
+              "description": "Crispy Thai golden pouches filled with chicken and vegetables. A traditional snack—a little bite of happiness to enjoy.",
               "spicyLevel": 0,
               "recommendation": "",
               "src": "Toong Tong",
               "moreDescription": {
-                "chunk1": "Crispy Thai golden pouches filled with a savoury mixture of chicken, shrimp and vegetables, wrapped in delicate pastry and fried until perfectly golden. This traditional Thai snack is crunchy on the outside, flavourful on the inside, and made to be enjoyed as a little bite of happiness.",
-                "chunk2": "Contains: soy, molluscs (oyster sauce) and gluten."
+                "chunk1": "Crispy Thai golden pouches filled with a savoury mixture of chicken and vegetables, wrapped in delicate pastry and fried until perfectly golden. This traditional Thai snack is crunchy on the outside, flavourful on the inside, and made to be enjoyed as a little bite of happiness.",
+                "chunk2": "Contains: soy and gluten."
+              }
+            },
+            {
+              "title": "S6. Tom Kha Gai",
+              "price": 8.95,
+              "allergences": ["fish"],
+              "description": "Creamy Thai coconut soup with chicken, galangal, lemongrass, kaffir lime leaves and oyster mushrooms. Freshly made every day. Available while supplies last.",
+              "spicyLevel": 0,
+              "recommendation": "",
+              "src": "Tom Kha Gai",
+              "moreDescription": {
+                "chunk1": "Creamy Thai coconut soup with chicken, galangal, lemongrass, kaffir lime leaves and oyster mushrooms. Freshly made every day. Available while supplies last.",
+                "chunk2": "Contains: fish (fish sauce)."
               }
             }
           ]
