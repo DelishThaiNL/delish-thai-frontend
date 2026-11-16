@@ -38,9 +38,9 @@
     "about": {
       "title": "Who We Are",
       "description": {
-        "chunk1": "Delish Thai is a small, independent Thai minimarket and takeaway in the heart of Veenendaal, founded by us — Sawi and Gerard — partners in both life and work. Driven by a shared dream to start something of our own, we set out to create a place that’s personal, warm, and just a little different.",
+        "chunk1": "Delish Thai is a small, independent Thai restaurant offering dine-in and takeaway in the heart of Veenendaal, founded by us — Sawi and Gerard — partners in both life and work. Driven by a shared dream to start something of our own, we set out to create a place that’s personal, warm, and just a little different.",
         "chunk2": "We share a love for Thai food and a desire to offer something real: comforting, everyday flavors made with care. From essential Thai ingredients like rice, curry paste, and coconut milk to ready-to-cook meal kits and home-style takeaway, everything we offer is rooted in authenticity and crafted with intention.",
-        "chunk3": "Sawi grew up in Thailand, learning to cook from her family, guided by tradition and instinct. With a background in chemical engineering, she loves experimenting and fine-tuning recipes to bring out the best in every dish. Gerard discovered his appreciation for Thai cuisine during our travels, drawn to its bold flavors and the warmth of Thai hospitality. That same welcoming spirit shapes how we run our shop.",
+        "chunk3": "Sawi grew up in Thailand, learning to cook from her family, guided by tradition and instinct. With a background in chemical engineering, she loves experimenting and fine-tuning recipes to bring out the best in every dish. Gerard discovered his appreciation for Thai cuisine during our travels, drawn to its bold flavors and the warmth of Thai hospitality. That same welcoming spirit shapes how we run our restaurant.",
         "chunk4": "We simply believe in good food, kind people, and creating a space that feels like home. We’re proud to be part of Veenendaal, and we hope our shop becomes a place where you feel welcome, inspired — and always leave with something delicious."
       }
     },
@@ -98,7 +98,7 @@
           "dishes": [
             {
               "title": "M1. Pad Kra Pao (Thai Basil Stir-Fry)",
-              "price": 16.5,
+              "price": 16.95,
               "allergences": ["soy", "gluten", "shellfish"],
               "description": "Fiery stir-fry of sliced meat or tofu, garlic and plenty of holy basil — savory, aromatic.",
               "spicyLevel": 2,
@@ -124,7 +124,7 @@
             },
             {
               "title": "M3. Massaman",
-              "price": 15.5,
+              "price": 15.95,
               "allergences": ["peanut"],
               "description": "Rich, aromatic curry with potato, onion & peanuts.",
               "spicyLevel": 0,
@@ -189,7 +189,7 @@
             },
             {
               "title": "M8. Pad See Ew",
-              "price": 14.5,
+              "price": 14.95,
               "allergences": ["soy", "shellfish", "egg", "gluten"],
               "description": "Smoky Thai stir-fry with wide rice noodles, egg & broccoli in a rich soy sauce blend.",
               "spicyLevel": 0,
@@ -215,7 +215,7 @@
             },
             {
               "title": "M10. Pad Pong Kari",
-              "price": 15.5,
+              "price": 15.95,
               "allergences": ["soy", "shellfish", "fish", "egg", "milk", "gluten"],
               "description": "Chicken or shrimp with egg in a mild yellow curry, gently sweet and salty with a creamy finish with chili oil on the side.",
               "spicyLevel": 1,
@@ -228,7 +228,7 @@
             },
             {
               "title": "M11. Laab",
-              "price": 18.5,
+              "price": 18.95,
               "allergences": ["fish"],
               "description": "A fresh Thai salad of minced/sliced meat with herbs, lime, chili and crushed toasted rice balanced with savoury and tangy flavour — served with steamed jasmine rice.",
               "spicyLevel": 1,
@@ -241,7 +241,7 @@
             },
             {
               "title": "M12. Panang",
-              "price": 17.5,
+              "price": 17.95,
               "allergences": ["fish", "shellfish"],
               "description": "Rich, slightly spicy coconut curry scented with kaffir lime and long beans — served with steamed jasmine rice.",
               "spicyLevel": 1,
