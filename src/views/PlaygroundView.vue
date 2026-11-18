@@ -6,7 +6,7 @@ import streetFoodCorner from '@/assets/images/streetFoodCorner.png'
 import minimarket from '@/assets/images/minimarket.png'
 import mealKit from '@/assets/images/mealKit.png'
 import CardAbout from '@/components/util/CardAbout.vue'
-import sawiGerardPhoto from '@/assets/images/sawi-gerard.png'
+import sawiGerardPhoto from '@/assets/images/sawi-gerard.jpg'
 import OfferBanner from '@/components/util/OfferBanner.vue'
 import offer1 from '@/assets/images/offer1.png'
 import offer2 from '@/assets/images/offer2.png'
@@ -135,14 +135,14 @@ const tabs = [
 
           <div class="flex flex-col gap-2">
             <OfferBanner
-              :route="{name: 'offerings', query: { tab: 'street-food' }}"
+              :route="{ name: 'offerings', query: { tab: 'street-food' } }"
               :bgColor="'bg-green-primary'"
               :color="'white'"
               :imgSrc="offer1"
               :text="'Lorem ipsum dolor sit amet consectetur adipisicing elit.'"
             />
             <OfferBanner
-              :route="{name: 'offerings', query: { tab: 'street-food' }}"
+              :route="{ name: 'offerings', query: { tab: 'street-food' } }"
               :bgColor="'bg-light-bege'"
               :color="'black'"
               :imgSrc="offer2"
