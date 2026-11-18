@@ -12,10 +12,9 @@
   --color-gray-secondary: #4f4f4f;
   --color-gray-thin: #f6f6f6;
   --color-white-cream: rgb(252 250 245 / 60%);
-  --background-image-banner1: url('../images/banner-hero-section.webp');
-  --background-image-banner1-mobile: url('../images/banner-hero-section.webp');
-  --background-image-banner2: url('../images/banner2-desktop.webp');
-  --background-image-banner2-mobile: url('../images/banner2-mobile.webp');
+  --background-image-banner1: url('../images/banner-1.webp');
+  --background-image-banner2: url('../images/banner-2.webp');
+  --background-image-banner3: url('../images/banner-3.webp');
   --shadow-custom-sm:
     15px 12px 5px 0px rgb(18 18 17 / 0%), 10px 8px 5px 0px rgb(18 18 17 / 1%),
     5px 4px 4px 0px rgb(18 18 17 / 3%), 2px 2px 3px 0px rgb(18 18 17 / 5%),

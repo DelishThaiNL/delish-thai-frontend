@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import AppTitle from '@/components/util/AppTitle.vue'
 import CardAbout from '@/components/util/CardAbout.vue'
-import sawiGerardPhoto from '@/assets/images/sawi-gerard.png'
+import sawiGerardPhoto from '@/assets/images/sawi-gerard.jpg'
 </script>
 
 <template>

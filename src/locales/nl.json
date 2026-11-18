@@ -11,17 +11,11 @@
         "title": "Welkom bij Delish Thai",
         "description": "Bestel online",
         "subDescription": "Zo klaar om af te halen"
-      },
-      "sliderItem2": {
-        "title": "Opening Streetfood Corner",
-        "subtitle": "Zaterdag 18 oktober 2025",
-        "description1": "Eerst open: onze Thaise streetfood-afhaal",
-        "description2": "BERNARD VAN KREELPOORT 5"
       }
     },
     "offers": {
-      "title1": "Bekijk ons Thaise streetfood-menu.",
-      "title2": "Doe mee met Delish Rewards — spaar voor snacks, korting & maaltijden!"
+      "title1": "Onze menukaart – Restaurant & Afhalen",
+      "title2": "Doe mee met Delish Rewards"
     },
     "offerings": {
       "title": "Bekijk wat we voor je hebben",
@@ -54,6 +48,14 @@
     "news": {
       "title": "Nieuws",
       "items": [
+        {
+          "title": "We gaan naar Thailand!",
+          "date": "1–20 januari 2027",
+          "description": "We nemen vanaf 1 januari even een kleine pauze en openen onze deuren weer op donderdag 21 januari! We gaan genieten van qualitytime met Sawi's familie in Thailand en op zoek naar nieuwe, heerlijke Thaise gerechten om mee terug te nemen naar Veenendaal. Bedankt voor jullie steun en we kijken ernaar uit om jullie weer te verwelkomen!",
+          "buttonText": "Bekijk ons menu",
+          "src": "01-01-2027 Holiday.png",
+          "link": "/offerings?tab=street-food"
+        },
         {
           "title": "Uitgelicht door Winkelstad Veenendaal",
           "date": "2 oktober 2025",
